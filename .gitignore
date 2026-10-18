@@ -1,0 +1,11 @@
+logs/
+__pycache__/
+*.pyc
+*.pyo
+*.bak
+*.swp
+*.swo
+*.log
+radio.zip
+data/*
+!data/.gitkeep

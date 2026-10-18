@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Радио - 1086 станций</title>
+<style>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}button{outline:none}button:focus,button:focus-visible{outline:none}
+:root{color-scheme:dark;--metal1:#fafcff;--metal2:#c5cbd2;--metal3:#777f89;--ink:#343b45;--blue:#28c8ff}
+html,body{margin:0;padding:0;min-height:100%;background:#10141c;color:#f5f7fb;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+body{min-height:100svh;background:radial-gradient(ellipse at 50% 5%,#303846 0,#151a23 48%,#080a0f 100%);padding:clamp(8px,2.5vw,22px)}
+.bar{position:relative;z-index:30;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:4px;width:min(100%,520px);margin:0 auto;padding:42px 16px 8px;border:1px solid #f7fbff;border-radius:30px 30px 0 0;background:linear-gradient(110deg,#f8fafc 0%,#b8bec6 10%,#edf0f4 22%,#aeb5be 50%,#f7f9fc 78%,#9ca4ae 100%);box-shadow:inset 0 1px 2px #fff,0 16px 40px #0009;color:#242a33}
+.nav{display:none!important}
+.now{width:100%;min-width:0;display:flex;flex-direction:column;align-items:center;gap:2px;text-align:center;padding:0 10px 4px}
+.now a{font-weight:750;font-size:clamp(16px,4.5vw,21px);color:#202631;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;text-shadow:0 1px #fff}
+.now span{font-size:12px;color:#505966}
+.now-top{display:flex;justify-content:space-between;align-items:baseline;width:100%;gap:10px}
+.now .brand{font-size:11px;color:#6a7280;font-weight:600;letter-spacing:.02em;white-space:nowrap}
+#track{width:100%;min-width:0;height:16px;line-height:16px;overflow:hidden;white-space:nowrap;font-size:12px;color:#5a6472;text-align:center}
+#track .trk{display:inline-block;white-space:nowrap;padding-right:2em;will-change:transform;vertical-align:middle}
+#track.scroll .trk{animation:trk-scroll var(--trk-dur,12s) linear infinite}
+@keyframes trk-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.find{display:none;position:absolute;z-index:100;top:8px;left:8px;right:8px;min-width:0;padding:9px;border-radius:14px;background:linear-gradient(#f9fbff,#c5cbd3);border:1px solid #fff;box-shadow:0 12px 28px #0009}
+.find.open{display:block;height:calc(100% - 16px);}
+.find input{width:100%;height:42px;padding:0 13px;border:1px solid #858e99;border-radius:10px;font-size:16px;background:#171c25;color:#fff;box-shadow:inset 0 2px 5px #0008}
+.find input:focus{outline:2px solid #39caff}
+.drop{position:absolute;top:59px;bottom:8px;left:9px;right:9px;max-height:none;overflow:auto;background:#151b25;border:1px solid #647080;border-radius:12px;box-shadow:0 12px 30px #000b;display:none;z-index:140}
+.drop.on{display:block}.drop button{display:flex;width:100%;gap:8px;align-items:baseline;padding:10px 12px;border:0;border-bottom:1px solid #303946;background:#171d27;cursor:pointer;text-align:left;font-size:15px;color:#f5f7fb}.drop button:hover{background:#26384a}.drop button i{font-style:normal;font-size:11px;color:#9ba8b8;margin-left:auto}
+.mode{display:none}
+main{width:min(100%,520px);margin:0 auto;padding:0 0 18px;background:linear-gradient(110deg,#f5f7fa 0%,#aeb5be 9%,#e9edf1 23%,#c0c6ce 55%,#f9fbfd 82%,#969faa 100%);border-left:1px solid #f8fbff;border-right:1px solid #f8fbff;}
+#player{position:relative;display:flex;align-items:center;justify-content:center;margin:0 5.5%;height:clamp(230px,62vw,360px);min-height:0;padding:clamp(7px,2vw,12px);overflow:hidden;border:3px solid #626b76;border-radius:10px;background:radial-gradient(ellipse at 50% 0%,#17263a 0%,#080d16 58%,#020408 100%);box-shadow:inset 0 2px 8px #000,0 1px 0 #fff8;color:#f5f8ff}
+#station-frame{display:block;width:100%;height:100%;min-height:0;border:0;background:transparent;overflow:hidden}#player .RP-SCRIPT{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;position:relative!important;width:100%!important;max-width:100%!important;min-width:0!important;height:100%!important;max-height:100%!important;overflow:hidden!important;margin:0!important;padding:0!important;zoom:.84;}
+#player .RP-SCRIPT *{box-sizing:border-box!important;max-width:100%!important;}
+#player #RP_playerjs{width:100%!important;max-width:100%!important;min-width:0!important;max-height:100%!important;overflow:hidden!important;}
+#player .RP-SCRIPT iframe,#player .RP-SCRIPT video,#player .RP-SCRIPT canvas,#player .RP-SCRIPT object,#player .RP-SCRIPT embed{max-width:100%!important;max-height:100%!important;}
+#player .RP-PLAYER-CONTROL{position:relative!important;z-index:2!important;display:grid!important;visibility:visible!important;opacity:1!important;pointer-events:auto!important;}
+#player .RP-SCRIPT .RP-LINK{color:#f5f8ff!important;font-size:clamp(15px,4vw,20px)!important;font-weight:700;text-decoration:none}
+#player:has(#grid:not([hidden])) .RP-SCRIPT{display:none!important}
+#grid{position:absolute;inset:0;overflow:auto;overscroll-behavior:contain;display:grid;grid-template-columns:1fr;align-content:start;gap:0;padding:5px;background:transparent;scrollbar-color:#64748b #111827}
+#grid[hidden]{display:none!important}#player.screen-loading:after{content:"Загрузка станции…";position:absolute;inset:0;display:grid;place-items:center;background:#050a12;color:#9db8d2;font-size:14px;letter-spacing:.04em;z-index:5}
+#grid button{display:flex;flex-direction:column;gap:2px;min-height:54px;padding:8px 10px;border:0;border-bottom:1px solid #293548;border-radius:0;background:linear-gradient(90deg,#101a29,#0a101a);cursor:pointer;text-align:left;color:#f4f7fb;min-width:0}
+#grid button b{font-size:14px;font-weight:650;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}#grid button i{font-style:normal;font-size:11px;color:#94a8c4}
+.RP-SCRIPT .rp-wrap{display:flex!important;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;padding:8px 0 0!important}
+.RP-SCRIPT .rp3d{display:grid;place-items:center;padding:0;margin:0;flex:0 0 auto;width:48px;height:48px;border-radius:50%;font-family:inherit;font-size:24px;line-height:1;color:#252c36;background:linear-gradient(145deg,#fff 0%,#e4e8ed 42%,#aeb6c0 100%);border:1px solid #8e97a2;box-shadow:0 3px 0 #7c8590,0 6px 10px #0004,inset 0 1px 0 #fff;cursor:pointer;user-select:none;transition:transform .08s,box-shadow .08s}
+.RP-SCRIPT .rp3d:active{transform:translateY(3px);box-shadow:0 0 0 #7c8590,0 2px 4px #0004,inset 0 1px 0 #fff}
+.RP-SCRIPT .rp-wrap .RP-PLAYER-CONTROL{background:radial-gradient(120% 120% at 35% 20%,#fff 0%,#e9edf2 48%,#b8c0ca 100%);border:1px solid #929ba6;box-shadow:0 4px 0 #7e8792,0 7px 12px #0005,inset 0 1px 0 #fff;transition:transform .08s,box-shadow .08s}
+.RP-SCRIPT .rp-wrap .RP-PLAYER-CONTROL:active{transform:translateY(3px);box-shadow:0 0 0 #7e8792,0 2px 5px #0004}
+#wheel-area{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:clamp(8px,3vw,20px) 0 6px;background:linear-gradient(110deg,#e9edf1,#c0c6ce 20%,#f7f9fc 48%,#b4bbc4 78%,#e6eaf0);}
+#wheel{position:relative;width:min(84vw,390px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 35% 22%,#fff 0,#f8fafc 24%,#dce1e7 58%,#a9b1bb 76%,#f8fafc 78%,#aab2bc 82%,#e8ecf1 100%);border:1px solid #fdfefe;box-shadow:0 8px 0 #7c8590,0 14px 22px #0004,inset 0 2px 4px #fff,inset 0 -5px 10px #8e97a2;}
+.wheel-btn{position:absolute;appearance:none;-webkit-appearance:none;border:0;outline:none;background:transparent;color:#4b535e;font-weight:750;letter-spacing:.08em;text-shadow:0 1px #fff;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none;transition:transform .09s ease,filter .09s ease,box-shadow .09s ease;}
+#wheel-station{top:3%;left:28%;width:44%;height:15%;font-size:clamp(13px,3.7vw,18px);font-weight:800;border:1px solid #a8b0ba;border-radius:999px;background:linear-gradient(145deg,#fff 0%,#d7dce2 48%,#aab2bc 100%);box-shadow:0 3px 0 #7e8792,0 5px 7px #0003,inset 0 1px 0 #fff;padding:0 5px;display:grid;place-items:center;line-height:1;white-space:nowrap}
+#wheel-all{bottom:3%;left:28%;width:44%;height:15%;font-size:clamp(13px,3.7vw,18px);font-weight:800;border:1px solid #a8b0ba;border-radius:999px;background:linear-gradient(145deg,#fff 0%,#d7dce2 48%,#aab2bc 100%);box-shadow:0 3px 0 #7e8792,0 5px 7px #0003,inset 0 1px 0 #fff;padding:0 5px;display:grid;place-items:center;line-height:1;white-space:nowrap}
+#hide-btn,#fav-btn{position:absolute;top:0;width:38px;height:38px;border:1px solid #a8b0ba;border-radius:10px;background:linear-gradient(145deg,#fff,#d7dce2 48%,#aab2bc);color:#404854;box-shadow:0 3px 0 #7e8792,0 5px 7px #0003,inset 0 1px 0 #fff;display:grid;place-items:center;cursor:pointer;padding:0;z-index:5;touch-action:manipulation;-webkit-tap-highlight-color:transparent;appearance:none;-webkit-appearance:none;outline:none}
+#hide-btn{left:0}
+#fav-btn{right:0}
+#hide-btn svg,#fav-btn svg{width:56%;height:56%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+#hide-btn:active,#fav-btn:active{transform:translateY(2px);box-shadow:inset 0 3px 7px #626b7780,0 1px 0 #f8fafc;border-color:#7a8490}
+#hide-btn.active{color:#c0392b;border-color:#c0392b;background:linear-gradient(145deg,#ffe0dc,#f5b7b1)}
+#fav-btn.active{color:#c9a227;border-color:#c9a227;background:linear-gradient(145deg,#fff6d6,#f2e2a5)}
+#fav-btn.active svg{fill:currentColor}
+#wheel-prev{left:19%;top:42%;width:17%;height:16%;font-size:clamp(17px,5vw,25px);letter-spacing:-.12em;border:1px solid #a8b0ba;border-radius:9px;background:linear-gradient(145deg,#fff,#d7dce2 48%,#aab2bc);box-shadow:0 3px 0 #7e8792,0 5px 7px #0003,inset 0 1px 0 #fff;color:#404854;text-shadow:0 1px #fff;padding:0;display:grid;place-items:center;line-height:1;white-space:nowrap}
+#wheel-next{right:19%;top:42%;width:17%;height:16%;font-size:clamp(17px,5vw,25px);letter-spacing:-.12em;border:1px solid #a8b0ba;border-radius:9px;background:linear-gradient(145deg,#fff,#d7dce2 48%,#aab2bc);box-shadow:0 3px 0 #7e8792,0 5px 7px #0003,inset 0 1px 0 #fff;color:#404854;text-shadow:0 1px #fff;padding:0;display:grid;place-items:center;line-height:1;white-space:nowrap}
+#wheel-hub{position:absolute;left:32%;top:32%;width:36%;height:36%;display:grid;place-items:center;border-radius:50%;border:1px solid #8e97a2;background:radial-gradient(circle at 35% 25%,#ffffff 0%,#e2e7ed 42%,#bfc6cf 68%,#8f98a3 100%);box-shadow:inset 0 2px 5px #fff,0 3px 6px #0003;color:#39414c;font-size:clamp(24px,7vw,34px);cursor:pointer;touch-action:manipulation;z-index:4;padding:0;-webkit-tap-highlight-color:transparent}#wheel-hub:active{transform:scale(.97);filter:brightness(.96)}#wheel-play-glyph{width:clamp(36px,10vw,48px);height:clamp(36px,10vw,48px);display:grid;place-items:center;line-height:1;pointer-events:none;transform:none}
+#wheel-play-glyph svg{display:block;width:100%;height:100%;fill:currentColor;stroke:none}
+#wheel-play-glyph svg path{transform-box:fill-box;transform-origin:center}
+#wheel-hub{display:grid;place-items:center}
+body.playing #wheel-play-glyph svg path{d:path("M11 9 H20 V39 H11 Z M28 9 H37 V39 H28 Z")}
+.wheel-btn:active{filter:brightness(.72);transform:translateY(3px) scale(.97);text-shadow:0 1px 1px #fff,0 -1px 2px #6c7580;}#wheel-prev:active,#wheel-next:active{transform:translateY(3px) scale(.97);background:linear-gradient(180deg,#aeb7c2,#e3e7ec);box-shadow:inset 0 3px 7px #626b7780,0 1px 0 #f8fafc;border-color:#7a8490}
+.wheel-btn:focus,.wheel-btn:focus-visible{outline:none;-webkit-tap-highlight-color:transparent}*{-webkit-tap-highlight-color:transparent}#wheel-prev:active,#wheel-next:active,#wheel-station:active,#wheel-all:active{transform:translateY(3px);box-shadow:inset 0 3px 6px #626b7780,0 0 0 #7e8792;filter:brightness(.94)}
+#wheel-prev:active,#wheel-next:active{background:radial-gradient(ellipse at center,#8e98a522 0%,#8e98a500 72%)}
+#wheel-station:active,#wheel-all:active{background:radial-gradient(ellipse at center,#8e98a522 0%,#8e98a500 72%)}
+#dcode{margin:0 5%;display:flex;align-items:center;justify-content:space-between;gap:12px;background:#dce1e7;border:1px solid #9ca5af;border-radius:12px;padding:9px 12px;color:#333b45;font-size:13px}#copy-code{flex:0 0 auto;width:36px;height:34px;border:1px solid #8c96a2;border-radius:9px;background:linear-gradient(#fff,#cbd2da);color:#303844;display:grid;place-items:center;font-size:18px;cursor:pointer;box-shadow:0 2px 0 #929ba5}#copy-code:active{transform:translateY(2px);box-shadow:none}#copy-code svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}#random-btn,#favlist-btn{align-self:auto;margin:0;flex:0 0 auto}#random-btn svg,#favlist-btn svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}#random-btn.active,#favlist-btn.active{background:linear-gradient(#aeb7c2,#e7ebef 48%,#89939f);color:#303844;border-color:#727c88;box-shadow:inset 0 3px 6px #626b7780,inset 0 -1px 1px #fff,0 1px 0 #f8fafc;transform:translateY(2px)}#random-btn:active,#favlist-btn:active{transform:translateY(2px);box-shadow:none}#under-controls{display:flex;flex-direction:row;align-items:center;justify-content:space-between;width:90%;margin-top:16px;min-height:42px;gap:12px}#random-btn,#favlist-btn{align-self:auto;margin:0}#skin-btn{width:38px;height:38px;border:1px solid #87909b;border-radius:10px;background:linear-gradient(#fff,#cbd2da);color:#303844;font-size:20px;display:grid;place-items:center;cursor:pointer;box-shadow:0 3px 0 #929ba5}#skin-btn:active{transform:translateY(2px);box-shadow:none}#skin-btn svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}body.skin-hifi{background:radial-gradient(ellipse at 50% 5%,#242b27 0,#0b0e0d 58%,#030404 100%)}body.skin-hifi .bar{background:linear-gradient(110deg,#25282a,#090b0c 35%,#303435 55%,#111313);border-color:#59615d;color:#e7ece7;box-shadow:inset 0 1px 2px #fff2,0 16px 40px #0009}body.skin-hifi .now a{color:#d9e8d2;text-shadow:0 1px #000}body.skin-hifi .now span{color:#aab5a7}body.skin-hifi main{background:linear-gradient(110deg,#272c29,#090b0a 30%,#343a35 60%,#151916);border-color:#525a54}body.skin-hifi #player{border-color:#525d52;background:radial-gradient(ellipse at 50% 0%,#18251a 0%,#080c09 58%,#020403 100%);box-shadow:inset 0 2px 8px #000,0 1px 0 #9daa9588}body.skin-hifi #wheel-area{background:linear-gradient(110deg,#1c211e,#090b0a 24%,#353b36 48%,#151a16 78%,#252a26)}body.skin-hifi #wheel{background:radial-gradient(circle at 35% 22%,#747c70 0,#343a34 24%,#1b201c 58%,#080a09 76%,#424a40 78%,#101410 82%,#252b25 100%);border-color:#65705f;box-shadow:0 8px 0 #050705,0 14px 22px #0008,inset 0 2px 4px #b5c0ae66,inset 0 -5px 10px #000}body.skin-hifi .wheel-btn{color:#d7e0d0;text-shadow:0 1px #000}body.skin-hifi #wheel-prev,body.skin-hifi #wheel-next,body.skin-hifi #skin-btn,body.skin-hifi #random-btn,body.skin-hifi #favlist-btn,body.skin-hifi #copy-code,body.skin-hifi #fullscreen-btn{background:linear-gradient(145deg,#525a52,#171b18 55%,#363d35);border-color:#626d60;color:#dbe7d5;box-shadow:0 4px 0 #070907,0 6px 9px #0008,inset 0 1px 0 #aab6a333}body.skin-hifi #wheel-prev:active,body.skin-hifi #wheel-next:active,body.skin-hifi #skin-btn:active,body.skin-hifi #random-btn:active,body.skin-hifi #favlist-btn:active,body.skin-hifi #copy-code:active{background:linear-gradient(#111510,#343b33);box-shadow:inset 0 3px 7px #000b;transform:translateY(3px)}body.skin-hifi #wheel-hub{background:radial-gradient(circle at 35% 25%,#9da995 0%,#485245 42%,#293027 68%,#111510 100%);border-color:#697561;color:#eff7e9;box-shadow:inset 0 2px 5px #c8d4bd55,0 3px 6px #0008}body.skin-hifi #dcode{background:#1c211d;border-color:#515b50;color:#dbe4d7}body.skin-hifi footer{background:#090c0a;border-color:#30382f;color:#899587}.bar:fullscreen{width:100%;max-width:none;border-radius:0}body:fullscreen{padding:0}body:fullscreen .bar,body:fullscreen main,body:fullscreen footer{width:min(100%,680px)}
+#grid{display:grid;grid-template-columns:1fr;gap:0;padding:5px;background:#121821}#grid button{display:flex;flex-direction:column;gap:2px;padding:11px 12px;border:1px solid #364252;border-radius:0;background:linear-gradient(#252e3a,#171e28);cursor:pointer;text-align:left;color:#f4f7fb;min-width:0}#grid button b{font-size:14px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}#grid button i{font-style:normal;font-size:11px;color:#9ca9b9}
+footer{width:min(100%,520px);margin:0 auto;padding:12px 12px 20px;text-align:center;font-size:11px;color:#a6afbc;background:#11161e;border-radius:0 0 24px 24px;border:1px solid #2b333f;border-top:0}
+#toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#14171c;color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;box-shadow:0 10px 26px #0008;z-index:99999;opacity:0;transition:opacity .25s;pointer-events:none}#toast.on{opacity:1}
+#fade{position:fixed;inset:0;z-index:99998;background:#10141c;opacity:0;pointer-events:none;transition:opacity .18s ease}#fade.solid{opacity:1;transition:none}#fade.on{opacity:1}
+[hidden]{display:none!important}
+@media(max-width:380px){body{padding:5px}.bar{border-radius:22px 22px 0 0;padding-top:10px}#wheel{width:min(88vw,340px)}#player{height:clamp(230px,68vw,290px);margin-left:4%;margin-right:4%;padding:6px}#wheel-area{padding-bottom:20px}.wheel-btn{letter-spacing:0}}
+
+/* v6: retain the original control positions; draw a close outline around the glyphs only */
+#wheel-prev,#wheel-next{left:auto;right:auto;top:32%;width:29%;height:36%;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;padding:0!important;display:grid;place-items:center;overflow:visible}
+#wheel-prev{left:1%}#wheel-next{right:1%}
+#wheel-prev .wheel-arrow,#wheel-next .wheel-arrow{display:inline-block;white-space:nowrap;padding:2px 3px;border:1px solid #a8b0ba;border-radius:7px;background:linear-gradient(145deg,#fff 0%,#d7dce2 48%,#aab2bc 100%);box-shadow:0 3px 0 #7e8792,0 5px 7px #0003,inset 0 1px 0 #fff;line-height:1;letter-spacing:-.12em;color:#404854;text-shadow:0 1px #fff;font-size:clamp(17px,5vw,25px)}
+#wheel-prev:active,#wheel-next:active{transform:none!important;filter:none!important}
+#wheel-prev:active .wheel-arrow,#wheel-next:active .wheel-arrow{transform:translateY(3px);background:linear-gradient(180deg,#aeb7c2,#e3e7ec);box-shadow:inset 0 3px 7px #626b7780,0 1px 0 #f8fafc;border-color:#7a8490}
+#wheel-station,#wheel-all{border:0!important;background:transparent!important;box-shadow:none!important;padding:0!important;display:grid;place-items:center;overflow:visible}
+#wheel-station .wheel-label,#wheel-all .wheel-label{display:inline-block;padding:3px 5px;border:1px solid #a8b0ba;border-radius:999px;background:linear-gradient(145deg,#fff 0%,#d7dce2 48%,#aab2bc 100%);box-shadow:0 3px 0 #7e8792,0 5px 7px #0003,inset 0 1px 0 #fff;line-height:1;white-space:nowrap;color:#404854;text-shadow:0 1px #fff;font-size:clamp(13px,3.7vw,18px)}
+#wheel-station:active,#wheel-all:active{transform:none!important;filter:none!important}
+#wheel-station:active .wheel-label,#wheel-all:active .wheel-label{transform:translateY(3px);box-shadow:inset 0 3px 6px #626b7780,0 0 0 #7e8792;filter:brightness(.94)}
+/* Fixed glyph box makes the left edge identical for play and pause */
+#wheel-play-glyph{display:block;width:1em;text-align:left;line-height:1;text-shadow:0 1px 0 #fff;pointer-events:none;transform:none!important;font-family:Arial,sans-serif;font-size:.92em}
+body.skin-hifi #wheel-prev .wheel-arrow,body.skin-hifi #wheel-next .wheel-arrow,body.skin-hifi #wheel-station .wheel-label,body.skin-hifi #wheel-all .wheel-label{background:linear-gradient(145deg,#525a52,#171b18 55%,#363d35);border-color:#626d60;color:#dbe7d5;box-shadow:0 4px 0 #070907,0 6px 9px #0008,inset 0 1px 0 #aab6a333;text-shadow:0 1px #000}
+body.skin-hifi #wheel-prev:active .wheel-arrow,body.skin-hifi #wheel-next:active .wheel-arrow,body.skin-hifi #wheel-station:active .wheel-label,body.skin-hifi #wheel-all:active .wheel-label{background:linear-gradient(#111510,#343b33);box-shadow:inset 0 3px 7px #000b;transform:translateY(3px)}
+
+
+/* Fine adjustments requested: larger arrows, restore the shuffle button's solid hardware look. */
+#wheel-prev .wheel-arrow,#wheel-next .wheel-arrow{font-size:clamp(25.5px,7.5vw,37.5px)!important;padding:2px 3px!important;line-height:1!important;letter-spacing:-.12em!important}
+#random-btn,#favlist-btn{width:38px!important;height:38px!important;min-width:38px!important;min-height:38px!important;border:1px solid #87909b!important;border-radius:10px!important;background:linear-gradient(145deg,#ffffff 0%,#e5e9ee 42%,#b4bcc6 100%)!important;color:#303844!important;box-shadow:0 3px 0 #858e99,0 5px 8px #0003,inset 0 1px 0 #fff!important;transform:none!important;transition:transform .08s ease,box-shadow .08s ease,filter .08s ease!important}
+#random-btn svg,#favlist-btn svg{width:23px!important;height:23px!important;stroke:currentColor!important;stroke-width:2!important;filter:none!important}
+#random-btn.active,#favlist-btn.active{background:linear-gradient(145deg,#b4bdc7 0%,#e8edf2 48%,#929ca8 100%)!important;border-color:#707a86!important;box-shadow:inset 0 3px 6px #606a7680,inset 0 -1px 1px #fff,0 1px 0 #f8fafc!important;transform:translateY(2px)!important}
+#random-btn:active,#favlist-btn:active{transform:translateY(3px)!important;box-shadow:inset 0 3px 7px #626b7780,0 0 0 #7e8792!important;filter:brightness(.97)!important}
+#fav-hint{position:absolute;top:-5px;right:-5px;width:15px;height:15px;border-radius:50%;border:1px solid #7f8a99;background:linear-gradient(#eef2f6,#c9d2dc);color:#3a4552;font-size:10px;font-weight:700;font-style:italic;line-height:1;display:grid;place-items:center;padding:0;cursor:pointer;box-shadow:0 1px 2px #0003;z-index:6;user-select:none;-webkit-user-select:none}
+#random-btn,#favlist-btn{display:grid;place-items:center;cursor:pointer;padding:0;appearance:none;-webkit-appearance:none}
+#favlist-btn{position:relative}
+.grid-note{padding:16px;text-align:center;color:#5a6472;font-size:13px;font-style:italic}
+body.skin-hifi #random-btn,body.skin-hifi #favlist-btn{background:linear-gradient(145deg,#525a52,#171b18 55%,#363d35)!important;border-color:#626d60!important;color:#dbe7d5!important;box-shadow:0 4px 0 #070907,0 6px 9px #0008,inset 0 1px 0 #aab6a333!important}
+body.skin-hifi #random-btn.active,body.skin-hifi #random-btn:active,body.skin-hifi #favlist-btn.active,body.skin-hifi #favlist-btn:active{background:linear-gradient(#111510,#343b33)!important;box-shadow:inset 0 3px 7px #000b!important;transform:translateY(3px)!important}
+
+/* Distinct control designs per skin: button surfaces and glyph treatment */
+.wheel-arrow,.wheel-label{display:inline-flex;align-items:center;justify-content:center}
+#wheel-prev .wheel-arrow,#wheel-next .wheel-arrow{min-width:0;line-height:1;white-space:nowrap}
+body.skin-hifi #wheel-hub{background:radial-gradient(circle at 35% 25%,#535a55,#161a17 60%,#050605);color:#aaff65;border:3px solid #9ba79a;box-shadow:0 0 0 3px #242a25,0 5px 0 #030403,inset 0 2px 5px #fff4}
+body.skin-hifi #wheel-prev,body.skin-hifi #wheel-next{color:#e8eee7;background:linear-gradient(#373d38,#111411);border:2px solid #778176;border-radius:14px;box-shadow:0 4px 0 #030403,0 6px 9px #0008,inset 0 1px #fff2}
+body.skin-hifi #wheel-station .wheel-label,body.skin-hifi #wheel-all .wheel-label{border:1px solid #8b978a;border-radius:999px;padding:.28em .65em;background:linear-gradient(#343a34,#101310);color:#e9f1e5;box-shadow:0 3px 0 #030403,inset 0 1px #fff2}
+body.skin-white #wheel-hub{background:linear-gradient(145deg,#fff,#eee 55%,#c9c9c9);color:#171717;border:1px solid #aaa;box-shadow:0 4px 0 #aaa,0 7px 9px #0003,inset 0 1px #fff}
+body.skin-white #wheel-prev,body.skin-white #wheel-next{color:#171717;background:linear-gradient(#fff,#f0f0f0 58%,#ccc);border:1px solid #aaa;border-radius:13px;box-shadow:0 3px 0 #aaa,0 5px 8px #0003,inset 0 1px #fff}
+body.skin-white #wheel-station .wheel-label,body.skin-white #wheel-all .wheel-label{border:1px solid #aaa;border-radius:999px;padding:.28em .65em;background:linear-gradient(#fff,#e5e5e5);color:#111;box-shadow:0 3px 0 #aaa,0 4px 6px #0002}
+body.skin-neon #wheel-hub{background:radial-gradient(circle at 35% 25%,#00cfff,#064dc2 58%,#03123b);color:#fff;border:4px solid #d8f4ff;box-shadow:0 0 15px #00aaff88,0 4px 0 #061128,inset 0 2px 6px #fff9}
+body.skin-neon #wheel-prev,body.skin-neon #wheel-next{color:#fff;background:radial-gradient(circle at 35% 25%,#5c00ff,#23006e 65%,#0a0320);border:3px solid #b9a1ff;border-radius:50%;box-shadow:0 0 10px #7b35ff77,0 4px 0 #090319,inset 0 2px 4px #fff6}
+body.skin-neon #wheel-station .wheel-label,body.skin-neon #wheel-all .wheel-label{border:2px solid #a9ffcc;border-radius:999px;padding:.28em .65em;background:linear-gradient(#00b84a,#005b29);color:#fff;box-shadow:0 0 10px #00ff7b55,0 3px 0 #062b17}
+body.skin-chrome #wheel-hub{background:radial-gradient(circle at 35% 22%,#fff,#c3c7cb 35%,#33383d 66%,#090a0c 72%,#8d949a 100%);color:#08090a;border:3px solid #e4e7ea;box-shadow:0 4px 0 #08090b,0 7px 12px #0009,inset 0 1px #fff}
+body.skin-chrome #wheel-prev,body.skin-chrome #wheel-next{color:#17191c;background:linear-gradient(145deg,#fff,#b5bbc1 42%,#41474d 60%,#dfe3e7);border:2px solid #e6eaee;border-radius:13px;box-shadow:0 4px 0 #080a0c,0 7px 10px #0008,inset 0 1px #fff}
+body.skin-chrome #wheel-station .wheel-label,body.skin-chrome #wheel-all .wheel-label{border:2px solid #e3e7eb;border-radius:999px;padding:.28em .65em;background:linear-gradient(145deg,#fff,#b7bdc3 45%,#50565d 62%,#dce0e4);color:#171a1d;box-shadow:0 4px 0 #090b0d,inset 0 1px #fff}
+#wheel-hub:active,#wheel-prev:active,#wheel-next:active{transform:translateY(3px) scale(.97)}
+#wheel-station:active .wheel-label,#wheel-all:active .wheel-label{transform:translateY(2px);box-shadow:inset 0 3px 6px #0005}
+
+
+/* v10: compact physical frames around single arrows */
+#wheel-prev,#wheel-next{display:flex;align-items:center;justify-content:center}
+#wheel-prev .wheel-arrow,#wheel-next .wheel-arrow{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:auto;height:auto;line-height:1;font-size:inherit;
+  border:0;border-radius:0;box-sizing:border-box;padding:0;margin:0;text-shadow:0 1px 0 #fff5;
+}
+body.skin-white #wheel-prev .wheel-arrow,body.skin-white #wheel-next .wheel-arrow{
+  border-color:#8e8e8e;box-shadow:inset 0 1px 1px #fff,0 1px 1px #0002
+}
+body.skin-hifi #wheel-prev .wheel-arrow,body.skin-hifi #wheel-next .wheel-arrow{
+  border-color:#829082;box-shadow:inset 0 1px 1px #fff2,0 2px 0 #050605
+}
+body.skin-neon #wheel-prev .wheel-arrow,body.skin-neon #wheel-next .wheel-arrow{
+  border-color:#d8caff;box-shadow:0 0 7px #8c55ff88,inset 0 0 4px #fff5
+}
+body.skin-chrome #wheel-prev .wheel-arrow,body.skin-chrome #wheel-next .wheel-arrow{
+  border-color:#656b71;box-shadow:inset 0 1px 1px #fff,0 1px 2px #0005
+}
+
+
+/* White raised icon-button skin inspired by the supplied white-button reference */
+body.skin-white #wheel-hub{
+  border-radius:50%;background:linear-gradient(145deg,#fff 0%,#fafafa 48%,#e2e2e2 100%);
+  color:#151515;border:1px solid #d2d2d2;
+  box-shadow:0 3px 0 #bdbdbd,0 6px 10px #0002,inset 0 1px 2px #fff;
+}
+body.skin-white #wheel-hub svg{fill:#111}
+body.skin-white #wheel-prev,body.skin-white #wheel-next{
+  border-radius:50%;background:linear-gradient(145deg,#fff 0%,#f5f5f5 58%,#dedede 100%);
+  color:#111;border:1px solid #d0d0d0;
+  box-shadow:0 3px 0 #b8b8b8,0 5px 9px #0002,inset 0 1px 2px #fff;
+}
+body.skin-white #wheel-prev .wheel-arrow,body.skin-white #wheel-next .wheel-arrow{
+  border:0;border-radius:0;background:transparent;box-shadow:none;width:auto;height:auto;font-size:inherit;
+}
+body.skin-white #wheel-station .wheel-label,body.skin-white #wheel-all .wheel-label{
+  border:1px solid #d0d0d0;border-radius:999px;padding:.28em .7em;
+  background:linear-gradient(145deg,#fff,#e7e7e7);color:#171717;
+  box-shadow:0 3px 0 #bdbdbd,0 5px 8px #0002,inset 0 1px 1px #fff;
+}
+body.skin-white #wheel-hub:active,body.skin-white #wheel-prev:active,body.skin-white #wheel-next:active{
+  transform:translateY(2px);box-shadow:inset 0 3px 5px #0002,0 1px 0 #aaa;
+}
+
+
+/* Side controls inspired by the classic click-wheel reference: paired transport chevrons */
+#wheel-prev,#wheel-next{display:flex;align-items:center;justify-content:center}
+#wheel-prev .wheel-arrow,#wheel-next .wheel-arrow{
+  width:auto;height:auto;border:0;border-radius:0;background:transparent;
+  box-shadow:none;padding:0;margin:0;display:inline-flex;align-items:center;justify-content:center;
+  font-size:clamp(26px,7vw,36px);line-height:1;letter-spacing:-.28em;white-space:nowrap;
+  transform:translateX(-.08em)
+}
+#wheel-next .wheel-arrow{transform:translateX(.08em)}
+body.skin-white #wheel-prev .wheel-arrow,body.skin-white #wheel-next .wheel-arrow{
+  border:0;background:transparent;box-shadow:none
+}
+
+
+/* Classic previous/next transport symbols: touching triangles plus end bar */
+#wheel-prev .wheel-arrow,#wheel-next .wheel-arrow{display:inline-flex;align-items:center;justify-content:center;width:clamp(34px,9vw,46px);height:clamp(24px,6vw,32px);letter-spacing:0;transform:none}
+#wheel-prev .wheel-arrow svg,#wheel-next .wheel-arrow svg{display:block;width:100%;height:100%;overflow:visible}
+#wheel-prev .wheel-arrow svg path,#wheel-next .wheel-arrow svg path{fill:currentColor;stroke:none}
+#wheel-prev .wheel-arrow{transform:none}
+#wheel-next .wheel-arrow{transform:none}
+body.skin-white #wheel-prev .wheel-arrow,body.skin-white #wheel-next .wheel-arrow{width:clamp(34px,9vw,46px);height:clamp(24px,6vw,32px)}
+
+</style>
+<script>
+var BASE = "https://radiopotok.ru";
+var S = [];  // заполняется из /api/stations
+var DCL_PASSED = false;
+document.addEventListener("DOMContentLoaded", function () { DCL_PASSED = true; });
+
+function esc(s) {
+  return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+function embedCode(st) {
+  return '<div class="RP-SCRIPT"><a class="RP-LINK" href="' + BASE + st[2] + '">' +
+    esc(st[1]) + '</a></div>' +
+    '<script defer src="' + BASE + '/f/script6.1/' + st[0] + '.js" charset="UTF-8"><\/script>';
+}
+
+var STATE = (function () {
+  var raw = location.hash || "";
+  var parts = raw.replace(/^#/, "").split("/");
+  var st = {
+    idx: 0,
+    view: (parts[1] === "grid" || parts[1] === "favgrid") ? "grid" : "player",
+    gridFilter: parts[1] === "favgrid" ? "fav" : "all",
+    auto: parts[1] === "auto"
+  };
+  for (var i = 0; i < S.length; i++) {
+    if (S[i][0] === parts[0]) { st.idx = i; break; }
+  }
+  return st;
+})();
+</script>
+
+<style>
+/* v8: single, larger track arrows; close contour; fixed left edge for play/pause */
+#wheel-prev .wheel-arrow,#wheel-next .wheel-arrow{font-size:clamp(38px,11.25vw,56px)!important;letter-spacing:0!important;padding:1px 3px!important;line-height:.95!important;border-radius:7px!important}
+#wheel-play-glyph{display:block!important;width:1.15em!important;min-width:1.15em!important;text-align:left!important;font-size:1.42em!important;line-height:1!important;transform:none!important;font-family:Arial,sans-serif!important;font-weight:700!important}
+#wheel-hub{display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden}
+/* Skin 3: clean white controls inspired by the white reference buttons */
+body.skin-white{background:linear-gradient(135deg,#f5f5f5,#d5d5d5 55%,#fafafa);color:#202020}
+body.skin-white .bar,body.skin-white main{background:linear-gradient(135deg,#fff,#e7e7e7 50%,#c9c9c9);border-color:#fefefe;color:#202020}
+body.skin-white .now a{color:#202020;text-shadow:none}body.skin-white .now span{color:#555}
+body.skin-white #player{background:#17191b;border-color:#777}
+body.skin-white #wheel-area{background:linear-gradient(135deg,#f8f8f8,#d8d8d8 52%,#fff)}
+body.skin-white #wheel{background:radial-gradient(circle at 34% 22%,#fff 0,#f7f7f7 44%,#d0d0d0 72%,#fff 78%,#a5a5a5 83%,#eee 100%);border-color:#fff;box-shadow:0 8px 0 #9c9c9c,0 14px 22px #0003,inset 0 2px 4px #fff,inset 0 -5px 10px #aaa}
+body.skin-white #wheel-hub,body.skin-white #wheel-prev .wheel-arrow,body.skin-white #wheel-next .wheel-arrow,body.skin-white #wheel-station .wheel-label,body.skin-white #wheel-all .wheel-label,body.skin-white #skin-btn,body.skin-white #random-btn,body.skin-white #favlist-btn{background:linear-gradient(145deg,#fff,#f1f1f1 50%,#c9c9c9);color:#202020;border-color:#a9a9a9;box-shadow:0 3px 0 #999,0 5px 8px #0003,inset 0 1px 0 #fff}
+body.skin-white #wheel-station,body.skin-white #wheel-all{background:transparent;border:0;box-shadow:none}
+body.skin-white #dcode{background:#eee;border-color:#bbb;color:#222}body.skin-white footer{background:#e7e7e7;border-color:#bbb;color:#555}
+/* Skin 4: saturated neon player buttons */
+body.skin-neon{background:radial-gradient(ellipse at 50% 5%,#25302b,#090d0b 65%,#020303);color:#f8fff9}
+body.skin-neon .bar{background:linear-gradient(120deg,#242b2a,#0d1110 45%,#353d38);border-color:#65746b;color:#f5fff6}
+body.skin-neon .now a{color:#f5fff6;text-shadow:0 1px #000}body.skin-neon .now span{color:#a9b9ae}
+body.skin-neon main{background:linear-gradient(120deg,#202722,#080b09 45%,#303a33);border-color:#526257}
+body.skin-neon #player{background:#020604;border-color:#48564c}
+body.skin-neon #wheel-area{background:linear-gradient(120deg,#1a211c,#090c0a 48%,#30392f)}
+body.skin-neon #wheel{background:radial-gradient(circle at 35% 20%,#58615a,#242c26 48%,#080b09 78%,#53614f 82%,#101510);border-color:#788776;box-shadow:0 8px 0 #030504,0 14px 22px #0009,inset 0 2px 4px #b9d3b966}
+body.skin-neon #wheel-hub{background:radial-gradient(circle at 35% 25%,#00bfff,#0753ba 56%,#031b4b);color:#fff;border:3px solid #c7eaff;box-shadow:0 0 14px #00aaff88,inset 0 2px 5px #fff8,0 3px 0 #02070d}
+body.skin-neon #wheel-prev .wheel-arrow,body.skin-neon #wheel-next .wheel-arrow{background:linear-gradient(145deg,#454d48,#101512 55%,#303a32);color:#eaffef;border-color:#788b7a;box-shadow:0 3px 0 #020403,0 5px 8px #0009,inset 0 1px 0 #d9ffe133}
+body.skin-neon #wheel-station .wheel-label,body.skin-neon #wheel-all .wheel-label{background:linear-gradient(145deg,#454d48,#101512 55%,#303a32);color:#eaffef;border-color:#788b7a}
+body.skin-neon #dcode{background:#151c17;border-color:#47584b;color:#eaffef}body.skin-neon footer{background:#090d0a;border-color:#2d3a30;color:#9bac9f}
+/* Skin 5: polished black and chrome */
+body.skin-chrome{background:radial-gradient(ellipse at 50% 0%,#30343a,#090a0c 65%,#020203);color:#f3f5f7}
+body.skin-chrome .bar{background:linear-gradient(120deg,#555b62,#15181c 35%,#343940 60%,#0d0f12);border-color:#8d949b;color:#f4f6f8}
+body.skin-chrome .now a{color:#f4f6f8;text-shadow:0 1px #000}body.skin-chrome .now span{color:#b4bac1}
+body.skin-chrome main{background:linear-gradient(120deg,#444a51,#111419 35%,#363c43 70%,#101216);border-color:#7b838b}
+body.skin-chrome #player{background:#030405;border-color:#6e7780}
+body.skin-chrome #wheel-area{background:linear-gradient(120deg,#343940,#0a0c0f 45%,#444a50)}
+body.skin-chrome #wheel{background:radial-gradient(circle at 34% 20%,#c7cbd0 0,#747b83 24%,#252a30 60%,#0a0c0f 76%,#a4aab0 79%,#343940 84%,#111317 100%);border-color:#cbd0d5;box-shadow:0 8px 0 #050607,0 14px 22px #000b,inset 0 2px 4px #fff9,inset 0 -5px 10px #000}
+body.skin-chrome #wheel-hub,body.skin-chrome #wheel-prev .wheel-arrow,body.skin-chrome #wheel-next .wheel-arrow,body.skin-chrome #wheel-station .wheel-label,body.skin-chrome #wheel-all .wheel-label,body.skin-chrome #skin-btn,body.skin-chrome #random-btn,body.skin-chrome #favlist-btn{background:linear-gradient(145deg,#f4f6f8,#aab1b8 38%,#454b52 58%,#d7dbe0);color:#171a1e;border-color:#e5e8eb;box-shadow:0 3px 0 #111418,0 6px 10px #0009,inset 0 1px 0 #fff}
+body.skin-chrome #wheel-station,body.skin-chrome #wheel-all{background:transparent;border:0;box-shadow:none}
+body.skin-chrome #dcode{background:#1b1f24;border-color:#626a73;color:#e6e9ec}body.skin-chrome footer{background:#101317;border-color:#363c43;color:#aeb4bb}
+/* web: row with station + favorite/hide actions */
+#grid .grow{display:flex;align-items:stretch;border-bottom:1px solid #293548}
+#grid .grow>button:first-child{flex:1 1 auto;height:56px;border:0;text-align:left;min-width:0;overflow:hidden;background:linear-gradient(#252e3a,#171e28)}
+#grid .acts{order:-1;display:flex;flex-direction:row;flex:0 0 auto;border-right:1px solid #293548}
+#grid .acts .act{display:flex;align-items:center;justify-content:center;width:56px;height:56px;border:0;background:#0d1420;color:#94a8c4;font-size:18px;cursor:pointer;padding:0;line-height:1}
+#grid .acts .act+.act{border-left:1px solid #293548}
+#grid .acts .act.on{color:#ffcc44}
+#grid .acts .act.hide.on{color:#ff7a7a}
+#grid .grow.hidden-row>button:first-child{opacity:.55}
+</style>
+
+</head>
+<body>
+<div id="fade" class="solid"></div>
+<script>setTimeout(function(){var f=document.getElementById("fade");if(f)f.className="";},4000);</script>
+<header class="bar">
+  <div class="now">
+    <div class="now-top"><span id="stpos"></span><span class="brand">radiopotok.ru</span></div>
+    <a id="stlink" href="#" target="_blank" rel="noopener">-</a>
+    <div id="track"></div>
+  </div>
+</header>
+<main id="mv">
+  <div id="player"><iframe id="station-frame" title="Радиоплеер" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin"></iframe><div class="find" id="findbox"><input id="q" type="search" placeholder="Search station…" autocomplete="off"><div id="drop" class="drop"></div></div><div id="grid" aria-label="All radio stations" hidden></div></div>
+  <section id="wheel-area" aria-label="iPod controls"><div id="wheel">
+    <button id="wheel-station" class="wheel-btn" type="button"><span class="wheel-label">STATION</span></button>
+    <button id="wheel-prev" class="wheel-btn" type="button" aria-label="Previous station"><span class="wheel-arrow"><svg viewBox="0 0 44 28" aria-hidden="true"><path d="M42 2 L27 14 L42 26 Z M28 2 L13 14 L28 26 Z M2 2 H8 V26 H2 Z"/></svg></span></button>
+    <button id="wheel-hub" type="button" aria-label="Play or pause radio" title="Play / Pause"><span id="wheel-play-glyph" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M15 9 L38 24 L15 39 Z"/></svg></span></button>
+    <button id="wheel-next" class="wheel-btn" type="button" aria-label="Next station"><span class="wheel-arrow"><svg viewBox="0 0 44 28" aria-hidden="true"><path d="M2 2 L17 14 L2 26 Z M16 2 L31 14 L16 26 Z M36 2 H42 V26 H36 Z"/></svg></span></button>
+    <button id="wheel-all" class="wheel-btn" type="button"><span class="wheel-label">ALL</span></button>
+    <button id="hide-btn" type="button" aria-label="Не показывать эту станцию" title="Скрыть из ротации"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><path d="M1 1l22 22"/></svg></button>
+    <button id="fav-btn" type="button" aria-label="В избранное" title="В избранное"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></button>
+  </div>
+  <div id="under-controls"><button id="skin-btn" type="button" aria-label="Сменить оформление" title="Сменить оформление"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18h1.4a2 2 0 0 0 1.4-3.4 1.8 1.8 0 0 1 1.3-3.1H18a3 3 0 0 0 3-3c0-4.7-4-8.5-9-8.5Z"/><circle cx="7.5" cy="10" r="1"/><circle cx="11" cy="6.8" r="1"/><circle cx="16" cy="8.5" r="1"/></svg></button><button id="favlist-btn" type="button" aria-pressed="false" title="Избранное: тап — список, зажать — играть только избранные"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><span id="fav-hint" aria-label="Подсказка об избранном">i</span></button><button id="random-btn" type="button" aria-pressed="false" title="Случайное переключение выключено"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h2.2c5.8 0 7.8 10 13.5 10H21"/><path d="M17.5 13.5 21 17l-3.5 3.5"/><path d="M3 17h2.2c2.5 0 4.2-2.4 5.7-4.8S14.2 7 18.7 7H21"/><path d="M17.5 3.5 21 7l-3.5 3.5"/></svg></button></div>
+  </section>
+  <div id="dcode"><span>Код для вставки этой станции</span><button id="copy-code" type="button" aria-label="Скопировать код" title="Скопировать код"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="3" width="13" height="14" rx="2.5"/><rect x="3" y="7" width="13" height="14" rx="2.5"/></svg></button><textarea id="codetext" readonly tabindex="-1" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"></textarea></div>
+</main>
+
+<noscript><p style="padding:20px">Нужен JavaScript.</p></noscript>
+<script>
+var idx = STATE.idx;
+var view = STATE.view;
+var hist = [];  // история переходов (для «назад» в random-режиме), максимум 10
+var rpKicked = false;
+var faded = false;
+
+function fadeIn() {
+  if (faded) return;
+  faded = true;
+  var f = document.getElementById("fade");
+  if (f) f.className = "";
+}
+
+function fadeOutThen(go) {
+  var f = document.getElementById("fade");
+  if (!f) { go(); return; }
+  f.className = "on";
+  setTimeout(go, 190);
+}
+
+var stationFrame = document.getElementById("station-frame");
+var frameLoadToken = 0;
+var frameReady = false;
+var randomMode = false;
+var favMode = false;      // играют только избранные (зажатие ★)
+var gridFilter = STATE.gridFilter || "all";  // "all" | "fav" — что показывает сетка
+
+function loadStationFrame(i, autoplay) {
+  var token = ++frameLoadToken;
+  frameReady = false;
+  var player = document.getElementById("player");
+  if (player) player.classList.add("screen-loading");
+  var st = S[i];
+  // The provider script runs in its own document, so replacing a station never
+  // reparses or reloads the iPod shell. srcdoc inherits this page's origin.
+  var inner = '<!doctype html><html lang="ru"><head><meta charset="utf-8">' +
+    '<meta name="viewport" content="width=device-width,initial-scale=1">' +
+    '<style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:transparent;color:#f5f8ff;font:16px system-ui,sans-serif}' +
+    'body{display:flex;align-items:center;justify-content:center;padding:4px;box-sizing:border-box}' +
+    '.RP-SCRIPT{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;width:100%!important;max-width:100%!important;height:100%!important;max-height:100%!important;overflow:hidden!important;margin:0!important;padding:0!important;zoom:.84;box-sizing:border-box}' +
+    '.RP-SCRIPT *{box-sizing:border-box!important;max-width:100%!important}' +
+    '.RP-LINK{color:#f5f8ff!important;font-size:clamp(15px,4vw,20px)!important;font-weight:700;text-decoration:none}' +
+    '#RP_playerjs{width:100%!important;max-width:100%!important;min-width:0!important;max-height:100%!important;overflow:hidden!important}' +
+    '#RP_playerjs iframe,#RP_playerjs video,#RP_playerjs canvas,#RP_playerjs object,#RP_playerjs embed{max-width:100%!important;max-height:100%!important}' +
+    '.RP-PLAYER-CONTROL{position:absolute!important;width:1px!important;height:1px!important;opacity:.01!important;overflow:hidden!important;pointer-events:none!important}' +
+    '</style></head><body>' + embedCode(st) +
+    '<script>window.__RADIO_AUTOPLAY=' + (autoplay ? 'true' : 'false') + ';<\/script>' +
+    '<script>(function(){var n=0,iv=setInterval(function(){n++;var b=document.querySelector(".RP-PLAYER-CONTROL");if(!b)return;if(window.__RADIO_AUTOPLAY&&typeof RP_PLAYERJS!=="undefined"&&typeof RP_RADIO!=="undefined"){try{RP_PLAYERJS.api("play",RP_RADIO[RP_SCRIPT.curentId].stream);window.__RADIO_AUTOPLAY=false;}catch(e){}}if(n>45)clearInterval(iv);},350);})();<\/script>' +
+    '</body></html>';
+  stationFrame.onload = function () {
+    if (token !== frameLoadToken) return;
+    // Let the provider finish its deferred script and expose its controls.
+    setTimeout(function () {
+      if (token !== frameLoadToken) return;
+      frameReady = !!(stationFrame.contentDocument && stationFrame.contentDocument.querySelector(".RP-PLAYER-CONTROL"));
+      if (player) player.classList.remove("screen-loading");
+      fadeIn();
+      syncWheelGlyph();
+    }, 450);
+  };
+  stationFrame.srcdoc = inner;
+  // The shell remains visible even if the provider is slow or unavailable.
+  setTimeout(function () {
+    if (token === frameLoadToken && player) player.classList.remove("screen-loading");
+  }, 5000);
+}
+
+function openStation(i, noHist) {
+  var newIdx = (i + S.length) % S.length;
+  if (!noHist && newIdx !== idx && idx >= 0 && S.length) {
+    hist.push(idx);
+    if (hist.length > 10) hist.shift();
+  }
+  idx = newIdx;
+  view = "player";
+  var box = document.getElementById("findbox");
+  if (box) box.classList.remove("open");
+  var grid = document.getElementById("grid");
+  if (grid) grid.hidden = true;
+  renderHead();
+  history.replaceState(null, "", "#" + S[idx][0] + "/auto");
+  loadStationFrame(idx, true);
+  startTrackPoll();
+}
+
+function setView(v) {
+  view = v;
+  var tail = v === "grid" ? (gridFilter === "fav" ? "/favgrid" : "/grid") : "";
+  history.replaceState(null, "", "#" + S[idx][0] + tail);
+  var grid = document.getElementById("grid");
+  if (v === "grid") {
+    if (grid) { grid.hidden = false; renderGrid(); }
+  } else {
+    if (grid) grid.hidden = true;
+    if (!stationFrame.srcdoc) loadStationFrame(idx, false);
+  }
+  renderHead();
+} 
+
+function fallbackSwitch(i) { openStation(i); }
+
+function rpKick() {
+  if (rpKicked || !DCL_PASSED) return;
+  var box = document.getElementById("RP_playerjs");
+  if (!box || box.childElementCount) return;
+  rpKicked = true;
+  var ev;
+  try {
+    ev = new Event("DOMContentLoaded", { bubbles: true });
+  } catch (err) {
+    ev = document.createEvent("Event");
+    ev.initEvent("DOMContentLoaded", true, true);
+  }
+  document.dispatchEvent(ev);
+}
+
+function rpWatch() {
+  var sc = document.querySelector('script[src*="/f/script6."]');
+  if (sc) sc.addEventListener("load", function () { rpKick(); initWidget(); });
+  window.addEventListener("load", function () {
+    setTimeout(function () { rpKick(); initWidget(); }, 0);
+  });
+  setTimeout(function () {
+    rpKick();
+    initWidget();
+    if (!widgetBuilt) { navFallback = true; applyNav(); }
+  }, 3000);
+}
+
+function mkBtn(cls, glyph, title, fn) {
+  var b = document.createElement("button");
+  b.type = "button";
+  b.className = cls;
+  b.title = title;
+  b.setAttribute("aria-label", title);
+  b.appendChild(document.createTextNode(glyph));
+  b.addEventListener("click", fn);
+  return b;
+}
+
+var widgetBuilt = false, wsFast = false, autoDone = false, navFallback = false;
+
+function initWidget() {
+  var btn = document.querySelector(".RP-PLAYER-CONTROL");
+  if (!btn) return false;
+  if (!widgetBuilt) {
+    var wrap = btn.parentNode;
+    if (wrap) {
+      widgetBuilt = true;
+      fadeIn();
+      wrap.setAttribute("data-rpnav", "1");
+      // Navigation is on the physical-style click wheel, not duplicated inside the screen.
+      wrap.className = (wrap.className ? wrap.className + " " : "") + "rp-wrap";
+    }
+  }
+  if (!wsFast) { wsFast = true; speedUpWs(); }
+  if (!autoDone) {
+    autoDone = true;
+    if (STATE.auto) clearAuto();
+    setTimeout(tryAutoPlay, 60);
+  }
+  applyNav();
+  return widgetBuilt;
+}
+
+function wirePlayButton(btn) {
+  if (!btn || !btn.getAttribute("onclick")) return;
+  btn.removeAttribute("onclick");
+  btn.addEventListener("click", function (e) {
+    e.preventDefault();
+    try { RP_radioPlayPause(); } catch (err) { manualToggle(); }
+  });
+}
+
+function manualToggle() {
+  var b = document.querySelector(".RP-PLAYER-CONTROL");
+  if (!b) return;
+  var playing = b.getAttribute("data-state") === "playing";
+  try {
+    if (playing) {
+      RP_PLAYERJS.api("stop");
+      b.setAttribute("data-state", "stopped");
+      b.title = "Включить воспроизведение";
+    } else {
+      RP_PLAYERJS.api("play", RP_RADIO[RP_SCRIPT.curentId].stream);
+      b.setAttribute("data-state", "playing");
+      b.title = "Остановить воспроизведение";
+    }
+  } catch (e) {}
+}
+
+function speedUpWs() {
+  try {
+    if (typeof RP_SCRIPT !== "undefined" && RP_SCRIPT) RP_SCRIPT.WS_UPDATE_TIME = 2500;
+    if (typeof RP_WS_UpdateRequest !== "function") return;
+    if (typeof CRON_UpdateRequest !== "undefined" && CRON_UpdateRequest) {
+      clearInterval(CRON_UpdateRequest);
+    }
+    CRON_UpdateRequest = setInterval(RP_WS_UpdateRequest, 2500);
+  } catch (e) {}
+}
+
+// ---- Название трека под станцией (основной источник: iframe WS; запасной: ICY) ----
+var trackEl = document.getElementById("track");
+var trackTimer = null;
+var lastTrackText = null;
+
+function setTrack(text) {
+  text = (text || "").replace(/\s+/g, " ").trim();
+  if (text === lastTrackText) return;
+  lastTrackText = text;
+  if (!text) { trackEl.className = ""; trackEl.innerHTML = ""; return; }
+  trackEl.className = "";
+  var span = document.createElement("span");
+  span.className = "trk";
+  span.textContent = text;
+  trackEl.innerHTML = "";
+  trackEl.appendChild(span);
+  if (trackEl.scrollWidth > trackEl.clientWidth + 1) {
+    span.textContent = text + "\u00a0\u00a0" + text;
+    var dur = Math.max(6, text.length * 0.2);
+    trackEl.style.setProperty("--trk-dur", dur + "s");
+    trackEl.className = "scroll";
+  }
+}
+
+function iframeTrack() {
+  try {
+    var w = stationFrame && stationFrame.contentWindow;
+    if (!w || !w.RP_RADIO || !w.RP_SCRIPT) return "";
+    var id = w.RP_SCRIPT.curentId;
+    var t = w.RP_RADIO[id] && w.RP_RADIO[id].track;
+    if (!t) return "";
+    t = String(t).replace(/<br\s*\/?>/gi, " - ").trim();
+    if (t === "Прямой эфир") return "";
+    return t;
+  } catch (e) { return ""; }
+}
+
+function icyTrack(sid, cb) {
+  try {
+    fetch("/api/track?id=" + encodeURIComponent(sid), { cache: "no-store" })
+      .then(function (r) { return r.json(); })
+      .then(function (j) { cb(j && j.raw ? j.raw : ""); })
+      .catch(function () { cb(""); });
+  } catch (e) { cb(""); }
+}
+
+function pollTrack() {
+  if (idx < 0 || !S.length) { setTrack(""); return; }
+  var sid = S[idx][0];
+  var t = iframeTrack();
+  if (t) { setTrack(t); return; }
+  icyTrack(sid, function (raw) {
+    if (idx >= 0 && S.length && S[idx][0] === sid) setTrack(raw);
+  });
+}
+
+function startTrackPoll() {
+  if (trackTimer) clearInterval(trackTimer);
+  setTrack("");
+  pollTrack();
+  trackTimer = setInterval(pollTrack, 3000);
+}
+
+function clearAuto() {
+  var url = "#" + S[idx][0];
+  try { history.replaceState(null, "", url); return; } catch (e) {}
+  try { location.hash = url; } catch (e) {}
+}
+
+function mediaEl() {
+  try {
+    var box = document.getElementById("RP_playerjs");
+    return box ? (box.querySelector("audio") || box.querySelector("video")) : null;
+  } catch (e) { return null; }
+}
+
+function apiPlaying() {
+  try { return !!RP_PLAYERJS.api("playing"); } catch (e) { return false; }
+}
+
+function playerReady() {
+  try {
+    if (typeof RP_PLAYERJS === "undefined" || !RP_PLAYERJS) return false;
+    return typeof RP_PLAYERJS.api("playlist_length") === "number";
+  } catch (e) { return false; }
+}
+
+function forcePlay() {
+  try {
+    if (typeof RP_PLAYERJS === "undefined" || typeof RP_RADIO === "undefined") return;
+    RP_PLAYERJS.api("play", RP_RADIO[RP_SCRIPT.curentId].stream);
+    var b = document.querySelector(".RP-PLAYER-CONTROL");
+    if (b) {
+      b.setAttribute("data-state", "playing");
+      b.title = "Остановить воспроизведение";
+    }
+  } catch (e) {}
+}
+
+function tryAutoPlay() {
+  var n = 0, started = 0;
+  var iv = setInterval(function () {
+    n++;
+    var m = mediaEl();
+    if (m && !m.paused && !m.ended) { clearInterval(iv); return; }
+    if (!started) {
+      if (playerReady()) { started = n; forcePlay(); }
+      else if (n >= 15) { clearInterval(iv); autoBlocked(true); }
+      return;
+    }
+    if ((n - started) % 3 === 0) forcePlay();
+    if (n - started >= 8) {
+      clearInterval(iv);
+      var mm = mediaEl();
+      if (mm && !mm.paused) return;
+      autoBlocked(!mm);
+    }
+  }, 400);
+}
+
+function autoBlocked(missing) {
+  var b = document.querySelector(".RP-PLAYER-CONTROL");
+  if (b) {
+    b.setAttribute("data-state", "stopped");
+    b.title = "Включить воспроизведение";
+  }
+  toast(missing ? "Плеер не загрузился — обновите страницу"
+                : "Браузер запретил автозапуск — нажмите ▶");
+}
+
+var toastEl = null, toastT = 0;
+function toast(msg) {
+  try {
+    if (!toastEl) {
+      toastEl = document.createElement("div");
+      toastEl.id = "toast";
+      document.body.appendChild(toastEl);
+    }
+    toastEl.textContent = msg;
+    toastEl.className = "on";
+    clearTimeout(toastT);
+    toastT = setTimeout(function () { if (toastEl) toastEl.className = ""; }, 4500);
+  } catch (e) {}
+}
+
+function applyNav() {
+  var show = (view === "grid") || !!navFallback;
+  var nav = document.querySelector(".nav");
+  if (nav) nav.className = show ? "nav" : "nav off";
+}
+
+function renderHead() {
+  var st = S[idx];
+  var link = document.getElementById("stlink");
+  link.textContent = st[1];
+  link.href = BASE + st[2];
+  if (favMode) {
+    var list = favIndices();
+    var pos = list.indexOf(idx);
+    document.getElementById("stpos").textContent = (pos < 0 ? "–" : (pos + 1)) + " / " + list.length + " ★";
+  } else {
+    document.getElementById("stpos").textContent = (idx + 1) + " / " + S.length;
+  }
+  document.getElementById("codetext").value = embedCode(st);
+  updateCornerBtns();
+}
+
+function renderGrid() {
+  var grid = document.getElementById("grid");
+  grid.innerHTML = "";
+  var list = gridFilter === "fav" ? favIndices() : null;
+  if (list && !list.length) {
+    var note = document.createElement("div");
+    note.className = "grid-note";
+    note.textContent = "Нет избранных — отметьте станции ★";
+    grid.appendChild(note);
+    return;
+  }
+  var frag = document.createDocumentFragment();
+  var count = list ? list.length : S.length;
+  for (var k = 0; k < count; k++) {
+    (function (n) {
+      var id = S[n][0];
+      var hid = isHid(id);
+      var row = document.createElement("div");
+      row.className = "grow" + (hid ? " hidden-row" : "");
+      var b = document.createElement("button");
+      b.type = "button";
+      b.innerHTML = "<b>" + esc(S[n][1]) + "</b><i>id " + esc(id) + "</i>";
+      b.onclick = function () { openStation(n); };
+      var acts = document.createElement("span");
+      acts.className = "acts";
+      var favB = document.createElement("button");
+      favB.type = "button"; favB.className = "act" + (isFav(id) ? " on" : "");
+      favB.textContent = "★"; favB.title = "В избранное";
+      favB.onclick = function (e) { e.stopPropagation(); toggleFav(n); };
+      var hidB = document.createElement("button");
+      hidB.type = "button"; hidB.className = "act hide" + (hid ? " on" : "");
+      hidB.textContent = "✕"; hidB.title = hid ? "Вернуть в ротацию" : "Скрыть из ротации";
+      hidB.onclick = function (e) { e.stopPropagation(); toggleHide(n); };
+      acts.appendChild(favB); acts.appendChild(hidB);
+      row.appendChild(b); row.appendChild(acts);
+      frag.appendChild(row);
+    })(list ? list[k] : k);
+  }
+  grid.appendChild(frag);
+}
+
+function search(term) {
+  var drop = document.getElementById("drop");
+  term = term.trim().toLowerCase();
+  if (!term) { drop.className = "drop"; drop.innerHTML = ""; return []; }
+  var res = [];
+  for (var i = 0; i < S.length && res.length < 60; i++) {
+    if (S[i][1].toLowerCase().indexOf(term) >= 0 || S[i][0].indexOf(term) === 0) {
+      res.push(i);
+    }
+  }
+  if (!res.length) {
+    drop.className = "drop on";
+    drop.innerHTML = '<button type="button" disabled>Ничего не найдено</button>';
+    return [];
+  }
+  var out = "";
+  for (var j = 0; j < res.length; j++) {
+    out += '<button type="button" data-i="' + res[j] + '">' +
+      esc(S[res[j]][1]) + "<i>" + esc(S[res[j]][0]) + "</i></button>";
+  }
+  drop.className = "drop on";
+  drop.innerHTML = out;
+  return res;
+}
+
+function stepStation(direction) {
+  var pool = favMode ? favIndices() : null;
+  if (randomMode) {
+    if (direction < 0) {
+      if (hist.length) return openStation(hist.pop(), true);
+      return;
+    }
+    var src = pool && pool.length ? pool : null;
+    if (src) {
+      if (src.length < 2) return openStation(src[0] === idx ? idx : src[0]);
+      var pick = idx;
+      while (pick === idx) pick = src[Math.floor(Math.random() * src.length)];
+      return openStation(pick);
+    }
+    if (S.length < 2) return openStation(idx);
+    var next = idx;
+    while (next === idx) next = Math.floor(Math.random() * S.length);
+    openStation(next);
+  } else if (pool && pool.length) {
+    var pos = pool.indexOf(idx);
+    if (pos < 0) return openStation(pool[0]);
+    openStation(pool[(pos + direction + pool.length) % pool.length]);
+  } else {
+    openStation((idx + direction + S.length) % S.length);
+  }
+}
+document.getElementById("wheel-prev").onclick = function () { stepStation(-1); };
+document.getElementById("wheel-next").onclick = function () { stepStation(1); };
+var randomButton = document.getElementById("random-btn");
+randomButton.addEventListener("click", function () {
+  randomMode = !randomMode;
+  randomButton.classList.toggle("active", randomMode);
+  randomButton.setAttribute("aria-pressed", randomMode ? "true" : "false");
+  randomButton.title = randomMode ? "Случайное переключение включено" : "Случайное переключение выключено";
+  toast(randomMode ? "Случайное переключение включено" : "Обычный порядок станций");
+});
+var favListButton = document.getElementById("favlist-btn");
+var favHoldT = 0, favLongFired = false;
+
+function favModeToggle() {
+  var list = favIndices();
+  if (!list.length) { toast("Нет избранных — отметьте станции ★"); return; }
+  favMode = !favMode;
+  favListButton.classList.toggle("active", favMode);
+  favListButton.setAttribute("aria-pressed", favMode ? "true" : "false");
+  if (favMode && list.indexOf(idx) < 0) {
+    toast("Играют только избранные: " + list.length);
+    openStation(list[0]);
+    return;
+  }
+  toast(favMode ? "Играют только избранные: " + list.length : "Вся ротация станций");
+  renderHead();
+}
+
+favListButton.addEventListener("pointerdown", function (e) {
+  if (e.target && e.target.id === "fav-hint") return;
+  favLongFired = false;
+  clearTimeout(favHoldT);
+  favHoldT = setTimeout(function () { favLongFired = true; favModeToggle(); }, 550);
+});
+["pointerup", "pointercancel", "pointerleave"].forEach(function (ev) {
+  favListButton.addEventListener(ev, function () { clearTimeout(favHoldT); });
+});
+favListButton.addEventListener("contextmenu", function (e) { e.preventDefault(); });
+favListButton.addEventListener("click", function (e) {
+  if (e.target && e.target.id === "fav-hint") return;
+  if (favLongFired) { favLongFired = false; return; }
+  if (view === "grid" && gridFilter === "fav") { setView("player"); return; }
+  gridFilter = "fav";
+  setView("grid");
+});
+document.getElementById("fav-hint").addEventListener("click", function (e) {
+  e.stopPropagation();
+  e.preventDefault();
+  toast("Избранное: тап — список ★, зажать (~0.5с) — играть только избранные");
+});
+var skinButton = document.getElementById("skin-btn");
+var skinNames = ["Серебристый", "Hi-Fi графит", "Белый минимализм", "Неоновый", "Чёрный с хромом"];
+var skinClasses = ["", "skin-hifi", "skin-white", "skin-neon", "skin-chrome"];
+var skinIndex = 0;
+skinButton.addEventListener("click", function () {
+  skinIndex = (skinIndex + 1) % skinClasses.length;
+  skinClasses.forEach(function (cls) { if (cls) document.body.classList.remove(cls); });
+  if (skinClasses[skinIndex]) document.body.classList.add(skinClasses[skinIndex]);
+  skinButton.title = "Сменить оформление (сейчас: " + skinNames[skinIndex] + ")";
+  toast("Оформление: " + skinNames[skinIndex]);
+});
+document.getElementById("copy-code").addEventListener("click", function () {
+  var code = embedCode(S[idx]);
+  function copied() { toast("Код станции скопирован"); }
+  function fallbackCopy() {
+    var t = document.getElementById("codetext");
+    t.value = code; t.style.position = "fixed"; t.style.left = "0"; t.style.opacity = "0.01";
+    t.select();
+    try { if (document.execCommand("copy")) copied(); else toast("Не удалось скопировать код"); }
+    catch (e) { toast("Не удалось скопировать код"); }
+    t.style.position = "absolute"; t.style.left = "-9999px"; t.style.opacity = "0";
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(code).then(copied).catch(fallbackCopy);
+  else fallbackCopy();
+});
+
+// Mobile browsers reject automatic fullscreen on load. Request it on the first real tap/click.
+var fullscreenAttempted = false;
+function requestFirstFullscreen() {
+  if (fullscreenAttempted || document.fullscreenElement || document.webkitFullscreenElement) return;
+  fullscreenAttempted = true;
+  var target = document.documentElement;
+  var request = target.requestFullscreen || target.webkitRequestFullscreen;
+  if (request) {
+    try { var result = request.call(target); if (result && result.catch) result.catch(function () {}); } catch (e) {}
+  }
+}
+document.addEventListener("pointerdown", requestFirstFullscreen, {once:true, passive:true});
+// The wheel's center delegates to the radio site's own play/pause control.
+// This preserves the provider's original playback handler instead of replacing it.
+var wheelHub = document.getElementById("wheel-hub");
+var wheelGlyph = document.getElementById("wheel-play-glyph");
+function syncWheelGlyph() {
+  var playing = false;
+  try {
+    var d = stationFrame && stationFrame.contentDocument;
+    var m = d && d.querySelector("audio,video");
+    playing = !!(m && !m.paused && !m.ended);
+  } catch (e) {}
+  wheelGlyph.innerHTML = playing
+    ? '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M11 9 H20 V39 H11 Z M28 9 H37 V39 H28 Z"/></svg>'
+    : '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M15 7 L41 24 L15 41 Z"/></svg>';
+  document.body.classList.toggle("playing", playing);
+}
+wheelHub.addEventListener("click", function () {
+  var innerDoc = null;
+  try { innerDoc = stationFrame.contentDocument; } catch (e) {}
+  var original = innerDoc && innerDoc.querySelector(".RP-PLAYER-CONTROL");
+  if (original) {
+    original.click();
+    setTimeout(syncWheelGlyph, 250);
+    setTimeout(syncWheelGlyph, 900);
+  } else {
+    toast("Радиоплеер ещё загружается. Попробуйте через секунду.");
+  }
+});
+setInterval(syncWheelGlyph, 1200);
+document.getElementById("wheel-all").onclick = function () {
+  if (view === "grid" && gridFilter === "all") { setView("player"); return; }
+  gridFilter = "all";
+  setView("grid");
+};
+document.getElementById("wheel-station").onclick = function () {
+  var box = document.getElementById("findbox");
+  box.classList.toggle("open");
+  if (box.classList.contains("open")) { q.focus(); }
+  else { q.value = ""; search(""); }
+};
+
+var q = document.getElementById("q");
+q.addEventListener("input", function () { search(q.value); });
+q.addEventListener("focus", function () { if (q.value) search(q.value); });
+q.addEventListener("keydown", function (e) {
+  if (e.key === "Enter") {
+    var first = search(q.value);
+    if (first.length) openStation(first[0]);
+  } else if (e.key === "Escape") {
+    q.value = "";
+    search("");
+    q.blur();
+  }
+});
+document.getElementById("drop").addEventListener("click", function (e) {
+  var b = e.target.closest ? e.target.closest("button[data-i]") : null;
+  if (b) openStation(parseInt(b.getAttribute("data-i"), 10));
+});
+document.addEventListener("click", function (e) {
+  if (!(e.target.closest && e.target.closest(".find"))) {
+    document.getElementById("drop").className = "drop";
+  }
+});
+document.addEventListener("keydown", function (e) {
+  if (e.target && (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA")) return;
+  if (e.key === "ArrowLeft") stepStation(-1);
+  else if (e.key === "ArrowRight") stepStation(1);
+  else if (e.key === "/") { e.preventDefault(); q.focus(); }
+});
+
+// ---- данные с сервера: избранное / скрытые / список станций ----
+var FAV = {};   // id -> true
+var HID = {};   // id -> true
+
+function isFav(id) { return !!FAV[id]; }
+function isHid(id) { return !!HID[id]; }
+
+// избранные, но не скрытые — пул для режима «только избранные»
+function favIndices() {
+  var out = [];
+  for (var i = 0; i < S.length; i++) {
+    var id = S[i][0];
+    if (FAV[id] && !HID[id]) out.push(i);
+  }
+  return out;
+}
+
+function postJSON(url, data) {
+  return fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data)
+  }).then(function (r) { return r.json(); }).catch(function () {});
+}
+
+function toggleFav(i) {
+  var id = S[i][0];
+  if (FAV[id]) delete FAV[id]; else FAV[id] = true;
+  postJSON("/api/favorites", { id: id });
+  if (view === "grid") renderGrid();
+  syncFavMode();
+}
+
+function toggleHide(i) {
+  var id = S[i][0];
+  if (HID[id]) delete HID[id]; else HID[id] = true;
+  postJSON("/api/hidden", { id: id });
+  if (view === "grid") renderGrid();
+  toast(HID[id] ? "Скрыто из ротации" : "Возвращено в ротацию");
+  syncFavMode();
+}
+
+// если в режиме «только избранные» пул опустел — выключаем режим
+function syncFavMode() {
+  if (!favMode) return;
+  if (!favIndices().length) {
+    favMode = false;
+    if (favListButton) {
+      favListButton.classList.remove("active");
+      favListButton.setAttribute("aria-pressed", "false");
+    }
+    toast("Избранные закончились — вся ротация станций");
+  }
+  renderHead();
+}
+
+function updateCornerBtns() {
+  if (idx < 0 || !S.length) return;
+  var id = S[idx][0];
+  var hid = isHid(id), fav = isFav(id);
+  var hb = document.getElementById("hide-btn");
+  var fb = document.getElementById("fav-btn");
+  if (hb) { hb.classList.toggle("active", hid); hb.title = hid ? "Вернуть в ротацию" : "Скрыть из ротации"; }
+  if (fb) { fb.classList.toggle("active", fav); fb.title = fav ? "Убрать из избранного" : "В избранное"; }
+}
+document.getElementById("hide-btn").onclick = function () { toggleHide(idx); updateCornerBtns(); };
+document.getElementById("fav-btn").onclick = function () { toggleFav(idx); updateCornerBtns(); };
+
+function bootWeb() {
+  Promise.all([
+    fetch("/api/stations").then(function (r) { return r.json(); }),
+    fetch("/api/favorites").then(function (r) { return r.json(); }),
+    fetch("/api/hidden").then(function (r) { return r.json(); })
+  ]).then(function (res) {
+    S = res[0] || [];
+    FAV = {}; (res[1] || []).forEach(function (id) { FAV[id] = true; });
+    HID = {}; (res[2] || []).forEach(function (id) { HID[id] = true; });
+    var parts = (location.hash || "").replace(/^#/, "").split("/");
+    for (var i = 0; i < S.length; i++) if (S[i][0] === parts[0]) { idx = i; break; }
+    var foot = document.querySelector("footer");
+    if (foot) foot.textContent = S.length + " STATIONS · radiopotok.ru";
+    renderHead();
+    applyNav();
+    if (view === "grid") {
+      document.getElementById("grid").hidden = false;
+      renderGrid();
+      fadeIn();
+    } else {
+      document.getElementById("grid").hidden = true;
+      if (S.length) { loadStationFrame(idx, !!STATE.auto); startTrackPoll(); }
+      else fadeIn();
+    }
+  }).catch(function (e) {
+    console.error("bootWeb", e);
+    fadeIn();
+    toast("Не удалось загрузить список станций");
+  });
+}
+bootWeb();
+</script>
+</body>
+</html>
