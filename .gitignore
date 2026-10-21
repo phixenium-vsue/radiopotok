@@ -8,5 +8,6 @@ __pycache__/
 *.log
 radio.zip
 askpass.sh
+radiopotok-setup.run
 data/*
 !data/.gitkeep
