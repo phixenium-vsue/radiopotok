@@ -1,5432 +1,5532 @@
 [
-{
-"id": "1323",
-"name": "Маруся ФМ",
-"path": "/radio/1323"
-},
-{
-"id": "85",
-"name": "Русское Радио",
-"path": "/radio/85"
-},
-{
-"id": "1543",
-"name": "Русская Волна",
-"path": "/radio/1543"
-},
-{
-"id": "644",
-"name": "Вести FM",
-"path": "/radio/644"
-},
-{
-"id": "2449",
-"name": "НАРОДНОЕ РАДИО «РОДНИКИ»",
-"path": "/rodniki"
-},
-{
-"id": "1576",
-"name": "Европа Плюс",
-"path": "/radio/1576"
-},
-{
-"id": "603",
-"name": "Радио Монте-Карло",
-"path": "/radio/603"
-},
-{
-"id": "780",
-"name": "Шоколад",
-"path": "/radio/780"
-},
-{
-"id": "83",
-"name": "Дорожное радио Санкт-Петербург 87.5 FM",
-"path": "/radio/83"
-},
-{
-"id": "2178",
-"name": "Соловьёв LIVE FM",
-"path": "/radio/2178"
-},
-{
-"id": "1260",
-"name": "SOUNDPARK DEEP",
-"path": "/radio/1260"
-},
-{
-"id": "1570",
-"name": "Ретро Хит",
-"path": "/radio/1570"
-},
-{
-"id": "2",
-"name": "Радио Шансон",
-"path": "/radioshanson"
-},
-{
-"id": "1594",
-"name": "Русский Рок",
-"path": "/radio/1594"
-},
-{
-"id": "78",
-"name": "Авторадио",
-"path": "/radio/78"
-},
-{
-"id": "221",
-"name": "Новое радио 98.4 FM",
-"path": "/radio/221"
-},
-{
-"id": "487",
-"name": "Хорошее Радио",
-"path": "/radio/487"
-},
-{
-"id": "1992",
-"name": "TOP 100",
-"path": "/top100"
-},
-{
-"id": "1218",
-"name": "ТНТ MUSIC RADIO",
-"path": "/radio/1218"
-},
-{
-"id": "542",
-"name": "Атмосфера",
-"path": "/radio/542"
-},
-{
-"id": "1901",
-"name": "Remix FM",
-"path": "/radio/1901"
-},
-{
-"id": "962",
-"name": "Sputnik",
-"path": "/radio/962"
-},
-{
-"id": "177",
-"name": "Романтика",
-"path": "/radio/177"
-},
-{
-"id": "1743",
-"name": "Дядя Ваня на даче 18+",
-"path": "/vanya"
-},
-{
-"id": "1601",
-"name": "Radio Cafe",
-"path": "/radio/1601"
-},
-{
-"id": "1496",
-"name": "[RCM] DEEP",
-"path": "/radio/1496"
-},
-{
-"id": "93",
-"name": "Радио 7 на семи холмах",
-"path": "/radio/93"
-},
-{
-"id": "89",
-"name": "Маяк",
-"path": "/radio/89"
-},
-{
-"id": "2696",
-"name": "Песни от всей души",
-"path": "/povd"
-},
-{
-"id": "35",
-"name": "Радио PREMIUM / ПРЕМИУМ",
-"path": "/radio/35"
-},
-{
-"id": "33",
-"name": "Наше Радио",
-"path": "/nashe-radio"
-},
-{
-"id": "4",
-"name": "Радио ЭНЕРДЖИ (NRG)",
-"path": "/energy"
-},
-{
-"id": "526",
-"name": "Comedy Radio",
-"path": "/radio/526"
-},
-{
-"id": "597",
-"name": "Relax FM",
-"path": "/radio/597"
-},
-{
-"id": "64",
-"name": "Юмор FM",
-"path": "/radio/64"
-},
-{
-"id": "2176",
-"name": "BEST DEEP FM",
-"path": "/radio/2176"
-},
-{
-"id": "1021",
-"name": "Комсомольская правда Россия",
-"path": "/radio/1021"
-},
-{
-"id": "88",
-"name": "DFM Москва",
-"path": "/radio/88"
-},
-{
-"id": "1627",
-"name": "Народное радио",
-"path": "/radio/1627"
-},
-{
-"id": "2685",
-"name": "ZHUKOV FM | DEEP RADIO",
-"path": "/zhukovfm"
-},
-{
-"id": "495",
-"name": "Радио Звезда",
-"path": "/radio/495"
-},
-{
-"id": "67",
-"name": "Радио Рекорд / Record",
-"path": "/radio/67"
-},
-{
-"id": "1959",
-"name": "Радио Советская эстрада",
-"path": "/radio/1959"
-},
-{
-"id": "767",
-"name": "Эльдорадио",
-"path": "/radio/767"
-},
-{
-"id": "87",
-"name": "Максимум",
-"path": "/radio/87"
-},
-{
-"id": "257",
-"name": "Русский хит",
-"path": "/radio/257"
-},
-{
-"id": "1539",
-"name": "Шансон без цензуры",
-"path": "/radio/1539"
-},
-{
-"id": "1006",
-"name": "Радио ИСКАТЕЛЬ",
-"path": "/radio/1006"
-},
-{
-"id": "1511",
-"name": "Absolute Chillout",
-"path": "/radio/1511"
-},
-{
-"id": "2170",
-"name": "DEEP FM",
-"path": "/radio/2170"
-},
-{
-"id": "369",
-"name": "Радио Русские Популярные Песни",
-"path": "/radio/369"
-},
-{
-"id": "626",
-"name": "Душевное Радио",
-"path": "/radio/626"
-},
-{
-"id": "1567",
-"name": "ХАЙП FM",
-"path": "/radio/1567"
-},
-{
-"id": "2508",
-"name": "Хит FM",
-"path": "/hitfm"
-},
-{
-"id": "1767",
-"name": "ЛЁГКОЕ РАДИО",
-"path": "/radio/1767"
-},
-{
-"id": "2468",
-"name": "Радио СИТИ",
-"path": "/100i6fm"
-},
-{
-"id": "721",
-"name": "Радио «Книга»",
-"path": "/radio/721"
-},
-{
-"id": "308",
-"name": "Радио Джаз 89.1",
-"path": "/radio/308"
-},
-{
-"id": "2253",
-"name": "СВОЕFM | DEEP RADIO",
-"path": "/radio/2253"
-},
-{
-"id": "2066",
-"name": "Rock FM",
-"path": "/radio/2066"
-},
-{
-"id": "422",
-"name": "Радио Вера",
-"path": "/radio/422"
-},
-{
-"id": "472",
-"name": "Costa Del Mar – Chillout",
-"path": "/radio/472"
-},
-{
-"id": "236",
-"name": "Радио «Спокойное»",
-"path": "/radio/236"
-},
-{
-"id": "129",
-"name": "Милицейская Волна",
-"path": "/radio/129"
-},
-{
-"id": "1926",
-"name": "Overdrive Live! Station",
-"path": "/radio/1926"
-},
-{
-"id": "773",
-"name": "Питер FM 100.9",
-"path": "/radio/773"
-},
-{
-"id": "1540",
-"name": "Романтический шансон",
-"path": "/radio/1540"
-},
-{
-"id": "1413",
-"name": "BEST FM 100,5 FM",
-"path": "/radio/1413"
-},
-{
-"id": "1105",
-"name": "Радио Скала",
-"path": "/radio/1105"
-},
-{
-"id": "36",
-"name": "Fréquence 3",
-"path": "/radio/36"
-},
-{
-"id": "2267",
-"name": "Радио Легенда",
-"path": "/radio/2267"
-},
-{
-"id": "2576",
-"name": "Радио Мастера Беларуси",
-"path": "/masterabelarusi"
-},
-{
-"id": "203",
-"name": "Whisperings",
-"path": "/radio/203"
-},
-{
-"id": "2457",
-"name": "PIKIVOK 18+",
-"path": "/pikivok"
-},
-{
-"id": "1365",
-"name": "Орфей",
-"path": "/radio/1365"
-},
-{
-"id": "63",
-"name": "Бизнес ФМ",
-"path": "/radio/63"
-},
-{
-"id": "614",
-"name": "Коммерсантъ FM",
-"path": "/radio/614"
-},
-{
-"id": "638",
-"name": "Радио Ностальжи Россия",
-"path": "/radio/638"
-},
-{
-"id": "61",
-"name": "Radio Swiss Jazz",
-"path": "/radio/61"
-},
-{
-"id": "79",
-"name": "Радио Фантастики",
-"path": "/radio/79"
-},
-{
-"id": "1414",
-"name": "Радио ULTRA",
-"path": "/radio/1414"
-},
-{
-"id": "2528",
-"name": "Супер ФМ",
-"path": "/superfm"
-},
-{
-"id": "2523",
-"name": "Радио МИР",
-"path": "/radiomir"
-},
-{
-"id": "916",
-"name": "Like FM",
-"path": "/radio/916"
-},
-{
-"id": "2612",
-"name": "Радиус FM",
-"path": "/radiusfm"
-},
-{
-"id": "2585",
-"name": "Серебряный Дождь",
-"path": "/silver"
-},
-{
-"id": "1175",
-"name": "РУССКОЕ FM",
-"path": "/radio/1175"
-},
-{
-"id": "602",
-"name": "Дорожное радио Златоуст",
-"path": "/radio/602"
-},
-{
-"id": "2679",
-"name": "Радио Рокс",
-"path": "/roks"
-},
-{
-"id": "893",
-"name": "90s Eurodance",
-"path": "/radio/893"
-},
-{
-"id": "38",
-"name": "1.FM – TOP 40",
-"path": "/radio/38"
-},
-{
-"id": "208",
-"name": "Mixadance Fm Online Radio",
-"path": "/radio/208"
-},
-{
-"id": "1734",
-"name": "Fitness Radio",
-"path": "/radio/1734"
-},
-{
-"id": "784",
-"name": "Казак FM",
-"path": "/radio/784"
-},
-{
-"id": "2349",
-"name": "TranceProgExpress",
-"path": "/tranceprogexpress"
-},
-{
-"id": "2532",
-"name": "Топ Радио",
-"path": "/topradiofm"
-},
-{
-"id": "1297",
-"name": "Радио Радонеж",
-"path": "/radio/1297"
-},
-{
-"id": "2475",
-"name": "Радио Мегаполис",
-"path": "/radio-megapolis"
-},
-{
-"id": "2663",
-"name": "SmoothJazz",
-"path": "/smoothjazz"
-},
-{
-"id": "2682",
-"name": "Радио РБК",
-"path": "/rbc"
-},
-{
-"id": "677",
-"name": "Говорит Москва",
-"path": "/radio/677"
-},
-{
-"id": "1262",
-"name": "ChilloutFM",
-"path": "/radio/1262"
-},
-{
-"id": "1740",
-"name": "РАДИО ДЛЯ ВЗРОСЛЫХ",
-"path": "/radio/1740"
-},
-{
-"id": "2341",
-"name": "Книга Вслух",
-"path": "/KnigaVsluh"
-},
-{
-"id": "162",
-"name": "МЕГА РАДИО",
-"path": "/radio/162"
-},
-{
-"id": "1067",
-"name": "Radio Monte Carlo Lounge",
-"path": "/radio/1067"
-},
-{
-"id": "1494",
-"name": "Beautiful Instrumentals Channel",
-"path": "/radio/1494"
-},
-{
-"id": "2624",
-"name": "METALчет",
-"path": "/metalchet"
-},
-{
-"id": "844",
-"name": "Татар Радиосы",
-"path": "/radio/844"
-},
-{
-"id": "2442",
-"name": "Радио Эрмитаж",
-"path": "/hermitage"
-},
-{
-"id": "2462",
-"name": "Джем FM",
-"path": "/jamfm"
-},
-{
-"id": "650",
-"name": "Noise FM",
-"path": "/radio/650"
-},
-{
-"id": "1796",
-"name": "Super-Radio Dance",
-"path": "/radio/1796"
-},
-{
-"id": "1465",
-"name": "Модель для сборки / МДС",
-"path": "/radio/1465"
-},
-{
-"id": "2288",
-"name": "Известия",
-"path": "/iz"
-},
-{
-"id": "2031",
-"name": "Родные Песни",
-"path": "/RodnyePesni"
-},
-{
-"id": "2078",
-"name": "Cassiopeia Station (Наука)",
-"path": "/radio/2078"
-},
-{
-"id": "2296",
-"name": "Radio Swiss Classic",
-"path": "/radioswissclassic"
-},
-{
-"id": "2311",
-"name": "LoFi Радио",
-"path": "/lofiradio"
-},
-{
-"id": "2074",
-"name": "Радио Монте-Карло Санкт-Петербург 105.9 FM",
-"path": "/radio/2074"
-},
-{
-"id": "2492",
-"name": "Авторадио Беларусь",
-"path": "/avtoradioby"
-},
-{
-"id": "1791",
-"name": "MOTORADIO LITE",
-"path": "/radio/1791"
-},
-{
-"id": "1508",
-"name": "Ibiza Radios - Hits",
-"path": "/radio/1508"
-},
-{
-"id": "2652",
-"name": "Соль FM",
-"path": "/solfm"
-},
-{
-"id": "373",
-"name": "DNB FM",
-"path": "/radio/373"
-},
-{
-"id": "1829",
-"name": "Компас FM",
-"path": "/radio/1829"
-},
-{
-"id": "1884",
-"name": "Диско-радио SOVA",
-"path": "/radio/1884"
-},
-{
-"id": "2591",
-"name": "Приморская волна",
-"path": "/primvolna"
-},
-{
-"id": "1362",
-"name": "Радио Родных Дорог",
-"path": "/radio/1362"
-},
-{
-"id": "1863",
-"name": "Всемирное Одесское радио",
-"path": "/radio/1863"
-},
-{
-"id": "2466",
-"name": "Радио Лето",
-"path": "/radioletofm"
-},
-{
-"id": "2359",
-"name": "Радио Маруся ФМ г. Гусев",
-"path": "/radiomarusya"
-},
-{
-"id": "2461",
-"name": "Радио СИ",
-"path": "/radioc"
-},
-{
-"id": "34",
-"name": "Discover Trance Radio",
-"path": "/radio/34"
-},
-{
-"id": "310",
-"name": "LOUNGE-RADIO.COM",
-"path": "/radio/310"
-},
-{
-"id": "1607",
-"name": "Центр FM 101,7 FM",
-"path": "/radio/1607"
-},
-{
-"id": "1244",
-"name": "Costa Del Mar - Smooth Sax",
-"path": "/radio/1244"
-},
-{
-"id": "2324",
-"name": "PIRAT.FM",
-"path": "/piratfmradio"
-},
-{
-"id": "2469",
-"name": "Радио СПУТНИК Волгоград 105.1 FM",
-"path": "/sputnikfm"
-},
-{
-"id": "608",
-"name": "Радио МИР.Беларусь",
-"path": "/radio/608"
-},
-{
-"id": "1689",
-"name": "MR DANCE RADIO",
-"path": "/radio/1689"
-},
-{
-"id": "2465",
-"name": "Радио Спутник 107.0 FM Екатеринбург",
-"path": "/sputnik107"
-},
-{
-"id": "1869",
-"name": "Splash Jazz",
-"path": "/radio/1869"
-},
-{
-"id": "2357",
-"name": "Старый портфель",
-"path": "/oldbrief"
-},
-{
-"id": "2398",
-"name": "Радио Гордость",
-"path": "/radiogordost"
-},
-{
-"id": "2562",
-"name": "DEEP IN SPACE",
-"path": "/deepinspace"
-},
-{
-"id": "2028",
-"name": "Classic FM",
-"path": "/ClassicFM"
-},
-{
-"id": "2408",
-"name": "Гусь.Дипхаус",
-"path": "/radiogoose-deep"
-},
-{
-"id": "2455",
-"name": "Релакс радио 24",
-"path": "/relaxradio24"
-},
-{
-"id": "1242",
-"name": "Costa Del Mar - Zen",
-"path": "/radio/1242"
-},
-{
-"id": "291",
-"name": "Радио ПАССАЖ",
-"path": "/radio/291"
-},
-{
-"id": "679",
-"name": "DEEP ONE - deep house radio",
-"path": "/radio/679"
-},
-{
-"id": "776",
-"name": "Москва FM 92.0",
-"path": "/radio/776"
-},
-{
-"id": "803",
-"name": "Радио Роксана 103.0FM",
-"path": "/radio/803"
-},
-{
-"id": "2122",
-"name": "Дискотека 80-90",
-"path": "/radio/2122"
-},
-{
-"id": "2166",
-"name": "Наш Шансон",
-"path": "/radio/2166"
-},
-{
-"id": "2490",
-"name": "Alternative X-Rock Station",
-"path": "/alternativerockstation"
-},
-{
-"id": "2565",
-"name": "Диско-радио ВЕНЕРА",
-"path": "/radiovenera"
-},
-{
-"id": "68",
-"name": "L-radio",
-"path": "/radio/68"
-},
-{
-"id": "1551",
-"name": "Радио странствий",
-"path": "/radio/1551"
-},
-{
-"id": "1395",
-"name": "Детский Хит",
-"path": "/radio/1395"
-},
-{
-"id": "1547",
-"name": "Радио Калина Красная 107.4 FM",
-"path": "/radio/1547"
-},
-{
-"id": "2033",
-"name": "Умное Радио",
-"path": "/Umnoe"
-},
-{
-"id": "2464",
-"name": "Rock Arsenal",
-"path": "/rockarsenal"
-},
-{
-"id": "477",
-"name": "SomaFM: Space Station",
-"path": "/radio/477"
-},
-{
-"id": "1676",
-"name": "HIP HOP RADIO",
-"path": "/radio/1676"
-},
-{
-"id": "801",
-"name": "Радио-Континенталь",
-"path": "/radio/801"
-},
-{
-"id": "1830",
-"name": "Любимые хиты",
-"path": "/radio/1830"
-},
-{
-"id": "1685",
-"name": "RADIO FRESH",
-"path": "/radio/1685"
-},
-{
-"id": "2316",
-"name": "Радио Шоколад ФМ",
-"path": "/chocolatefm"
-},
-{
-"id": "2034",
-"name": "Звуки Природы",
-"path": "/ZvukiPrirody"
-},
-{
-"id": "2152",
-"name": "Вечная Молодость",
-"path": "/radio/2152"
-},
-{
-"id": "2467",
-"name": "Радио Олимп",
-"path": "/olimpfm"
-},
-{
-"id": "2476",
-"name": "Радио 106.9 Тольятти",
-"path": "/106i9fm"
-},
-{
-"id": "2601",
-"name": "Русский Винтаж",
-"path": "/rusvintage"
-},
-{
-"id": "2655",
-"name": "Владивосток FM",
-"path": "/vladfm"
-},
-{
-"id": "30",
-"name": "Venice Classic Radio AUDITORIUM",
-"path": "/radio/30"
-},
-{
-"id": "1868",
-"name": "Splash Classical",
-"path": "/radio/1868"
-},
-{
-"id": "2163",
-"name": "Ночной звонок",
-"path": "/radio/2163"
-},
-{
-"id": "2500",
-"name": "DANCE FM",
-"path": "/dance-radio"
-},
-{
-"id": "2445",
-"name": "Забытая кассета",
-"path": "/radio-casseta"
-},
-{
-"id": "2614",
-"name": "Живая природа",
-"path": "/priroda"
-},
-{
-"id": "2650",
-"name": "Boombox Life",
-"path": "/boombox"
-},
-{
-"id": "76",
-"name": "Megapolis FM",
-"path": "/radio/76"
-},
-{
-"id": "127",
-"name": "GTI Radio - Trance",
-"path": "/radio/127"
-},
-{
-"id": "1369",
-"name": "Radio Kamchatka LIVE - Dance Radio",
-"path": "/radio/1369"
-},
-{
-"id": "491",
-"name": "161Fm",
-"path": "/radio/491"
-},
-{
-"id": "1164",
-"name": "Радио Bananastreet",
-"path": "/radio/1164"
-},
-{
-"id": "1986",
-"name": "Wow Music Русское",
-"path": "/radio/1986"
-},
-{
-"id": "2030",
-"name": "Мурка FM",
-"path": "/murka"
-},
-{
-"id": "2032",
-"name": "Сказка FM",
-"path": "/skazka"
-},
-{
-"id": "1450",
-"name": "Русское Радио: Русское Кино",
-"path": "/radio/1450"
-},
-{
-"id": "2355",
-"name": "Magnatosphere",
-"path": "/magnatos"
-},
-{
-"id": "2363",
-"name": "Musi-Q",
-"path": "/musi-q"
-},
-{
-"id": "2381",
-"name": "Deep Dub Tech",
-"path": "/ddtradio"
-},
-{
-"id": "2524",
-"name": "Радио Небесных Сфер",
-"path": "/sky"
-},
-{
-"id": "2424",
-"name": "Садовод",
-"path": "/gardener"
-},
-{
-"id": "2463",
-"name": "Радио Пилот Екатеринбург 100.4 FM",
-"path": "/pilotfm"
-},
-{
-"id": "2627",
-"name": "Luxury Music",
-"path": "/luxury"
-},
-{
-"id": "2656",
-"name": "Авторадио Владивосток",
-"path": "/avtoradio25"
-},
-{
-"id": "1048",
-"name": "Православное радио «Воскресение»",
-"path": "/radio/1048"
-},
-{
-"id": "1690",
-"name": "Супер-радио",
-"path": "/radio/1690"
-},
-{
-"id": "730",
-"name": "Детское радио",
-"path": "/radio/730"
-},
-{
-"id": "814",
-"name": "Радио mCm 102.1 FM",
-"path": "/radio/814"
-},
-{
-"id": "1843",
-"name": "1PVK RusRAP",
-"path": "/radio/1843"
-},
-{
-"id": "2100",
-"name": "Калейдоскоп:Шансон",
-"path": "/radio/2100"
-},
-{
-"id": "2252",
-"name": "New Age",
-"path": "/NewAge"
-},
-{
-"id": "2256",
-"name": "Radio Legends",
-"path": "/radio/2256"
-},
-{
-"id": "1960",
-"name": "Монстры Рока СССР",
-"path": "/Monsters-of-Rock"
-},
-{
-"id": "2285",
-"name": "Retro LAN Party",
-"path": "/radio/2285"
-},
-{
-"id": "2491",
-"name": "Радио Камчатка 105.5fm",
-"path": "/radiokamchatka"
-},
-{
-"id": "2507",
-"name": "MEGATON CAFE RADIO",
-"path": "/megatoncaferadio"
-},
-{
-"id": "2367",
-"name": "Радио Краснодар",
-"path": "/tvkrasnodar"
-},
-{
-"id": "2471",
-"name": "Радио 99.1 FM Красноярск",
-"path": "/99i1"
-},
-{
-"id": "2477",
-"name": "Ульяновск FM",
-"path": "/ulskfm"
-},
-{
-"id": "2603",
-"name": "Юмор FM. Анекдоты",
-"path": "/anekdoty"
-},
-{
-"id": "469",
-"name": "181.FM - Chilled Out",
-"path": "/radio/469"
-},
-{
-"id": "44",
-"name": "Swiss Internet Radio Classical",
-"path": "/radio/44"
-},
-{
-"id": "940",
-"name": "House Monkey",
-"path": "/radio/940"
-},
-{
-"id": "110",
-"name": "Детское радио (Старое радио)",
-"path": "/radio/110"
-},
-{
-"id": "133",
-"name": "БИМ радио",
-"path": "/radio/133"
-},
-{
-"id": "192",
-"name": "Ночное такси",
-"path": "/radio/192"
-},
-{
-"id": "1510",
-"name": "Ibiza Radios – Smooth Jazz",
-"path": "/radio/1510"
-},
-{
-"id": "1582",
-"name": "Мегахит",
-"path": "/radio/1582"
-},
-{
-"id": "1778",
-"name": "Радио Шторм",
-"path": "/radio/1778"
-},
-{
-"id": "1828",
-"name": "RockTime Radio",
-"path": "/radio/1828"
-},
-{
-"id": "827",
-"name": "Кузбасс FM",
-"path": "/radio/827"
-},
-{
-"id": "1878",
-"name": "1000 HITS 80s",
-"path": "/radio/1878"
-},
-{
-"id": "915",
-"name": "Costa Del Mar - Deep–House",
-"path": "/radio/915"
-},
-{
-"id": "918",
-"name": "Sax4Love",
-"path": "/radio/918"
-},
-{
-"id": "1978",
-"name": "Радио Старого Полковника",
-"path": "/radio/1978"
-},
-{
-"id": "1371",
-"name": "Radio Kamchatka LIVE - Chilout Radio",
-"path": "/radio/1371"
-},
-{
-"id": "2027",
-"name": "Chilla FM",
-"path": "/ChillaFM"
-},
-{
-"id": "2116",
-"name": "Яхт-Радио",
-"path": "/radio/2116"
-},
-{
-"id": "1827",
-"name": "Радио Патриот",
-"path": "/radio/1827"
-},
-{
-"id": "2281",
-"name": "Music Box Radio",
-"path": "/radio/2281"
-},
-{
-"id": "2313",
-"name": "RadIO Chicago.161",
-"path": "/161chicago"
-},
-{
-"id": "2432",
-"name": "CosmosFM",
-"path": "/cosmosfm"
-},
-{
-"id": "2362",
-"name": "Всесоюзное радио онлайн",
-"path": "/ussr.radio.online"
-},
-{
-"id": "2384",
-"name": "Нормальное радио",
-"path": "/radionorm"
-},
-{
-"id": "2443",
-"name": "Радио Джем",
-"path": "/jam_radio"
-},
-{
-"id": "2580",
-"name": "ГУСЬ.Транс",
-"path": "/radiogoose-trance"
-},
-{
-"id": "2473",
-"name": "Радио АЛЬФА",
-"path": "/alfafm"
-},
-{
-"id": "2610",
-"name": "M.Deep Radio",
-"path": "/mdeep"
-},
-{
-"id": "2637",
-"name": "Малина FM",
-"path": "/malinafm"
-},
-{
-"id": "3",
-"name": "Business FM 107.4 (Петербург)",
-"path": "/radio/3"
-},
-{
-"id": "94",
-"name": "Radio Alpha FM",
-"path": "/radio/94"
-},
-{
-"id": "1342",
-"name": "Комсомольская правда - Санкт-Петербург",
-"path": "/radio/1342"
-},
-{
-"id": "465",
-"name": "Ambient Sleeping Pill",
-"path": "/radio/465"
-},
-{
-"id": "1710",
-"name": "Healing Music",
-"path": "/radio/1710"
-},
-{
-"id": "1717",
-"name": "Yoga Chill",
-"path": "/radio/1717"
-},
-{
-"id": "666",
-"name": "Радио Лучшие Песни",
-"path": "/radio/666"
-},
-{
-"id": "1733",
-"name": "Epic Radio",
-"path": "/epicradio"
-},
-{
-"id": "744",
-"name": "«Красноярск Главный» на FM 102.8",
-"path": "/radio/744"
-},
-{
-"id": "883",
-"name": "Чикен FM",
-"path": "/radio/883"
-},
-{
-"id": "1966",
-"name": "Радио Редкие Рыбы",
-"path": "/radio/1966"
-},
-{
-"id": "1168",
-"name": "Metaradio",
-"path": "/radio/1168"
-},
-{
-"id": "2018",
-"name": "Интерволна Челябинск",
-"path": "/radio/2018"
-},
-{
-"id": "2029",
-"name": "Radio FUNK",
-"path": "/FUNK"
-},
-{
-"id": "2063",
-"name": "Радио Христианская Песня",
-"path": "/radio/2063"
-},
-{
-"id": "1460",
-"name": "Музыка кино",
-"path": "/radio/1460"
-},
-{
-"id": "2107",
-"name": "SOHO FM / DEEP HOUSE",
-"path": "/radio/2107"
-},
-{
-"id": "2156",
-"name": "Радио Азамат",
-"path": "/radio/2156"
-},
-{
-"id": "1626",
-"name": "Cafe Del Mar",
-"path": "/radio/1626"
-},
-{
-"id": "2205",
-"name": "The Sound of Phonk",
-"path": "/radio/2205"
-},
-{
-"id": "2229",
-"name": "Ретроклуб Радиотеатр",
-"path": "/radio/2229"
-},
-{
-"id": "1963",
-"name": "Ретроклуб",
-"path": "/radio/1963"
-},
-{
-"id": "2005",
-"name": "ElectroLife",
-"path": "/e"
-},
-{
-"id": "2145",
-"name": "РЕТРО РАДИО",
-"path": "/radio/2145"
-},
-{
-"id": "2378",
-"name": "Kamonoff radio",
-"path": "/kamonfm"
-},
-{
-"id": "2282",
-"name": "Русские Песни",
-"path": "/radio/2282"
-},
-{
-"id": "2423",
-"name": "LITE FM",
-"path": "/litefm"
-},
-{
-"id": "2386",
-"name": "Альфа Радио",
-"path": "/alfaradioby"
-},
-{
-"id": "2564",
-"name": "Катюша FM",
-"path": "/katushafm"
-},
-{
-"id": "2489",
-"name": "МАКС FM",
-"path": "/maksfm"
-},
-{
-"id": "2510",
-"name": "Алтай FM",
-"path": "/altaifm"
-},
-{
-"id": "2530",
-"name": "Радио Панельных Домов",
-"path": "/panelka"
-},
-{
-"id": "2676",
-"name": "Радио Благо",
-"path": "/radioblago"
-},
-{
-"id": "2686",
-"name": "SUNO-FM.RU",
-"path": "/sunofm"
-},
-{
-"id": "2706",
-"name": "ROYALRADIO 98/6 FM",
-"path": "/royalradio"
-},
-{
-"id": "457",
-"name": "Старое радио — музыка",
-"path": "/radio/457"
-},
-{
-"id": "55",
-"name": "JazzRadio",
-"path": "/radio/55"
-},
-{
-"id": "56",
-"name": "Radio Dismuke",
-"path": "/radio/56"
-},
-{
-"id": "57",
-"name": "SwissRadio Jazz/Swing",
-"path": "/radio/57"
-},
-{
-"id": "80",
-"name": "Радио Сибирь",
-"path": "/radio/80"
-},
-{
-"id": "1051",
-"name": "Народная Волна Чикаго",
-"path": "/radio/1051"
-},
-{
-"id": "1152",
-"name": "Slow Radio",
-"path": "/radio/1152"
-},
-{
-"id": "103",
-"name": "Комсомольская правда в Красноярске 107,1 FM",
-"path": "/radio/103"
-},
-{
-"id": "118",
-"name": "Новая Жизнь",
-"path": "/radio/118"
-},
-{
-"id": "145",
-"name": "Пилот-Радио",
-"path": "/radio/145"
-},
-{
-"id": "1333",
-"name": "Costa Del Mar – Dance",
-"path": "/radio/1333"
-},
-{
-"id": "1343",
-"name": "Комсомольская правда - Самара",
-"path": "/radio/1343"
-},
-{
-"id": "1427",
-"name": "Радио «Петербург»",
-"path": "/radio/1427"
-},
-{
-"id": "1512",
-"name": "New Age Radio",
-"path": "/radio/1512"
-},
-{
-"id": "1528",
-"name": "AlexFM LetsRock",
-"path": "/radio/1528"
-},
-{
-"id": "1556",
-"name": "Машенька",
-"path": "/radio/1556"
-},
-{
-"id": "1650",
-"name": "ROCK СТАНЦИЯ",
-"path": "/radio/1650"
-},
-{
-"id": "620",
-"name": "УВБ-76",
-"path": "/radio/620"
-},
-{
-"id": "1681",
-"name": "Lux-Radio",
-"path": "/radio/1681"
-},
-{
-"id": "1707",
-"name": "Deep House Ibiza",
-"path": "/radio/1707"
-},
-{
-"id": "1716",
-"name": "Time To Relax",
-"path": "/radio/1716"
-},
-{
-"id": "1736",
-"name": "FM 80 FUNKY MUSIC",
-"path": "/radio/1736"
-},
-{
-"id": "1800",
-"name": "RadioMIX",
-"path": "/radio/1800"
-},
-{
-"id": "1807",
-"name": "Шансон (Орск)",
-"path": "/radio/1807"
-},
-{
-"id": "822",
-"name": "BOLID FM",
-"path": "/radio/822"
-},
-{
-"id": "1839",
-"name": "Radio Air TOUCH",
-"path": "/radio/1839"
-},
-{
-"id": "1847",
-"name": "Радио Колыма 107.5 Fm",
-"path": "/radio/1847"
-},
-{
-"id": "1870",
-"name": "Splash 80s",
-"path": "/radio/1870"
-},
-{
-"id": "1887",
-"name": "Geek-Speak D&B Station",
-"path": "/radio/1887"
-},
-{
-"id": "1925",
-"name": "Бродяга On-Line",
-"path": "/radio/1925"
-},
-{
-"id": "1010",
-"name": "Первое сетевое",
-"path": "/radio/1010"
-},
-{
-"id": "1087",
-"name": "NU EUPHORIA Online Trance Radio",
-"path": "/radio/1087"
-},
-{
-"id": "1969",
-"name": "Антология",
-"path": "/radio/1969"
-},
-{
-"id": "1216",
-"name": "Интернет Онлайн Радио SPB1",
-"path": "/radio/1216"
-},
-{
-"id": "1300",
-"name": "Радио Dendy-Collection",
-"path": "/radio/1300"
-},
-{
-"id": "1995",
-"name": "Li Soul FM",
-"path": "/radio/1995"
-},
-{
-"id": "2006",
-"name": "Радио Пляж",
-"path": "/radio/2006"
-},
-{
-"id": "2010",
-"name": "Radio Exclusive FM",
-"path": "/radio/2010"
-},
-{
-"id": "1477",
-"name": "DFM Орск 104.1 FM",
-"path": "/radio/1477"
-},
-{
-"id": "2108",
-"name": "МВ-Радио",
-"path": "/radio/2108"
-},
-{
-"id": "1489",
-"name": "SomaFM: Drone Zone",
-"path": "/radio/1489"
-},
-{
-"id": "1527",
-"name": "UltraPlay",
-"path": "/radio/1527"
-},
-{
-"id": "1549",
-"name": "Baby FM",
-"path": "/radio/1549"
-},
-{
-"id": "2161",
-"name": "Радио Nostalgie Perm",
-"path": "/radio/2161"
-},
-{
-"id": "1614",
-"name": "Севастополь FM",
-"path": "/radio/1614"
-},
-{
-"id": "1651",
-"name": "LightRadio",
-"path": "/radio/1651"
-},
-{
-"id": "1700",
-"name": "Radio 4YOU (Радио фо ю)",
-"path": "/radio/1700"
-},
-{
-"id": "1757",
-"name": "Bay Smooth Jazz",
-"path": "/radio/1757"
-},
-{
-"id": "1793",
-"name": "ПИРАМИДА",
-"path": "/radio/1793"
-},
-{
-"id": "1860",
-"name": "Cassiopeia Station",
-"path": "/radio/1860"
-},
-{
-"id": "1861",
-"name": "AniSonFM",
-"path": "/radio/1861"
-},
-{
-"id": "1872",
-"name": "Sky Radio",
-"path": "/radio/1872"
-},
-{
-"id": "2283",
-"name": "DJIN FM",
-"path": "/radio/2283"
-},
-{
-"id": "1981",
-"name": "Радио Nostalgie Махачкала",
-"path": "/radio/1981"
-},
-{
-"id": "2315",
-"name": "Радио ногинска (Богородский ФМ)",
-"path": "/radionoginsk"
-},
-{
-"id": "2026",
-"name": "Радио Новый Год 2026",
-"path": "/radio/2026"
-},
-{
-"id": "2110",
-"name": "RADIO24",
-"path": "/radio/2110"
-},
-{
-"id": "2115",
-"name": "Radio LOL",
-"path": "/radio/2115"
-},
-{
-"id": "2379",
-"name": "УлетайРадио",
-"path": "/uletayradio"
-},
-{
-"id": "2390",
-"name": "Wow Music 2010",
-"path": "/wow2010"
-},
-{
-"id": "2242",
-"name": "ВЕТЕРАН FM",
-"path": "/radio/2242"
-},
-{
-"id": "2437",
-"name": "Holy Forever Radio",
-"path": "/holyforeverradio"
-},
-{
-"id": "2350",
-"name": "Радио Вышка Узбекистан",
-"path": "/vyshkauzbekistan"
-},
-{
-"id": "2486",
-"name": "Радио Рандеву",
-"path": "/randevuradio"
-},
-{
-"id": "2370",
-"name": "Радио Танцы",
-"path": "/radiochanneldance"
-},
-{
-"id": "2374",
-"name": "Арифулин FM",
-"path": "/AFM"
-},
-{
-"id": "2513",
-"name": "MY Radio 104.5 FM | Радио Май",
-"path": "/pervomaysk"
-},
-{
-"id": "2375",
-"name": "Радио Победа",
-"path": "/radiopobedaby"
-},
-{
-"id": "2382",
-"name": "Кумылженское — Новая волна",
-"path": "/kumylgaradio"
-},
-{
-"id": "2402",
-"name": "Радио «FREEDOM FM»",
-"path": "/freedomfmradio"
-},
-{
-"id": "2534",
-"name": "Барановичи FM",
-"path": "/100fmby"
-},
-{
-"id": "2542",
-"name": "Русский шансон 24",
-"path": "/russhanson24"
-},
-{
-"id": "2563",
-"name": "Ethno Radio",
-"path": "/ethnoradio"
-},
-{
-"id": "2456",
-"name": "Шансон радио .ру",
-"path": "/shansonradioru"
-},
-{
-"id": "2487",
-"name": "Радио 333",
-"path": "/333"
-},
-{
-"id": "2488",
-"name": "Липецк-FM 90.7",
-"path": "/lipetskfm907"
-},
-{
-"id": "2531",
-"name": "Радио Говорит Майкоп",
-"path": "/govoritmaykop"
-},
-{
-"id": "2575",
-"name": "Свободное Радио",
-"path": "/svobodnoe"
-},
-{
-"id": "2654",
-"name": "Сок FM",
-"path": "/sokfm"
-},
-{
-"id": "2616",
-"name": "Radio OldHit",
-"path": "/oldhit"
-},
-{
-"id": "2620",
-"name": "Tape Hits",
-"path": "/tapehits"
-},
-{
-"id": "2622",
-"name": "Neon FM",
-"path": "/neon"
-},
-{
-"id": "2674",
-"name": "Шансон Беларусь",
-"path": "/shanson-by"
-},
-{
-"id": "2626",
-"name": "Радио ретро 24",
-"path": "/retro24"
-},
-{
-"id": "2638",
-"name": "Афонтовское",
-"path": "/afontovskoe"
-},
-{
-"id": "2708",
-"name": "Auralis Radio",
-"path": "/auralis"
-},
-{
-"id": "2644",
-"name": "Мир Белогорья (Радио Z)",
-"path": "/mirbelogorya"
-},
-{
-"id": "2657",
-"name": "Шансон Владивосток",
-"path": "/shansonvl"
-},
-{
-"id": "2666",
-"name": "ROMANTICA RADIO",
-"path": "/romanticaradio"
-},
-{
-"id": "2716",
-"name": "ГУСЬ-Релакс",
-"path": "/radiogoose-relax"
-},
-{
-"id": "2719",
-"name": "Советская волна",
-"path": "/sovietwave"
-},
-{
-"id": "2725",
-"name": "dewoq Lo-Fi Radio",
-"path": "/dewoq-lofi"
-},
-{
-"id": "2731",
-"name": "Patrisamato Radio",
-"path": "/patrisamato"
-},
-{
-"id": "2684",
-"name": "1Z1 Radio",
-"path": "/1z1radio"
-},
-{
-"id": "2707",
-"name": "ISKRA✪FM",
-"path": "/iskrafm"
-},
-{
-"id": "104",
-"name": "KEXP 90.3 FM",
-"path": "/radio/104"
-},
-{
-"id": "138",
-"name": "SoulLive",
-"path": "/radio/138"
-},
-{
-"id": "142",
-"name": "Radio13",
-"path": "/radio/142"
-},
-{
-"id": "158",
-"name": "Радиогора (Radiogora)",
-"path": "/radio/158"
-},
-{
-"id": "184",
-"name": "Deutscher HipHop &amp; Rap",
-"path": "/radio/184"
-},
-{
-"id": "361",
-"name": "Чистые ключи - Брянск",
-"path": "/radio/361"
-},
-{
-"id": "364",
-"name": "Православное радио Молдовы",
-"path": "/radio/364"
-},
-{
-"id": "400",
-"name": "TrueColors Radio",
-"path": "/radio/400"
-},
-{
-"id": "427",
-"name": "Р52 (105,7 FM)",
-"path": "/radio/427"
-},
-{
-"id": "42",
-"name": "Adagio.FM – Бесконечная Классическая музыка.",
-"path": "/radio/42"
-},
-{
-"id": "485",
-"name": "Радио Uvaga.by",
-"path": "/radio/485"
-},
-{
-"id": "488",
-"name": "Радио Теос",
-"path": "/radio/488"
-},
-{
-"id": "649",
-"name": "Radio GamePlay",
-"path": "/radio/649"
-},
-{
-"id": "687",
-"name": "Отличное радио",
-"path": "/radio/687"
-},
-{
-"id": "50",
-"name": "Radio Paradise",
-"path": "/radio/50"
-},
-{
-"id": "51",
-"name": "idobi Radio",
-"path": "/radio/51"
-},
-{
-"id": "692",
-"name": "Радио Ватан",
-"path": "/radio/692"
-},
-{
-"id": "723",
-"name": "Fallout.FM",
-"path": "/radio/723"
-},
-{
-"id": "729",
-"name": "Atm.Fm",
-"path": "/radio/729"
-},
-{
-"id": "826",
-"name": "Dixi 102.8 Fm г.Чайковский",
-"path": "/radio/826"
-},
-{
-"id": "840",
-"name": "Radio UP FM",
-"path": "/radio/840"
-},
-{
-"id": "59",
-"name": "KCSM Jazz 91",
-"path": "/radio/59"
-},
-{
-"id": "903",
-"name": "Ника FM",
-"path": "/radio/903"
-},
-{
-"id": "941",
-"name": "Lumix FM",
-"path": "/radio/941"
-},
-{
-"id": "60",
-"name": "WDNA Serious Jazz",
-"path": "/radio/60"
-},
-{
-"id": "955",
-"name": "dbdrum radio",
-"path": "/radio/955"
-},
-{
-"id": "958",
-"name": "Солнечный Вектор",
-"path": "/radio/958"
-},
-{
-"id": "982",
-"name": "PRODj Radio",
-"path": "/radio/982"
-},
-{
-"id": "1002",
-"name": "Musical Decadence Radio",
-"path": "/radio/1002"
-},
-{
-"id": "1023",
-"name": "Комсомольская правда Москва",
-"path": "/radio/1023"
-},
-{
-"id": "1024",
-"name": "Комсомольская правда Абакан",
-"path": "/radio/1024"
-},
-{
-"id": "1025",
-"name": "Комсомольская правда Барнаул",
-"path": "/radio/1025"
-},
-{
-"id": "1026",
-"name": "Комсомольская правда Владимир",
-"path": "/radio/1026"
-},
-{
-"id": "1027",
-"name": "Комсомольская правда Волгоград",
-"path": "/radio/1027"
-},
-{
-"id": "1028",
-"name": "Комсомольская правда Вологда",
-"path": "/radio/1028"
-},
-{
-"id": "1029",
-"name": "Комсомольская правда Донецк",
-"path": "/radio/1029"
-},
-{
-"id": "1030",
-"name": "Комсомольская правда Ижевск",
-"path": "/radio/1030"
-},
-{
-"id": "1031",
-"name": "Комсомольская правда Иркутск",
-"path": "/radio/1031"
-},
-{
-"id": "1032",
-"name": "Комсомольская правда Киров",
-"path": "/radio/1032"
-},
-{
-"id": "1033",
-"name": "Комсомольская правда Липецк",
-"path": "/radio/1033"
-},
-{
-"id": "1034",
-"name": "Комсомольская правда Нижний Новгород",
-"path": "/radio/1034"
-},
-{
-"id": "1035",
-"name": "Комсомольская правда Пермь",
-"path": "/radio/1035"
-},
-{
-"id": "1036",
-"name": "Комсомольская правда Ростов-на-Дону",
-"path": "/radio/1036"
-},
-{
-"id": "1037",
-"name": "Комсомольская правда Саратов, Энгельс",
-"path": "/radio/1037"
-},
-{
-"id": "1038",
-"name": "Комсомольская правда Ставрополь, Армавир",
-"path": "/radio/1038"
-},
-{
-"id": "1039",
-"name": "Комсомольская правда Тверь",
-"path": "/radio/1039"
-},
-{
-"id": "1056",
-"name": "Win-Win radio",
-"path": "/radio/1056"
-},
-{
-"id": "1077",
-"name": "bignoise",
-"path": "/radio/1077"
-},
-{
-"id": "1083",
-"name": "Atlantica Radio",
-"path": "/radio/1083"
-},
-{
-"id": "1084",
-"name": "Atlantica Soleil",
-"path": "/radio/1084"
-},
-{
-"id": "1085",
-"name": "Atlantica Oldies",
-"path": "/radio/1085"
-},
-{
-"id": "1109",
-"name": "Comedy Radio Екатеринбург",
-"path": "/radio/1109"
-},
-{
-"id": "1113",
-"name": "Sway and Breathe Radio",
-"path": "/radio/1113"
-},
-{
-"id": "1135",
-"name": "IMPULSE RADIO",
-"path": "/radio/1135"
-},
-{
-"id": "1137",
-"name": "Земля plus",
-"path": "/radio/1137"
-},
-{
-"id": "1181",
-"name": "HIPHOPBY",
-"path": "/radio/1181"
-},
-{
-"id": "1198",
-"name": "ЯсенБит",
-"path": "/radio/1198"
-},
-{
-"id": "1199",
-"name": "Fresh Rock",
-"path": "/radio/1199"
-},
-{
-"id": "1201",
-"name": "Средиземноморская смесь",
-"path": "/radio/1201"
-},
-{
-"id": "95",
-"name": "Radio Bob!",
-"path": "/radio/95"
-},
-{
-"id": "96",
-"name": "DEFJAY Radio Deutschland",
-"path": "/radio/96"
-},
-{
-"id": "1209",
-"name": "bTuner",
-"path": "/radio/1209"
-},
-{
-"id": "1215",
-"name": "Виктори Рок",
-"path": "/radio/1215"
-},
-{
-"id": "1236",
-"name": "Север FM - 87.5",
-"path": "/radio/1236"
-},
-{
-"id": "112",
-"name": "Колыбельная",
-"path": "/radio/112"
-},
-{
-"id": "1237",
-"name": "Dance Wave!",
-"path": "/radio/1237"
-},
-{
-"id": "1241",
-"name": "100 Hip Hop and RNB.FM",
-"path": "/radio/1241"
-},
-{
-"id": "1243",
-"name": "Costa Del Mar - Funky",
-"path": "/radio/1243"
-},
-{
-"id": "147",
-"name": "APLUS.FM",
-"path": "/radio/147"
-},
-{
-"id": "1251",
-"name": "Город Кудрово",
-"path": "/radio/1251"
-},
-{
-"id": "1252",
-"name": "Пульс-Радио",
-"path": "/radio/1252"
-},
-{
-"id": "1264",
-"name": "Компот FM",
-"path": "/radio/1264"
-},
-{
-"id": "1286",
-"name": "Междугородье",
-"path": "/radio/1286"
-},
-{
-"id": "1287",
-"name": "Первое железнодорожное радио - канал RocK",
-"path": "/radio/1287"
-},
-{
-"id": "1308",
-"name": "#1 Oldies",
-"path": "/radio/1308"
-},
-{
-"id": "1320",
-"name": "1000 HITS Love",
-"path": "/radio/1320"
-},
-{
-"id": "1324",
-"name": "Synth Radio",
-"path": "/radio/1324"
-},
-{
-"id": "1328",
-"name": "Виктори Поп-музыка",
-"path": "/radio/1328"
-},
-{
-"id": "1354",
-"name": "KEKS FM Kiev",
-"path": "/radio/1354"
-},
-{
-"id": "1363",
-"name": "HardBase.FM",
-"path": "/radio/1363"
-},
-{
-"id": "1403",
-"name": "Радио Сибирь Омск",
-"path": "/radio/1403"
-},
-{
-"id": "1405",
-"name": "Авторадио Красноярск 105,2 FM",
-"path": "/radio/1405"
-},
-{
-"id": "1468",
-"name": "Старое радио",
-"path": "/radio/1468"
-},
-{
-"id": "1504",
-"name": "Ibiza Radios - Chill",
-"path": "/radio/1504"
-},
-{
-"id": "296",
-"name": "PriMuzFM",
-"path": "/radio/296"
-},
-{
-"id": "316",
-"name": "Диполь FM",
-"path": "/radio/316"
-},
-{
-"id": "1505",
-"name": "Ibiza Radios - Dance",
-"path": "/radio/1505"
-},
-{
-"id": "1506",
-"name": "Ibiza Radios - Deep–House",
-"path": "/radio/1506"
-},
-{
-"id": "1507",
-"name": "Ibiza Radios - Funky",
-"path": "/radio/1507"
-},
-{
-"id": "354",
-"name": "Радио Брянск 32",
-"path": "/radio/354"
-},
-{
-"id": "362",
-"name": "Радио НЕСТАНДАРТ",
-"path": "/radio/362"
-},
-{
-"id": "1509",
-"name": "Ibiza Radios - Relax",
-"path": "/radio/1509"
-},
-{
-"id": "384",
-"name": "BrooklynFM (BFM Radio)",
-"path": "/radio/384"
-},
-{
-"id": "406",
-"name": "Радио Вышка",
-"path": "/radio/406"
-},
-{
-"id": "420",
-"name": "Радио Благовестие",
-"path": "/radio/420"
-},
-{
-"id": "1518",
-"name": "WalconFM",
-"path": "/radio/1518"
-},
-{
-"id": "423",
-"name": "Soulplay Radiostation",
-"path": "/radio/423"
-},
-{
-"id": "426",
-"name": "Europarussia",
-"path": "/radio/426"
-},
-{
-"id": "429",
-"name": "Radio Muzkom",
-"path": "/radio/429"
-},
-{
-"id": "1530",
-"name": "GRAZ FM",
-"path": "/radio/1530"
-},
-{
-"id": "436",
-"name": "Комсомольская Правда Челябинск",
-"path": "/radio/436"
-},
-{
-"id": "444",
-"name": "Радио Орэну",
-"path": "/radio/444"
-},
-{
-"id": "471",
-"name": "Radio Schizoid - Chillout",
-"path": "/radio/471"
-},
-{
-"id": "1561",
-"name": "Новое Вещание Liquid Flash",
-"path": "/radio/1561"
-},
-{
-"id": "478",
-"name": "SomaFM: Mission Control",
-"path": "/radio/478"
-},
-{
-"id": "482",
-"name": "Радио Хит | Смотри Радио",
-"path": "/radio/482"
-},
-{
-"id": "523",
-"name": "Радио Экстрим",
-"path": "/radio/523"
-},
-{
-"id": "1562",
-"name": "Radio Plato",
-"path": "/radio/1562"
-},
-{
-"id": "541",
-"name": "Лемма (Владивосток)",
-"path": "/radio/541"
-},
-{
-"id": "543",
-"name": "Revolution Radio",
-"path": "/radio/543"
-},
-{
-"id": "561",
-"name": "Trance Century Radio",
-"path": "/radio/561"
-},
-{
-"id": "1569",
-"name": "Givin School Radio",
-"path": "/radio/1569"
-},
-{
-"id": "1574",
-"name": "ЖАРА FM",
-"path": "/radio/1574"
-},
-{
-"id": "1588",
-"name": "Caroline Flashback",
-"path": "/radio/1588"
-},
-{
-"id": "1589",
-"name": "Radio DJ Shmagi",
-"path": "/radio/1589"
-},
-{
-"id": "1592",
-"name": "Гламурная волна",
-"path": "/radio/1592"
-},
-{
-"id": "609",
-"name": "Музыка и Культура Народов Мира",
-"path": "/radio/609"
-},
-{
-"id": "611",
-"name": "Музыка для Медитации",
-"path": "/radio/611"
-},
-{
-"id": "1631",
-"name": "IDS Radio",
-"path": "/radio/1631"
-},
-{
-"id": "1640",
-"name": "UltraFan",
-"path": "/radio/1640"
-},
-{
-"id": "1641",
-"name": "Свой стиль",
-"path": "/radio/1641"
-},
-{
-"id": "1642",
-"name": "Radio Deepa.Net",
-"path": "/radio/1642"
-},
-{
-"id": "1643",
-"name": "Радио Школы Гивина",
-"path": "/radio/1643"
-},
-{
-"id": "616",
-"name": "Radio Moldova",
-"path": "/radio/616"
-},
-{
-"id": "617",
-"name": "Радио День",
-"path": "/radio/617"
-},
-{
-"id": "1649",
-"name": "Радио ТМ-26",
-"path": "/radio/1649"
-},
-{
-"id": "1664",
-"name": "Радио Коп",
-"path": "/radio/1664"
-},
-{
-"id": "1674",
-"name": "NEON channel by Sochi Lounge",
-"path": "/radio/1674"
-},
-{
-"id": "1677",
-"name": "Insounds",
-"path": "/radio/1677"
-},
-{
-"id": "1678",
-"name": "Радио ZEFIROT",
-"path": "/radio/1678"
-},
-{
-"id": "637",
-"name": "Радио Культура",
-"path": "/radio/637"
-},
-{
-"id": "639",
-"name": "1.FM - Gorilla FM",
-"path": "/radio/639"
-},
-{
-"id": "1696",
-"name": "Dance Wave Retro!",
-"path": "/radio/1696"
-},
-{
-"id": "1701",
-"name": "ELF Radio (Moscow)",
-"path": "/radio/1701"
-},
-{
-"id": "1702",
-"name": "JAM Radio",
-"path": "/radio/1702"
-},
-{
-"id": "646",
-"name": "Христианское радио Сити Эдем",
-"path": "/radio/646"
-},
-{
-"id": "1704",
-"name": "Buddha Beach",
-"path": "/radio/1704"
-},
-{
-"id": "1706",
-"name": "Dancefloor Radio",
-"path": "/radio/1706"
-},
-{
-"id": "1708",
-"name": "Disco Power",
-"path": "/radio/1708"
-},
-{
-"id": "652",
-"name": ".:: KAZA FM : КАЗА ФМ ::.",
-"path": "/radio/652"
-},
-{
-"id": "657",
-"name": "Авторадио Екатеринбург",
-"path": "/radio/657"
-},
-{
-"id": "658",
-"name": "Юмор FM Екатеринбург",
-"path": "/radio/658"
-},
-{
-"id": "1709",
-"name": "Funky Town",
-"path": "/radio/1709"
-},
-{
-"id": "1711",
-"name": "Hit Club Dance",
-"path": "/radio/1711"
-},
-{
-"id": "1712",
-"name": "Party Dance Radio",
-"path": "/radio/1712"
-},
-{
-"id": "1713",
-"name": "Relax Zone",
-"path": "/radio/1713"
-},
-{
-"id": "1715",
-"name": "Soulful House",
-"path": "/radio/1715"
-},
-{
-"id": "660",
-"name": "Радио NRJ (ENERGY) Екатеринбург",
-"path": "/radio/660"
-},
-{
-"id": "1722",
-"name": "Splash Spa",
-"path": "/radio/1722"
-},
-{
-"id": "1723",
-"name": "Splash Coffee",
-"path": "/radio/1723"
-},
-{
-"id": "1724",
-"name": "Splash Lounge",
-"path": "/radio/1724"
-},
-{
-"id": "1728",
-"name": "Татарское Радио ТМК",
-"path": "/radio/1728"
-},
-{
-"id": "682",
-"name": "Город FM 107.6",
-"path": "/radio/682"
-},
-{
-"id": "708",
-"name": "KISS FM - 98,8 FM",
-"path": "/radio/708"
-},
-{
-"id": "1731",
-"name": "Nicefm",
-"path": "/radio/1731"
-},
-{
-"id": "1745",
-"name": "Радио Тандем 104.7 FM",
-"path": "/radio/1745"
-},
-{
-"id": "710",
-"name": "Hot 108 JAMZ",
-"path": "/radio/710"
-},
-{
-"id": "715",
-"name": "K-100 RADIO",
-"path": "/radio/715"
-},
-{
-"id": "716",
-"name": "KIDS HITS",
-"path": "/radio/716"
-},
-{
-"id": "1746",
-"name": "Движение",
-"path": "/radio/1746"
-},
-{
-"id": "1752",
-"name": "J Radio",
-"path": "/radio/1752"
-},
-{
-"id": "1756",
-"name": "Легенды FM",
-"path": "/radio/1756"
-},
-{
-"id": "1774",
-"name": "РУССКОЕ РАДИО КОСТАНАЙ",
-"path": "/radio/1774"
-},
-{
-"id": "758",
-"name": "Комсомольская правда Екатеринбург",
-"path": "/radio/758"
-},
-{
-"id": "1780",
-"name": "Alyaxen Radiostation",
-"path": "/radio/1780"
-},
-{
-"id": "759",
-"name": "Комсомольская правда Новосибирск",
-"path": "/radio/759"
-},
-{
-"id": "762",
-"name": "Радио Городская Волна",
-"path": "/radio/762"
-},
-{
-"id": "766",
-"name": "Radio Metro",
-"path": "/radio/766"
-},
-{
-"id": "1781",
-"name": "MegaNight RADIO",
-"path": "/radio/1781"
-},
-{
-"id": "1789",
-"name": "Venice Classic Radio LIVE",
-"path": "/radio/1789"
-},
-{
-"id": "1794",
-"name": "Xradio Greatest Hits",
-"path": "/radio/1794"
-},
-{
-"id": "771",
-"name": "Радио Зенит",
-"path": "/radio/771"
-},
-{
-"id": "772",
-"name": "Интернет-радио Град Петров",
-"path": "/radio/772"
-},
-{
-"id": "1797",
-"name": "Радио Контур",
-"path": "/radio/1797"
-},
-{
-"id": "1802",
-"name": "Бхакти Расаяна Сагара Свами",
-"path": "/radio/1802"
-},
-{
-"id": "1803",
-"name": "NSK54 vs. Russian Dance",
-"path": "/radio/1803"
-},
-{
-"id": "1808",
-"name": "OM Radio",
-"path": "/radio/1808"
-},
-{
-"id": "782",
-"name": "Радио 107",
-"path": "/radio/782"
-},
-{
-"id": "1810",
-"name": "DJET RADIO",
-"path": "/radio/1810"
-},
-{
-"id": "1811",
-"name": "DeeJay 97.5 Greece Corfu",
-"path": "/radio/1811"
-},
-{
-"id": "1817",
-"name": "Radio Extasy",
-"path": "/radio/1817"
-},
-{
-"id": "1822",
-"name": "Первое союзное радио",
-"path": "/radio/1822"
-},
-{
-"id": "789",
-"name": "Радио «Образ»",
-"path": "/radio/789"
-},
-{
-"id": "816",
-"name": "Старое Доброе Радио",
-"path": "/radio/816"
-},
-{
-"id": "817",
-"name": "Голос Ангары",
-"path": "/radio/817"
-},
-{
-"id": "1831",
-"name": "Джон Радио",
-"path": "/radio/1831"
-},
-{
-"id": "1832",
-"name": "Radio Tourist",
-"path": "/radio/1832"
-},
-{
-"id": "825",
-"name": "Белое Радио",
-"path": "/radio/825"
-},
-{
-"id": "829",
-"name": "Апекс-Радио - в ритме любимого города!",
-"path": "/radio/829"
-},
-{
-"id": "1834",
-"name": "Радио НоваСтом",
-"path": "/radio/1834"
-},
-{
-"id": "836",
-"name": "Радио Борнео",
-"path": "/radio/836"
-},
-{
-"id": "837",
-"name": "Радио Губерния",
-"path": "/radio/837"
-},
-{
-"id": "880",
-"name": "MIX FM г. Хабаровск",
-"path": "/radio/880"
-},
-{
-"id": "1842",
-"name": "1PVK EDM",
-"path": "/radio/1842"
-},
-{
-"id": "1845",
-"name": "Кафе мечты!",
-"path": "/radio/1845"
-},
-{
-"id": "1864",
-"name": "Два Берега",
-"path": "/radio/1864"
-},
-{
-"id": "889",
-"name": "Music In Paradise",
-"path": "/radio/889"
-},
-{
-"id": "890",
-"name": "Первое железнодорожное радио - канал ПЖ",
-"path": "/radio/890"
-},
-{
-"id": "1867",
-"name": "ArtRemixRadio",
-"path": "/radio/1867"
-},
-{
-"id": "1874",
-"name": "Radio REDBOX",
-"path": "/radio/1874"
-},
-{
-"id": "1875",
-"name": "RADIOSPHERA",
-"path": "/radio/1875"
-},
-{
-"id": "900",
-"name": "Радио Олдхит",
-"path": "/radio/900"
-},
-{
-"id": "906",
-"name": "Русский мир",
-"path": "/radio/906"
-},
-{
-"id": "1879",
-"name": "Радио Посад",
-"path": "/radio/1879"
-},
-{
-"id": "1881",
-"name": "Прайм Радио",
-"path": "/radio/1881"
-},
-{
-"id": "1885",
-"name": "Радио Победы",
-"path": "/radio/1885"
-},
-{
-"id": "1903",
-"name": "Алмазный край",
-"path": "/radio/1903"
-},
-{
-"id": "1910",
-"name": "DRUMFUNK.RU",
-"path": "/radio/1910"
-},
-{
-"id": "1914",
-"name": "Tranc2010",
-"path": "/radio/1914"
-},
-{
-"id": "1922",
-"name": "Realton Live Radio",
-"path": "/radio/1922"
-},
-{
-"id": "944",
-"name": "Радио 7 Ветров",
-"path": "/radio/944"
-},
-{
-"id": "945",
-"name": "AlexFM Radiostation",
-"path": "/radio/945"
-},
-{
-"id": "1923",
-"name": "Радио Боль",
-"path": "/radio/1923"
-},
-{
-"id": "1929",
-"name": "RS dance station",
-"path": "/radio/1929"
-},
-{
-"id": "947",
-"name": "Happy Radio",
-"path": "/radio/947"
-},
-{
-"id": "948",
-"name": "Visual Neoclassical Omdaru radio",
-"path": "/radio/948"
-},
-{
-"id": "949",
-"name": "Davidzon Radio",
-"path": "/radio/949"
-},
-{
-"id": "957",
-"name": "Радио Автодор",
-"path": "/radio/957"
-},
-{
-"id": "1931",
-"name": "The Disco Palace",
-"path": "/radio/1931"
-},
-{
-"id": "1932",
-"name": "The Disco Paradise",
-"path": "/radio/1932"
-},
-{
-"id": "1933",
-"name": "The Disco Planet",
-"path": "/radio/1933"
-},
-{
-"id": "1935",
-"name": "Калейдоскоп",
-"path": "/radio/1935"
-},
-{
-"id": "1943",
-"name": "Radio Office",
-"path": "/radio/1943"
-},
-{
-"id": "963",
-"name": "Sputnik International",
-"path": "/radio/963"
-},
-{
-"id": "1004",
-"name": "Радио Трасса",
-"path": "/radio/1004"
-},
-{
-"id": "1944",
-"name": "The Disco Paradise - Casablanca",
-"path": "/radio/1944"
-},
-{
-"id": "1009",
-"name": "Радио Голос Бирмы - Голос всей Азии!",
-"path": "/radio/1009"
-},
-{
-"id": "1060",
-"name": "Радио «Русская реклама»",
-"path": "/radio/1060"
-},
-{
-"id": "1945",
-"name": "The Disco Paradise - Prelude",
-"path": "/radio/1945"
-},
-{
-"id": "1946",
-"name": "The Disco Paradise - Salsoul",
-"path": "/radio/1946"
-},
-{
-"id": "1947",
-"name": "The Disco Paradise - T.K. Disco",
-"path": "/radio/1947"
-},
-{
-"id": "1948",
-"name": "The Disco Paradise - Unidisco",
-"path": "/radio/1948"
-},
-{
-"id": "1949",
-"name": "The Disco Paradise - West End",
-"path": "/radio/1949"
-},
-{
-"id": "1951",
-"name": "Москвичи",
-"path": "/radio/1951"
-},
-{
-"id": "1952",
-"name": "The Disco Paradise - Atlantic",
-"path": "/radio/1952"
-},
-{
-"id": "1089",
-"name": "Радио СОК",
-"path": "/radio/1089"
-},
-{
-"id": "1104",
-"name": "ТИПИЧНОЕ FM",
-"path": "/radio/1104"
-},
-{
-"id": "1108",
-"name": "Детское радио Екатеринбург",
-"path": "/radio/1108"
-},
-{
-"id": "1131",
-"name": "Радио Imagination",
-"path": "/radio/1131"
-},
-{
-"id": "1953",
-"name": "The Disco Paradise - Columbia",
-"path": "/radio/1953"
-},
-{
-"id": "1954",
-"name": "The Disco Paradise - Motown",
-"path": "/radio/1954"
-},
-{
-"id": "1955",
-"name": "The Disco Paradise - Solar",
-"path": "/radio/1955"
-},
-{
-"id": "1956",
-"name": "The Disco Paradise - TSOP",
-"path": "/radio/1956"
-},
-{
-"id": "1138",
-"name": "Экспресс Радио Орёл",
-"path": "/radio/1138"
-},
-{
-"id": "1143",
-"name": "Радио Ангелов",
-"path": "/radio/1143"
-},
-{
-"id": "1155",
-"name": "Сказочное радио Гамаюн",
-"path": "/radio/1155"
-},
-{
-"id": "1163",
-"name": "RussianFM",
-"path": "/radio/1163"
-},
-{
-"id": "1964",
-"name": "ONE FM",
-"path": "/radio/1964"
-},
-{
-"id": "1177",
-"name": "Радио Страна FM",
-"path": "/radio/1177"
-},
-{
-"id": "1195",
-"name": "Радио Верста",
-"path": "/radio/1195"
-},
-{
-"id": "1970",
-"name": "GRELLA Radio",
-"path": "/radio/1970"
-},
-{
-"id": "1973",
-"name": "Наше Радио Кисловодск",
-"path": "/radio/1973"
-},
-{
-"id": "1974",
-"name": "Радио Шкипер",
-"path": "/radio/1974"
-},
-{
-"id": "1975",
-"name": "GTF Instrumental",
-"path": "/radio/1975"
-},
-{
-"id": "1230",
-"name": "Sideline FM",
-"path": "/radio/1230"
-},
-{
-"id": "1258",
-"name": "Радио Go / Radio Go (Russia)",
-"path": "/radio/1258"
-},
-{
-"id": "1980",
-"name": "sensuelle radio",
-"path": "/radio/1980"
-},
-{
-"id": "1983",
-"name": "Wow Music",
-"path": "/radio/1983"
-},
-{
-"id": "1984",
-"name": "Wow Music Top50",
-"path": "/radio/1984"
-},
-{
-"id": "1327",
-"name": "DJRADIO RUSSIA",
-"path": "/radio/1327"
-},
-{
-"id": "1985",
-"name": "Wow Music Chillout",
-"path": "/radio/1985"
-},
-{
-"id": "1987",
-"name": "Wow Music Hip-Hop",
-"path": "/radio/1987"
-},
-{
-"id": "1988",
-"name": "Wow Music Rock",
-"path": "/radio/1988"
-},
-{
-"id": "1336",
-"name": "Vintage Radio",
-"path": "/radio/1336"
-},
-{
-"id": "1341",
-"name": "RADIO ESSENTIAL",
-"path": "/radio/1341"
-},
-{
-"id": "1347",
-"name": "Rock`n`Roll.Fm",
-"path": "/radio/1347"
-},
-{
-"id": "1360",
-"name": "Неслучайное Радио",
-"path": "/radio/1360"
-},
-{
-"id": "2001",
-"name": "Справедливое Радио",
-"path": "/radio/2001"
-},
-{
-"id": "2003",
-"name": "Dzhon Radio",
-"path": "/radio/2003"
-},
-{
-"id": "1370",
-"name": "Radio Kamchatka LIVE - Rock Radio",
-"path": "/radio/1370"
-},
-{
-"id": "2012",
-"name": "Aloha FM",
-"path": "/radio/2012"
-},
-{
-"id": "2017",
-"name": "MGP-radio",
-"path": "/radio/2017"
-},
-{
-"id": "1374",
-"name": "Правильное радио",
-"path": "/radio/1374"
-},
-{
-"id": "1385",
-"name": "Радио-3",
-"path": "/radio/1385"
-},
-{
-"id": "1386",
-"name": "DFM Краснодар 106.0 FM",
-"path": "/radio/1386"
-},
-{
-"id": "1392",
-"name": "URALSOUND FM | DEEP HOUSE",
-"path": "/radio/1392"
-},
-{
-"id": "1399",
-"name": "Мариинский ФМ",
-"path": "/radio/1399"
-},
-{
-"id": "2035",
-"name": "NAGO Radio v.2.0",
-"path": "/radio/2035"
-},
-{
-"id": "2041",
-"name": "МЭТР Top Music",
-"path": "/radio/2041"
-},
-{
-"id": "1432",
-"name": "MOTORADIO.ONLINE",
-"path": "/radio/1432"
-},
-{
-"id": "1441",
-"name": "Radio SEGA",
-"path": "/radio/1441"
-},
-{
-"id": "2042",
-"name": "Первое Молодёжное Радио Североуральска",
-"path": "/radio/2042"
-},
-{
-"id": "2057",
-"name": "MFM Radio",
-"path": "/radio/2057"
-},
-{
-"id": "1454",
-"name": "SomaFM: Secret Agent",
-"path": "/radio/1454"
-},
-{
-"id": "1456",
-"name": "Bolly FM",
-"path": "/radio/1456"
-},
-{
-"id": "1458",
-"name": "Hits Of Bollywood",
-"path": "/radio/1458"
-},
-{
-"id": "1459",
-"name": "Радио Chiru",
-"path": "/radio/1459"
-},
-{
-"id": "2065",
-"name": "Христианское Радио Сибири",
-"path": "/radio/2065"
-},
-{
-"id": "2067",
-"name": "Республика Луганск",
-"path": "/radio/2067"
-},
-{
-"id": "2072",
-"name": "DnB&EDM",
-"path": "/radio/2072"
-},
-{
-"id": "1461",
-"name": "Музыка мюзиклов",
-"path": "/radio/1461"
-},
-{
-"id": "1464",
-"name": "Литературное радио",
-"path": "/radio/1464"
-},
-{
-"id": "2082",
-"name": "Enjoy Radio | Архангельск",
-"path": "/radio/2082"
-},
-{
-"id": "2084",
-"name": "Калейдоскоп Рок",
-"path": "/radio/2084"
-},
-{
-"id": "2089",
-"name": "Твой День",
-"path": "/radio/2089"
-},
-{
-"id": "1469",
-"name": "Old Time Radio",
-"path": "/radio/1469"
-},
-{
-"id": "1470",
-"name": "Cornucopia Broadcasting",
-"path": "/radio/1470"
-},
-{
-"id": "1476",
-"name": "Legend Fm",
-"path": "/radio/1476"
-},
-{
-"id": "2091",
-"name": "Радио Afrodita",
-"path": "/radioafrodita"
-},
-{
-"id": "1478",
-"name": "MixCult Radio",
-"path": "/radio/1478"
-},
-{
-"id": "1481",
-"name": "Allinstars Радио",
-"path": "/radio/1481"
-},
-{
-"id": "1482",
-"name": "Веда-радио",
-"path": "/radio/1482"
-},
-{
-"id": "1483",
-"name": "ABC Lounge",
-"path": "/radio/1483"
-},
-{
-"id": "2095",
-"name": "BREAKBEATZONE RADIO STATION",
-"path": "/radio/2095"
-},
-{
-"id": "2105",
-"name": "Anti Radio",
-"path": "/radio/2105"
-},
-{
-"id": "2109",
-"name": "White-FM",
-"path": "/radio/2109"
-},
-{
-"id": "1484",
-"name": "89 HIT FM",
-"path": "/radio/1484"
-},
-{
-"id": "1485",
-"name": "89 HIT FM - EAZY FM",
-"path": "/radio/1485"
-},
-{
-"id": "1486",
-"name": "89 HIT FM - DREAM FM",
-"path": "/radio/1486"
-},
-{
-"id": "1487",
-"name": "Anotherplanet.fm",
-"path": "/radio/1487"
-},
-{
-"id": "2112",
-"name": "Радио Тема",
-"path": "/radio/2112"
-},
-{
-"id": "2113",
-"name": "VTC Radio - Lactose",
-"path": "/radio/2113"
-},
-{
-"id": "1490",
-"name": "SomaFM: Beat Blender",
-"path": "/radio/1490"
-},
-{
-"id": "1491",
-"name": "Mantra Radio",
-"path": "/radio/1491"
-},
-{
-"id": "1492",
-"name": "Yoga Radio",
-"path": "/radio/1492"
-},
-{
-"id": "2119",
-"name": "Рок - Атака",
-"path": "/radio/2119"
-},
-{
-"id": "2121",
-"name": "ABSOLUT Park Radio",
-"path": "/radio/2121"
-},
-{
-"id": "1500",
-"name": "ПЕРВОЕ портальное",
-"path": "/radio/1500"
-},
-{
-"id": "1519",
-"name": "BluesMen Channel (Hits)",
-"path": "/radio/1519"
-},
-{
-"id": "2127",
-"name": "Радио SP12",
-"path": "/radio/2127"
-},
-{
-"id": "2128",
-"name": "164FM",
-"path": "/radio/2128"
-},
-{
-"id": "2129",
-"name": "The Disco Paradise - Indie Disco",
-"path": "/radio/2129"
-},
-{
-"id": "2130",
-"name": "The Disco Paradise - BMG",
-"path": "/radio/2130"
-},
-{
-"id": "2131",
-"name": "The Disco Paradise - RCA",
-"path": "/radio/2131"
-},
-{
-"id": "1536",
-"name": "ЯпаРадио",
-"path": "/radio/1536"
-},
-{
-"id": "2132",
-"name": "The Disco Paradise - Warner Bros",
-"path": "/radio/2132"
-},
-{
-"id": "2133",
-"name": "The Disco Paradise - Polydor",
-"path": "/radio/2133"
-},
-{
-"id": "2134",
-"name": "The Disco Paradise - Concord",
-"path": "/radio/2134"
-},
-{
-"id": "2137",
-"name": "САФ балалар радиосы",
-"path": "/radio/2137"
-},
-{
-"id": "1554",
-"name": "Волнорез",
-"path": "/volnorez"
-},
-{
-"id": "1558",
-"name": "BluesMen Channel (Gold)",
-"path": "/radio/1558"
-},
-{
-"id": "2138",
-"name": "Break Radio",
-"path": "/radio/2138"
-},
-{
-"id": "2154",
-"name": "NR Astrology Radio",
-"path": "/radio/2154"
-},
-{
-"id": "1579",
-"name": "DWGradio Радио Слово Божие",
-"path": "/radio/1579"
-},
-{
-"id": "1580",
-"name": "Славянский Мир",
-"path": "/radio/1580"
-},
-{
-"id": "2167",
-"name": "Радио Вышка Казахстан",
-"path": "/radio/2167"
-},
-{
-"id": "2171",
-"name": "MaxRadio",
-"path": "/radio/2171"
-},
-{
-"id": "2172",
-"name": "#КАЧПОХАРДКОРУ",
-"path": "/radio/2172"
-},
-{
-"id": "1587",
-"name": "АБСОЛЮТ парк радио",
-"path": "/radio/1587"
-},
-{
-"id": "1590",
-"name": "Радио Линия",
-"path": "/radio/1590"
-},
-{
-"id": "2177",
-"name": "InVoice Radio",
-"path": "/radio/2177"
-},
-{
-"id": "2179",
-"name": "Кот рекомендует =)",
-"path": "/radio/2179"
-},
-{
-"id": "1599",
-"name": "Beloe Radio",
-"path": "/radio/1599"
-},
-{
-"id": "1606",
-"name": "Радио Юность - ЮFM",
-"path": "/radio/1606"
-},
-{
-"id": "1610",
-"name": "Life-Radio",
-"path": "/radio/1610"
-},
-{
-"id": "2184",
-"name": "Lofifi Radio",
-"path": "/radio/2184"
-},
-{
-"id": "2185",
-"name": "Radio.Fish",
-"path": "/radio/2185"
-},
-{
-"id": "2187",
-"name": "Первый Звук",
-"path": "/radio/2187"
-},
-{
-"id": "2188",
-"name": "Radio Under",
-"path": "/radio/2188"
-},
-{
-"id": "1617",
-"name": "SK-RADIO",
-"path": "/radio/1617"
-},
-{
-"id": "1620",
-"name": "Радио Булбул",
-"path": "/radio/1620"
-},
-{
-"id": "1647",
-"name": "Smooth Radio",
-"path": "/radio/1647"
-},
-{
-"id": "2189",
-"name": "PLATOON",
-"path": "/radio/2189"
-},
-{
-"id": "2190",
-"name": "Sound FM - Gospel",
-"path": "/radio/2190"
-},
-{
-"id": "2194",
-"name": "АМБЕР ФМ",
-"path": "/radio/2194"
-},
-{
-"id": "2195",
-"name": "КомпромиС ФМ",
-"path": "/radio/2195"
-},
-{
-"id": "1658",
-"name": "Blow Back Radio",
-"path": "/radio/1658"
-},
-{
-"id": "1683",
-"name": "Shoot’em Up Radio",
-"path": "/radio/1683"
-},
-{
-"id": "2196",
-"name": "8 BIT FM",
-"path": "/radio/2196"
-},
-{
-"id": "2198",
-"name": "THE RAVE ZONE 24h",
-"path": "/radio/2198"
-},
-{
-"id": "2199",
-"name": "R_sound - We Can Do Everything!",
-"path": "/radio/2199"
-},
-{
-"id": "2206",
-"name": "Street Beat FM",
-"path": "/radio/2206"
-},
-{
-"id": "1721",
-"name": "Русский Город в США",
-"path": "/radio/1721"
-},
-{
-"id": "1742",
-"name": "Местное радио Воронеж (советское радио)",
-"path": "/radio/1742"
-},
-{
-"id": "1747",
-"name": "Радио Релиз",
-"path": "/radio/1747"
-},
-{
-"id": "1754",
-"name": "Классное Радио РДШ",
-"path": "/radio/1754"
-},
-{
-"id": "1755",
-"name": "Грайндотека",
-"path": "/radio/1755"
-},
-{
-"id": "1758",
-"name": "Пиратское радио SVG",
-"path": "/radio/1758"
-},
-{
-"id": "1759",
-"name": "Народное Славянское радио",
-"path": "/radio/1759"
-},
-{
-"id": "2230",
-"name": "Ретроклуб Инструментал",
-"path": "/radio/2230"
-},
-{
-"id": "1798",
-"name": "Радио Русские Эмираты",
-"path": "/radio/1798"
-},
-{
-"id": "1799",
-"name": "AutoLife Azerbaijan",
-"path": "/radio/1799"
-},
-{
-"id": "2231",
-"name": "Ретроклуб Радио 60-х",
-"path": "/radio/2231"
-},
-{
-"id": "2232",
-"name": "М Радио",
-"path": "/radio/2232"
-},
-{
-"id": "1801",
-"name": "РАДИО СТОЛИЦА",
-"path": "/radio/1801"
-},
-{
-"id": "1812",
-"name": "Радио 1",
-"path": "/radio/1812"
-},
-{
-"id": "2241",
-"name": "Анапский Район",
-"path": "/radio/2241"
-},
-{
-"id": "2246",
-"name": "Lumix FM: Electronic Hits",
-"path": "/radio/2246"
-},
-{
-"id": "2251",
-"name": "Большой детский хор В.С. Попова",
-"path": "/radio/2251"
-},
-{
-"id": "2254",
-"name": "Мурзик Радио",
-"path": "/radio/2254"
-},
-{
-"id": "1883",
-"name": "Красно-Белая Волна",
-"path": "/radio/1883"
-},
-{
-"id": "2259",
-"name": "Счастливы вместе",
-"path": "/radio/2259"
-},
-{
-"id": "2266",
-"name": "Lava FM",
-"path": "/radio/2266"
-},
-{
-"id": "2269",
-"name": "Radio Sud International",
-"path": "/radio/2269"
-},
-{
-"id": "2271",
-"name": "Радио MWT",
-"path": "/radio/2271"
-},
-{
-"id": "2272",
-"name": "The Disco Paradise - Italo Disco",
-"path": "/radio/2272"
-},
-{
-"id": "1886",
-"name": "Радио Сибирь Хакасия",
-"path": "/radio/1886"
-},
-{
-"id": "1907",
-"name": "Maestro FM",
-"path": "/radio/1907"
-},
-{
-"id": "1908",
-"name": "Станция 3.0",
-"path": "/radio/1908"
-},
-{
-"id": "1920",
-"name": "Радио Шансон Плюс",
-"path": "/radio/1920"
-},
-{
-"id": "1921",
-"name": "МЭТР Golden Hits",
-"path": "/radio/1921"
-},
-{
-"id": "1938",
-"name": "Радио Никольское",
-"path": "/radio/1938"
-},
-{
-"id": "1939",
-"name": "NFMOSCOW RADIO",
-"path": "/radio/1939"
-},
-{
-"id": "1958",
-"name": "Радио 54",
-"path": "/radio/1958"
-},
-{
-"id": "2284",
-"name": "SUPER-RADIO remix",
-"path": "/radio/2284"
-},
-{
-"id": "2286",
-"name": "BIKER-FM",
-"path": "/radio/2286"
-},
-{
-"id": "2289",
-"name": "Кринж FM",
-"path": "/cringeradio"
-},
-{
-"id": "2290",
-"name": "SEDUCTION DANCE TUNES RADIO",
-"path": "/seduction-dance"
-},
-{
-"id": "2293",
-"name": "La Bonita X101",
-"path": "/labonita"
-},
-{
-"id": "1999",
-"name": "Pyongyang FM",
-"path": "/radio/1999"
-},
-{
-"id": "2000",
-"name": "Радио STICKER FM",
-"path": "/radio/2000"
-},
-{
-"id": "2302",
-"name": "RADIOisbe",
-"path": "/radioisbe"
-},
-{
-"id": "2304",
-"name": "MURZILKI FM",
-"path": "/murzilkifm"
-},
-{
-"id": "2309",
-"name": "ВЕСТИ ИРКУТСК",
-"path": "/vestiirk"
-},
-{
-"id": "2310",
-"name": "Радио ViBE",
-"path": "/radiovibe"
-},
-{
-"id": "2312",
-"name": "Радио ASMR",
-"path": "/radioasmr"
-},
-{
-"id": "2007",
-"name": "ART CITY Radio",
-"path": "/radio/2007"
-},
-{
-"id": "2015",
-"name": "Женское радио Dolce Vita",
-"path": "/radio/2015"
-},
-{
-"id": "2021",
-"name": "NUiRADIO (Ну и радио)",
-"path": "/radio/2021"
-},
-{
-"id": "2023",
-"name": "Ермак Урал",
-"path": "/radio/2023"
-},
-{
-"id": "2314",
-"name": "Екатеринбург ФМ",
-"path": "/ekaterinburgfm"
-},
-{
-"id": "2011",
-"name": "test radio",
-"path": "/test"
-},
-{
-"id": "2317",
-"name": "MetalHeads",
-"path": "/metalheads"
-},
-{
-"id": "2321",
-"name": "Магадан ФМ",
-"path": "/magadanfm"
-},
-{
-"id": "2045",
-"name": "Radio Star Five",
-"path": "/radio/2045"
-},
-{
-"id": "2047",
-"name": "Наше Радио Ставрополь",
-"path": "/radio/2047"
-},
-{
-"id": "2055",
-"name": "Поколение Z",
-"path": "/radio/2055"
-},
-{
-"id": "2056",
-"name": "Вольтаж FM",
-"path": "/radio/2056"
-},
-{
-"id": "2323",
-"name": "ForBlitz.FM - Танковое радио",
-"path": "/forblitzfm"
-},
-{
-"id": "2330",
-"name": "SINTEZI",
-"path": "/sintezi"
-},
-{
-"id": "2335",
-"name": "радио А",
-"path": "/radioa"
-},
-{
-"id": "2340",
-"name": "Volna UAE",
-"path": "/volnaae"
-},
-{
-"id": "2058",
-"name": "Global Dance Radio",
-"path": "/radio/2058"
-},
-{
-"id": "2061",
-"name": "FREAQ RADIO",
-"path": "/radio/2061"
-},
-{
-"id": "2343",
-"name": "The Disco Paradise - Partymix",
-"path": "/thediscopartymix"
-},
-{
-"id": "2344",
-"name": "The Disco Paradise - Philharmonic",
-"path": "/thediscophilharmonic"
-},
-{
-"id": "2348",
-"name": "Baker Street N",
-"path": "/BakerStreetN"
-},
-{
-"id": "2062",
-"name": "Joint Radio Beat",
-"path": "/radio/2062"
-},
-{
-"id": "2073",
-"name": "Arena Radio",
-"path": "/radio/2073"
-},
-{
-"id": "2086",
-"name": "САМОПОЗНАНИЕ.online",
-"path": "/radio/2086"
-},
-{
-"id": "2352",
-"name": "Радио-Ливны",
-"path": "/radiolivny"
-},
-{
-"id": "2353",
-"name": "7Kilowatte Radio Station",
-"path": "/7kilowatte"
-},
-{
-"id": "2088",
-"name": "Радио ИСКАТЕЛЬ Златоуст 104.7 FM | Миасс 105.1 FM",
-"path": "/radio/2088"
-},
-{
-"id": "2093",
-"name": "Новороссия ROCKS",
-"path": "/radio/2093"
-},
-{
-"id": "2120",
-"name": "ЭлектроСтанция",
-"path": "/radio/2120"
-},
-{
-"id": "2364",
-"name": "Радио Таврия",
-"path": "/tavria"
-},
-{
-"id": "2365",
-"name": "Radiomaya",
-"path": "/radiomaya"
-},
-{
-"id": "2368",
-"name": "Radio Samui",
-"path": "/radiosamui"
-},
-{
-"id": "2125",
-"name": "dopephonk",
-"path": "/dopephonk"
-},
-{
-"id": "2141",
-"name": "Пиратское Rock радио",
-"path": "/radio/2141"
-},
-{
-"id": "2143",
-"name": "Joint Radio Reggae",
-"path": "/radio/2143"
-},
-{
-"id": "2369",
-"name": "Радио Рок-Омлет",
-"path": "/rock-omlet"
-},
-{
-"id": "2376",
-"name": "Динамит FM",
-"path": "/radiodinamit"
-},
-{
-"id": "2146",
-"name": "Радио Гусь",
-"path": "/radio/2146"
-},
-{
-"id": "2153",
-"name": "Joint Radio Blues Rock",
-"path": "/radio/2153"
-},
-{
-"id": "2158",
-"name": "SPEED GARAGE",
-"path": "/radio/2158"
-},
-{
-"id": "2380",
-"name": "Ritmo X99",
-"path": "/ritmox99"
-},
-{
-"id": "2383",
-"name": "DenStar",
-"path": "/denstar"
-},
-{
-"id": "2388",
-"name": "НЕСТАНДАРТ.Архив",
-"path": "/nestandart-archive"
-},
-{
-"id": "2391",
-"name": "Казак FM в Крыму",
-"path": "/kazak-crimea"
-},
-{
-"id": "2159",
-"name": "Упоротая Волна",
-"path": "/radio/2159"
-},
-{
-"id": "2174",
-"name": "Online-Radio NEVERMIND.",
-"path": "/radio/2174"
-},
-{
-"id": "2392",
-"name": "БарсукФМ",
-"path": "/barsukfm"
-},
-{
-"id": "2393",
-"name": "Wow Music Шансон",
-"path": "/wowshanson"
-},
-{
-"id": "2394",
-"name": "Radio 77 (by RAHO)",
-"path": "/radio77"
-},
-{
-"id": "2395",
-"name": "Радио ЯН.ФМ ELECTRO",
-"path": "/yanfm_electro"
-},
-{
-"id": "2397",
-"name": "Eastrica Hits (ENG) [Mix]",
-"path": "/eastricahits"
-},
-{
-"id": "2183",
-"name": "Радио Ы",
-"path": "/radio/2183"
-},
-{
-"id": "2203",
-"name": "Trance_Music_SS",
-"path": "/radio/2203"
-},
-{
-"id": "2204",
-"name": "Радио Золотая Колесница",
-"path": "/radio/2204"
-},
-{
-"id": "2208",
-"name": "Green Dance",
-"path": "/radio/2208"
-},
-{
-"id": "2209",
-"name": "Радио Пайванд",
-"path": "/radio/2209"
-},
-{
-"id": "2399",
-"name": "Радио Красота",
-"path": "/radiobeauty"
-},
-{
-"id": "2207",
-"name": "Power HIT Radio (Мурманск)",
-"path": "/radio/2207"
-},
-{
-"id": "2210",
-"name": "Радио Меломания",
-"path": "/radio/2210"
-},
-{
-"id": "2401",
-"name": "Radiare",
-"path": "/radiare"
-},
-{
-"id": "2404",
-"name": "Радио Россия Фм",
-"path": "/rossiyafm"
-},
-{
-"id": "2223",
-"name": "РАДИОДЕТКИ",
-"path": "/radio/2223"
-},
-{
-"id": "2411",
-"name": "Гусь.Олдскул",
-"path": "/radiogoose-oldschool"
-},
-{
-"id": "2413",
-"name": "Гусь.РУС",
-"path": "/radiogoose-rus"
-},
-{
-"id": "2249",
-"name": "Российский национальный оркестр - РНО",
-"path": "/radio/2249"
-},
-{
-"id": "2255",
-"name": "Радио-Н (Новочеркасск)",
-"path": "/radio/2255"
-},
-{
-"id": "2262",
-"name": "NewPride.fm",
-"path": "/radio/2262"
-},
-{
-"id": "2263",
-"name": "Радиостанция «Открытие»",
-"path": "/radio/2263"
-},
-{
-"id": "2416",
-"name": "Гусь.Хардденс",
-"path": "/radiogoose-harddance"
-},
-{
-"id": "2264",
-"name": "Nebula",
-"path": "/radio/2264"
-},
-{
-"id": "2274",
-"name": "Sputnik Radio Ru",
-"path": "/radio/2274"
-},
-{
-"id": "2279",
-"name": "Yurd FM",
-"path": "/radio/2279"
-},
-{
-"id": "2428",
-"name": "Радио на Стройке",
-"path": "/radionastroike"
-},
-{
-"id": "2429",
-"name": "МОЛОКО",
-"path": "/moloko"
-},
-{
-"id": "2294",
-"name": "Радио СССР",
-"path": "/ussr"
-},
-{
-"id": "2295",
-"name": "MegaNight RADIO",
-"path": "/rmegapolisfm"
-},
-{
-"id": "2431",
-"name": "Wilinor Radio",
-"path": "/wilinor"
-},
-{
-"id": "2435",
-"name": "DiscoBonus Radio",
-"path": "/discobonus"
-},
-{
-"id": "2297",
-"name": "Radio Fresh",
-"path": "/radiofresh"
-},
-{
-"id": "2299",
-"name": "Радио Сиртаки/ Radio Sirtaki",
-"path": "/sirtaki"
-},
-{
-"id": "2301",
-"name": "La Radio de L’Amour",
-"path": "/laradio"
-},
-{
-"id": "2303",
-"name": "Tanz FM",
-"path": "/tanzfm"
-},
-{
-"id": "2305",
-"name": "Симбиоз",
-"path": "/musicalsymbiosis"
-},
-{
-"id": "2438",
-"name": "Радио Микс - Новгородская область",
-"path": "/mixnovgorod"
-},
-{
-"id": "2440",
-"name": "SUPER RADIO РЕТРО хит",
-"path": "/retrohitserz"
-},
-{
-"id": "2307",
-"name": "PROGRAMIQA Radio",
-"path": "/programiqa"
-},
-{
-"id": "2308",
-"name": "Севро Станция",
-"path": "/djsevro"
-},
-{
-"id": "2319",
-"name": "Radio 107 Network",
-"path": "/radio107network"
-},
-{
-"id": "2320",
-"name": "Musiquera 93.3 FM",
-"path": "/musiquera"
-},
-{
-"id": "2441",
-"name": "Cyberfunk",
-"path": "/cyberfunk"
-},
-{
-"id": "2447",
-"name": "Galaxy Progressive Radio",
-"path": "/glxyprog"
-},
-{
-"id": "2452",
-"name": "Lime Teens",
-"path": "/limeteens"
-},
-{
-"id": "2325",
-"name": "КорольЕва и шут",
-"path": "/serdzeurala"
-},
-{
-"id": "2327",
-"name": "Атаман FM",
-"path": "/ataman"
-},
-{
-"id": "2459",
-"name": "Радио 1000 Хитов",
-"path": "/1000hit"
-},
-{
-"id": "2460",
-"name": "Радио Пурга",
-"path": "/radiopurga"
-},
-{
-"id": "2332",
-"name": "FUSION RADIO",
-"path": "/fusionradio"
-},
-{
-"id": "2334",
-"name": "Жаңа FM",
-"path": "/zhanafm"
-},
-{
-"id": "2480",
-"name": "iFree FM",
-"path": "/ifreefm"
-},
-{
-"id": "2484",
-"name": "Дискотека Века",
-"path": "/rudisco"
-},
-{
-"id": "2338",
-"name": "Суворов FM",
-"path": "/suvorovfm"
-},
-{
-"id": "2345",
-"name": "Radio Cafe Zimmermann",
-"path": "/cafezimmermann"
-},
-{
-"id": "2351",
-"name": "Радио Жизнь",
-"path": "/zhizn"
-},
-{
-"id": "2493",
-"name": "KissFM",
-"path": "/radiokissfm"
-},
-{
-"id": "2496",
-"name": "Русская Дискотека",
-"path": "/rusdisco"
-},
-{
-"id": "2356",
-"name": "50f.ru",
-"path": "/50f"
-},
-{
-"id": "2358",
-"name": "LOOK INFO",
-"path": "/lookinfo"
-},
-{
-"id": "2497",
-"name": "AbgarBar Radio",
-"path": "/abgarbar"
-},
-{
-"id": "2498",
-"name": "Радио Микс ФМ",
-"path": "/radiomixfm"
-},
-{
-"id": "2499",
-"name": "PULSE FM",
-"path": "/pulsefm"
-},
-{
-"id": "2501",
-"name": "Чурканов ФМ",
-"path": "/churkanov"
-},
-{
-"id": "2361",
-"name": "BigLife Radio",
-"path": "/biglife_radio"
-},
-{
-"id": "2502",
-"name": "Radio Club 80 Señal Retro",
-"path": "/radioclub80"
-},
-{
-"id": "2503",
-"name": "Радио Русский Hessen",
-"path": "/radiorh"
-},
-{
-"id": "2505",
-"name": "Пыльные пластинки",
-"path": "/dustyrecords"
-},
-{
-"id": "2366",
-"name": "радиоВЫХОД",
-"path": "/radiovihod"
-},
-{
-"id": "2511",
-"name": "РАДИО ДЛЯ ВАС",
-"path": "/super"
-},
-{
-"id": "2512",
-"name": "UFM•Уральская станция",
-"path": "/ufmrus"
-},
-{
-"id": "2371",
-"name": "Voices of the Univerce",
-"path": "/VU"
-},
-{
-"id": "2372",
-"name": "Dancing Fox",
-"path": "/DancingFox"
-},
-{
-"id": "2373",
-"name": "Rock Space Station",
-"path": "/RockSpaceStation"
-},
-{
-"id": "2515",
-"name": "Радио Елена",
-"path": "/radioelena"
-},
-{
-"id": "2518",
-"name": "Радыё Relax (Радио Релакс) 87,5 FM Беларусь Минск",
-"path": "/radiorelaxby"
-},
-{
-"id": "2519",
-"name": "Радио-Минск",
-"path": "/minsknews"
-},
-{
-"id": "2522",
-"name": "Радио Plastinka",
-"path": "/plastinka"
-},
-{
-"id": "2526",
-"name": "Юмор FM Беларусь",
-"path": "/humorfmby"
-},
-{
-"id": "2389",
-"name": "JoyHits UK",
-"path": "/joyhits"
-},
-{
-"id": "2529",
-"name": "Радио Юнистар",
-"path": "/unistar"
-},
-{
-"id": "2535",
-"name": "Своё радио Пинск 106.1 FM",
-"path": "/svoyoradioby"
-},
-{
-"id": "2403",
-"name": "Dance-box",
-"path": "/dance-box"
-},
-{
-"id": "2407",
-"name": "Гусь.Денскор",
-"path": "/radiogoose-dancecore"
-},
-{
-"id": "2412",
-"name": "Гусь.Рок",
-"path": "/radiogoose-rock"
-},
-{
-"id": "2417",
-"name": "ГУСЬ.Хардкор",
-"path": "/radiogoose-hardcore"
-},
-{
-"id": "2418",
-"name": "Гусь.Хардстайл",
-"path": "/radiogoose-hardstyle"
-},
-{
-"id": "2536",
-"name": "Радыё Сталіца",
-"path": "/radiostalica"
-},
-{
-"id": "2537",
-"name": "Радио Бирь",
-"path": "/birskfm"
-},
-{
-"id": "2538",
-"name": "Радио Дюртюли FM",
-"path": "/durfm"
-},
-{
-"id": "2539",
-"name": "Радио Бураево",
-"path": "/radio_buraevo"
-},
-{
-"id": "2419",
-"name": "Гусь.Электро",
-"path": "/radiogoose-electro"
-},
-{
-"id": "2421",
-"name": "K-pop Dream Radio СПб",
-"path": "/k-pop-dream"
-},
-{
-"id": "2543",
-"name": "Retrowave.One Radio",
-"path": "/retrowave"
-},
-{
-"id": "2546",
-"name": "Джаз Радио",
-"path": "/jazz-radio"
-},
-{
-"id": "2425",
-"name": "►♛WORLD MUSIC♛◄",
-"path": "/worldmusic"
-},
-{
-"id": "2426",
-"name": "Electronic Generation Radio",
-"path": "/egradio"
-},
-{
-"id": "2430",
-"name": "Всесоюзное радио онлайн (Екатеринбург)",
-"path": "/cassiopeia-ekaterinburg"
-},
-{
-"id": "2433",
-"name": "Русская музыка 24",
-"path": "/russianmusic24"
-},
-{
-"id": "2434",
-"name": "Estereo Clase 92.9 FM",
-"path": "/estereoclase"
-},
-{
-"id": "2547",
-"name": "The Disco Paradise - Euro Disco",
-"path": "/eurodisco"
-},
-{
-"id": "2550",
-"name": "SEREBRO RADIO",
-"path": "/serebro"
-},
-{
-"id": "2551",
-"name": "RSG iRadio",
-"path": "/rsgiradio"
-},
-{
-"id": "2552",
-"name": "мыршырок",
-"path": "/mirshirok"
-},
-{
-"id": "2553",
-"name": "Радио Анималогия",
-"path": "/animalogya"
-},
-{
-"id": "2439",
-"name": "EvoHit — Радио 90-х и 2000-х",
-"path": "/evohit"
-},
-{
-"id": "2448",
-"name": "Радио Голос Кореи",
-"path": "/vok"
-},
-{
-"id": "2554",
-"name": "RaveGround",
-"path": "/raveground"
-},
-{
-"id": "2556",
-"name": "Radio Moments",
-"path": "/radio-moments"
-},
-{
-"id": "2560",
-"name": "Русский Драйв",
-"path": "/rusdriveradio"
-},
-{
-"id": "2561",
-"name": "Радио Искра",
-"path": "/radioiskra"
-},
-{
-"id": "2450",
-"name": "Biskvit Live",
-"path": "/biskvit"
-},
-{
-"id": "2451",
-"name": "Lime Radio",
-"path": "/limeradio"
-},
-{
-"id": "2454",
-"name": "SUN WAY RADIO",
-"path": "/sunway"
-},
-{
-"id": "2568",
-"name": "Радио ГИМАЛАИ",
-"path": "/radiohimalaya"
-},
-{
-"id": "2569",
-"name": "rock.irk.ru :: main-mix",
-"path": "/rock-irk"
-},
-{
-"id": "2570",
-"name": "Волна FM Волгоград",
-"path": "/nvolna"
-},
-{
-"id": "2458",
-"name": "Andre FM",
-"path": "/andrefm"
-},
-{
-"id": "2571",
-"name": "Воронеж FM",
-"path": "/vrnfm"
-},
-{
-"id": "2573",
-"name": "Европа Плюс Казахстан",
-"path": "/europaplus-kazakhstan"
-},
-{
-"id": "2577",
-"name": "UNDERGROUND OF THE BRAIN",
-"path": "/ubfm"
-},
-{
-"id": "2579",
-"name": "ГУСЬ.Драм",
-"path": "/radiogoose-dnb"
-},
-{
-"id": "2581",
-"name": "ГУСЬ.Фонк",
-"path": "/radiogoose-phonk"
-},
-{
-"id": "2582",
-"name": "ГУСЬ.Бигрум",
-"path": "/radiogoose-bigroom"
-},
-{
-"id": "2470",
-"name": "Волгоград FM",
-"path": "/volgogradfm"
-},
-{
-"id": "2583",
-"name": "DIGITAL RESIDENCY RADIO",
-"path": "/digitalresidency"
-},
-{
-"id": "2584",
-"name": "NEWRADIO.fr",
-"path": "/newradio"
-},
-{
-"id": "2587",
-"name": "Roots & Future",
-"path": "/roots-future"
-},
-{
-"id": "2588",
-"name": "Рок-радио Ветер Сибири",
-"path": "/vetersibiri"
-},
-{
-"id": "2472",
-"name": "Красноярск FM",
-"path": "/krasnoyarskfm"
-},
-{
-"id": "2474",
-"name": "Радио Пилот Пермь 103.6 FM",
-"path": "/permpilotfm"
-},
-{
-"id": "2590",
-"name": "One DJ Radio",
-"path": "/onedjradio"
-},
-{
-"id": "2593",
-"name": "SOHO FM [RELAX]",
-"path": "/soho_fm_relax"
-},
-{
-"id": "2594",
-"name": "RADIARE ONLINE",
-"path": "/radiareonline"
-},
-{
-"id": "2478",
-"name": "Радио Карнавал",
-"path": "/radiokarnaval"
-},
-{
-"id": "2481",
-"name": "Малахит ФМ",
-"path": "/malahitfm"
-},
-{
-"id": "2483",
-"name": "Hits 1 Ibiza",
-"path": "/ibiza1"
-},
-{
-"id": "2485",
-"name": "Palmera Blanca radio",
-"path": "/palmerablanca"
-},
-{
-"id": "2596",
-"name": "Смородина ФМ",
-"path": "/smorodinafm"
-},
-{
-"id": "2494",
-"name": "Благодать FM",
-"path": "/blagofm"
-},
-{
-"id": "2506",
-"name": "Dirty Night Bass Radio",
-"path": "/dirtynightbass"
-},
-{
-"id": "2509",
-"name": "Radio-9",
-"path": "/radio-9"
-},
-{
-"id": "2598",
-"name": "DanceRadio",
-"path": "/danceradio"
-},
-{
-"id": "2599",
-"name": "Радио Подсолнух",
-"path": "/podsolnuh"
-},
-{
-"id": "2520",
-"name": "Радио Культ",
-"path": "/radiokult"
-},
-{
-"id": "2604",
-"name": "Mikulski_24/7 ( ಠ┏ل͜┓ಠ )",
-"path": "/mikulski"
-},
-{
-"id": "2605",
-"name": "МАК Онлайн. Живое радио Андрея Крупина",
-"path": "/makradio"
-},
-{
-"id": "2607",
-"name": "ДругоеРадио",
-"path": "/drugoe-radio"
-},
-{
-"id": "2533",
-"name": "Радио Я Обретаю Незримое",
-"path": "/pointalex"
-},
-{
-"id": "2540",
-"name": "MECHANIC",
-"path": "/mechanicradio"
-},
-{
-"id": "2541",
-"name": "Chillsperience",
-"path": "/chillsperience"
-},
-{
-"id": "2544",
-"name": "AMNESIA",
-"path": "/amnesia"
-},
-{
-"id": "2609",
-"name": "Голос Успеха",
-"path": "/uspehfm"
-},
-{
-"id": "2611",
-"name": "Neon Star Game Radio",
-"path": "/nsr"
-},
-{
-"id": "2545",
-"name": "Radio LEXOSOUND",
-"path": "/lexosound"
-},
-{
-"id": "2548",
-"name": "Радио Новая Песня",
-"path": "/radionewsong"
-},
-{
-"id": "2613",
-"name": "Motion FM",
-"path": "/radiomotionfm"
-},
-{
-"id": "2623",
-"name": "Vita Radio",
-"path": "/vita"
-},
-{
-"id": "2628",
-"name": "У Григорича",
-"path": "/viktor61"
-},
-{
-"id": "2630",
-"name": "Real FM Radio",
-"path": "/realfmradio"
-},
-{
-"id": "2555",
-"name": "K-POP POSITIVE RADIO",
-"path": "/kpopradio"
-},
-{
-"id": "2558",
-"name": "Радио Ростова",
-"path": "/radiorostova"
-},
-{
-"id": "2631",
-"name": "Real FM Relax",
-"path": "/realfm-relax"
-},
-{
-"id": "2632",
-"name": "Real FM Lights",
-"path": "/realfm-lights"
-},
-{
-"id": "2633",
-"name": "Real FM Fresh",
-"path": "/realfm-fresh"
-},
-{
-"id": "2559",
-"name": "Радио АСТВ [Южно-Сахалинск]",
-"path": "/astv_sahalin"
-},
-{
-"id": "2566",
-"name": "p.d.h. - PROJECT DIRTY HARRY",
-"path": "/dirtyharry"
-},
-{
-"id": "2634",
-"name": "Real FM Ultra",
-"path": "/realfm-ultra"
-},
-{
-"id": "2635",
-"name": "Колывань 54",
-"path": "/klvn54"
-},
-{
-"id": "2636",
-"name": "электроверс | tg300000",
-"path": "/tg300000"
-},
-{
-"id": "2640",
-"name": "Радио Мята Gold",
-"path": "/radiomyata-gold"
-},
-{
-"id": "2572",
-"name": "Русское Радио Азия",
-"path": "/rusradio-asia"
-},
-{
-"id": "2574",
-"name": "Станция FMD",
-"path": "/fmd"
-},
-{
-"id": "2641",
-"name": "Радио Мята XTRA",
-"path": "/radiomyata-hits"
-},
-{
-"id": "2642",
-"name": "РАДИО ОНЛАЙН",
-"path": "/radio-online"
-},
-{
-"id": "2643",
-"name": "Vintage Radio Azerbaijan",
-"path": "/vintageradio"
-},
-{
-"id": "2578",
-"name": "ГУСЬ.Мидтемпо",
-"path": "/radiogoose-midtempo"
-},
-{
-"id": "2586",
-"name": "VEVE",
-"path": "/radioveve"
-},
-{
-"id": "2645",
-"name": "Радио Трансмит (Череповец)",
-"path": "/transmit"
-},
-{
-"id": "2648",
-"name": "ZUNO-RADIO",
-"path": "/zuno"
-},
-{
-"id": "2649",
-"name": "Deephoria",
-"path": "/deephoria"
-},
-{
-"id": "2589",
-"name": "Star 33 RadioStation",
-"path": "/star33radio"
-},
-{
-"id": "2592",
-"name": "Голос надежды",
-"path": "/golosn"
-},
-{
-"id": "2595",
-"name": "Omdaru LIVE",
-"path": "/omdaru"
-},
-{
-"id": "2597",
-"name": "Radio Voyage",
-"path": "/radiovoyage"
-},
-{
-"id": "2606",
-"name": "Радио Берёза",
-"path": "/radiobereza"
-},
-{
-"id": "2653",
-"name": "Радио ШОК",
-"path": "/radioshock"
-},
-{
-"id": "2658",
-"name": "RHYTHM 86",
-"path": "/rhythm86"
-},
-{
-"id": "2660",
-"name": "Radio EDGE",
-"path": "/radioedge"
-},
-{
-"id": "2608",
-"name": "R.Unicorn",
-"path": "/unicorn"
-},
-{
-"id": "2617",
-"name": "Minatrix.FM",
-"path": "/minatrix"
-},
-{
-"id": "2662",
-"name": "Морская волна",
-"path": "/morvolna"
-},
-{
-"id": "2664",
-"name": "Radio Pop",
-"path": "/radiopop"
-},
-{
-"id": "2665",
-"name": "Baby Radio",
-"path": "/babyradiodab"
-},
-{
-"id": "2670",
-"name": "Тэтим",
-"path": "/saha"
-},
-{
-"id": "2671",
-"name": "Радио NEFA",
-"path": "/radionefa"
-},
-{
-"id": "2618",
-"name": "MSD DANCE RADIO",
-"path": "/msdgames"
-},
-{
-"id": "2619",
-"name": "Радио Комсомольская правда Южно-Сахалинск (Сахалинская область)",
-"path": "/kp-yuzhno-sakhalinsk"
-},
-{
-"id": "2621",
-"name": "Радио Скуф",
-"path": "/radioskuf"
-},
-{
-"id": "2677",
-"name": "Радио Хаммер",
-"path": "/radioxammep"
-},
-{
-"id": "2681",
-"name": "Стратосфера",
-"path": "/stratosphere"
-},
-{
-"id": "2683",
-"name": "Интернет-радио Липки",
-"path": "/radiolipki"
-},
-{
-"id": "2625",
-"name": "POPFM Биробиджан",
-"path": "/popfm"
-},
-{
-"id": "2687",
-"name": "DNB Mainstream",
-"path": "/dnbmain"
-},
-{
-"id": "2694",
-"name": "LadyFM",
-"path": "/ladyfm"
-},
-{
-"id": "2699",
-"name": "TOCARADIO",
-"path": "/tocaradio"
-},
-{
-"id": "2700",
-"name": "Радио Новая Эра",
-"path": "/novaiaera"
-},
-{
-"id": "2629",
-"name": "MiF.fm",
-"path": "/mif"
-},
-{
-"id": "2639",
-"name": "Радио Мята",
-"path": "/radiomyata"
-},
-{
-"id": "2701",
-"name": "Мрачное радио",
-"path": "/gloomy"
-},
-{
-"id": "2703",
-"name": "Красное радио",
-"path": "/krasnoe"
-},
-{
-"id": "2709",
-"name": "Алынг",
-"path": "/alyng"
-},
-{
-"id": "2646",
-"name": "MaksIs Radio",
-"path": "/maks-is"
-},
-{
-"id": "2647",
-"name": "Rise-FM 92.2 pres. サクラジオ (SacuRadio) 92.6 FM",
-"path": "/sacuradio"
-},
-{
-"id": "2711",
-"name": "Радио Ново-Талицы",
-"path": "/novotalici"
-},
-{
-"id": "2713",
-"name": "Толковое радио",
-"path": "/tolkradio"
-},
-{
-"id": "2659",
-"name": "Паровоз FM",
-"path": "/parovozfm"
-},
-{
-"id": "2661",
-"name": "Радио Гармония",
-"path": "/garmoniyafm"
-},
-{
-"id": "2717",
-"name": "МузCOVERрадио",
-"path": "/muzcover"
-},
-{
-"id": "2727",
-"name": "Радио О.Исаевой",
-"path": "/olgaisaeva"
-},
-{
-"id": "2667",
-"name": "STUDIO 54 RADIO",
-"path": "/studio54"
-},
-{
-"id": "2668",
-"name": "Светоч",
-"path": "/svetoch"
-},
-{
-"id": "2669",
-"name": "ЗОЛОТАЯ КОЛЛЕКЦИЯ",
-"path": "/goldencollection"
-},
-{
-"id": "2728",
-"name": "Радио Фирн",
-"path": "/firn"
-},
-{
-"id": "2732",
-"name": "Pop FM Русское - Бежецк 102.4 FM",
-"path": "/yufmbezhetsk"
-},
-{
-"id": "2733",
-"name": "ХИТОВОЕ РАДИО",
-"path": "/hitovoeradio"
-},
-{
-"id": "2672",
-"name": "Rock FMD",
-"path": "/fmd-rock"
-},
-{
-"id": "2673",
-"name": "NDH FM",
-"path": "/ndh"
-},
-{
-"id": "2675",
-"name": "Радиостанция Благовещение",
-"path": "/blagoveshchenie"
-},
-{
-"id": "2735",
-"name": "Inrayzex Trance Radio",
-"path": "/inrayzex"
-},
-{
-"id": "2738",
-"name": "Baku Jazz Radio",
-"path": "/bakujazzradio"
-},
-{
-"id": "2740",
-"name": "ГУСЬ-Дабстеп",
-"path": "/radiogoose-dubstep"
-},
-{
-"id": "2678",
-"name": "ГУСЬ.Новогодний",
-"path": "/radiogoose-newyear"
-},
-{
-"id": "2680",
-"name": "Радио Россошь",
-"path": "/radiorossosh"
-},
-{
-"id": "2688",
-"name": "IRIDIUM",
-"path": "/iridium"
-},
-{
-"id": "2690",
-"name": "Всесоюзное радио Новосибирск",
-"path": "/vsrn"
-},
-{
-"id": "2691",
-"name": "Радио Тайфун",
-"path": "/radiotajfun"
-},
-{
-"id": "2692",
-"name": "Темная сторона Луны",
-"path": "/dmoon"
-},
-{
-"id": "2693",
-"name": "BreakcoreZip",
-"path": "/breakcorezip"
-},
-{
-"id": "2695",
-"name": "Радио АФРОДИТА",
-"path": "/afrodita"
-},
-{
-"id": "2698",
-"name": "ESM-FM [РОСС-DANCE-FM]",
-"path": "/eternalsunmusic"
-},
-{
-"id": "2705",
-"name": "Радио Калитка",
-"path": "/radiokalitka"
-},
-{
-"id": "2710",
-"name": "Радио Здоровье",
-"path": "/radiozdorovie"
-},
-{
-"id": "2712",
-"name": "Радио ПРИВЕТ",
-"path": "/radioprivet"
-},
-{
-"id": "2715",
-"name": "POPFM Рок",
-"path": "/popfm-rock"
-},
-{
-"id": "2714",
-"name": "POPFM Русское",
-"path": "/popfmrus"
-},
-{
-"id": "2718",
-"name": "Авторское радио",
-"path": "/avtorskoeradio"
-},
-{
-"id": "2720",
-"name": "EURORADIO",
-"path": "/euroradio"
-},
-{
-"id": "2721",
-"name": "Music Radio Chillout",
-"path": "/mrc"
-},
-{
-"id": "2722",
-"name": "Радио Тили-Тели",
-"path": "/tiliteliru"
-},
-{
-"id": "2723",
-"name": "dewoq Radio",
-"path": "/dewoq"
-},
-{
-"id": "2724",
-"name": "Luz DoRadio",
-"path": "/luz"
-},
-{
-"id": "2726",
-"name": "Analoq 84 Radio",
-"path": "/analoq"
-},
-{
-"id": "2729",
-"name": "Попс-Пупс FM",
-"path": "/popspups"
-},
-{
-"id": "2730",
-"name": "Radio Euphoria",
-"path": "/euphoria"
-},
-{
-"id": "2734",
-"name": "Radio DELUXE",
-"path": "/radiodeluxe"
-},
-{
-"id": "2736",
-"name": "Jungle Radio",
-"path": "/jungleradio"
-},
-{
-"id": "2739",
-"name": "ГУСЬ-Хайпертехно",
-"path": "/radiogoose-hypertechno"
-}
+ {
+  "id": "1323",
+  "name": "Маруся ФМ",
+  "path": "/radio/1323"
+ },
+ {
+  "id": "85",
+  "name": "Русское Радио",
+  "path": "/radio/85"
+ },
+ {
+  "id": "1543",
+  "name": "Русская Волна",
+  "path": "/radio/1543"
+ },
+ {
+  "id": "1576",
+  "name": "Европа Плюс",
+  "path": "/radio/1576"
+ },
+ {
+  "id": "2449",
+  "name": "НАРОДНОЕ РАДИО «РОДНИКИ»",
+  "path": "/rodniki"
+ },
+ {
+  "id": "603",
+  "name": "Радио Монте-Карло",
+  "path": "/radio/603"
+ },
+ {
+  "id": "780",
+  "name": "Шоколад",
+  "path": "/radio/780"
+ },
+ {
+  "id": "83",
+  "name": "Дорожное радио Санкт-Петербург 87.5 FM",
+  "path": "/radio/83"
+ },
+ {
+  "id": "644",
+  "name": "Вести FM",
+  "path": "/radio/644"
+ },
+ {
+  "id": "1570",
+  "name": "Ретро Хит",
+  "path": "/radio/1570"
+ },
+ {
+  "id": "487",
+  "name": "Хорошее Радио",
+  "path": "/radio/487"
+ },
+ {
+  "id": "78",
+  "name": "Авторадио",
+  "path": "/radio/78"
+ },
+ {
+  "id": "1260",
+  "name": "SOUNDPARK DEEP",
+  "path": "/radio/1260"
+ },
+ {
+  "id": "2",
+  "name": "Радио Шансон",
+  "path": "/radioshanson"
+ },
+ {
+  "id": "221",
+  "name": "Новое радио 98.4 FM",
+  "path": "/radio/221"
+ },
+ {
+  "id": "1594",
+  "name": "Русский Рок",
+  "path": "/radio/1594"
+ },
+ {
+  "id": "1218",
+  "name": "ТНТ MUSIC RADIO",
+  "path": "/radio/1218"
+ },
+ {
+  "id": "177",
+  "name": "Романтика",
+  "path": "/radio/177"
+ },
+ {
+  "id": "35",
+  "name": "Радио PREMIUM / ПРЕМИУМ",
+  "path": "/radio/35"
+ },
+ {
+  "id": "1901",
+  "name": "Remix FM",
+  "path": "/radio/1901"
+ },
+ {
+  "id": "93",
+  "name": "Радио 7 на семи холмах",
+  "path": "/radio/93"
+ },
+ {
+  "id": "542",
+  "name": "Атмосфера",
+  "path": "/radio/542"
+ },
+ {
+  "id": "1992",
+  "name": "TOP 100",
+  "path": "/top100"
+ },
+ {
+  "id": "1743",
+  "name": "Дядя Ваня на даче 18+",
+  "path": "/vanya"
+ },
+ {
+  "id": "597",
+  "name": "Relax FM",
+  "path": "/radio/597"
+ },
+ {
+  "id": "33",
+  "name": "Наше Радио",
+  "path": "/nashe-radio"
+ },
+ {
+  "id": "64",
+  "name": "Юмор FM",
+  "path": "/radio/64"
+ },
+ {
+  "id": "1601",
+  "name": "Radio Cafe",
+  "path": "/radio/1601"
+ },
+ {
+  "id": "2178",
+  "name": "Соловьёв LIVE FM",
+  "path": "/radio/2178"
+ },
+ {
+  "id": "4",
+  "name": "Радио ЭНЕРДЖИ (NRG)",
+  "path": "/energy"
+ },
+ {
+  "id": "2696",
+  "name": "Песни от всей души",
+  "path": "/povd"
+ },
+ {
+  "id": "89",
+  "name": "Маяк",
+  "path": "/radio/89"
+ },
+ {
+  "id": "1627",
+  "name": "Народное радио",
+  "path": "/radio/1627"
+ },
+ {
+  "id": "88",
+  "name": "DFM Москва",
+  "path": "/radio/88"
+ },
+ {
+  "id": "1496",
+  "name": "[RCM] DEEP",
+  "path": "/radio/1496"
+ },
+ {
+  "id": "257",
+  "name": "Русский хит",
+  "path": "/radio/257"
+ },
+ {
+  "id": "526",
+  "name": "Comedy Radio",
+  "path": "/radio/526"
+ },
+ {
+  "id": "2468",
+  "name": "Радио СИТИ",
+  "path": "/100i6fm"
+ },
+ {
+  "id": "369",
+  "name": "Радио Русские Популярные Песни",
+  "path": "/radio/369"
+ },
+ {
+  "id": "2176",
+  "name": "BEST DEEP FM",
+  "path": "/radio/2176"
+ },
+ {
+  "id": "767",
+  "name": "Эльдорадио",
+  "path": "/radio/767"
+ },
+ {
+  "id": "87",
+  "name": "Максимум",
+  "path": "/radio/87"
+ },
+ {
+  "id": "2685",
+  "name": "ZHUKOV FM | DEEP RADIO",
+  "path": "/zhukovfm"
+ },
+ {
+  "id": "67",
+  "name": "Радио Рекорд / Record",
+  "path": "/radio/67"
+ },
+ {
+  "id": "1567",
+  "name": "ХАЙП FM",
+  "path": "/radio/1567"
+ },
+ {
+  "id": "626",
+  "name": "Душевное Радио",
+  "path": "/radio/626"
+ },
+ {
+  "id": "1767",
+  "name": "ЛЁГКОЕ РАДИО",
+  "path": "/radio/1767"
+ },
+ {
+  "id": "962",
+  "name": "Sputnik",
+  "path": "/radio/962"
+ },
+ {
+  "id": "1006",
+  "name": "Радио ИСКАТЕЛЬ",
+  "path": "/radio/1006"
+ },
+ {
+  "id": "1959",
+  "name": "Радио Советская эстрада",
+  "path": "/radio/1959"
+ },
+ {
+  "id": "2508",
+  "name": "Хит FM",
+  "path": "/hitfm"
+ },
+ {
+  "id": "1539",
+  "name": "Шансон без цензуры",
+  "path": "/radio/1539"
+ },
+ {
+  "id": "2170",
+  "name": "DEEP FM",
+  "path": "/radio/2170"
+ },
+ {
+  "id": "2612",
+  "name": "Радиус FM",
+  "path": "/radiusfm"
+ },
+ {
+  "id": "129",
+  "name": "Милицейская Волна",
+  "path": "/radio/129"
+ },
+ {
+  "id": "472",
+  "name": "Costa Del Mar – Chillout",
+  "path": "/radio/472"
+ },
+ {
+  "id": "2523",
+  "name": "Радио МИР",
+  "path": "/radiomir"
+ },
+ {
+  "id": "2253",
+  "name": "СВОЕFM | DEEP RADIO",
+  "path": "/radio/2253"
+ },
+ {
+  "id": "1511",
+  "name": "Absolute Chillout",
+  "path": "/radio/1511"
+ },
+ {
+  "id": "1413",
+  "name": "BEST FM 100,5 FM",
+  "path": "/radio/1413"
+ },
+ {
+  "id": "2066",
+  "name": "Rock FM",
+  "path": "/radio/2066"
+ },
+ {
+  "id": "638",
+  "name": "Радио Ностальжи Россия",
+  "path": "/radio/638"
+ },
+ {
+  "id": "308",
+  "name": "Радио Джаз 89.1",
+  "path": "/radio/308"
+ },
+ {
+  "id": "236",
+  "name": "Радио «Спокойное»",
+  "path": "/radio/236"
+ },
+ {
+  "id": "2576",
+  "name": "Радио Мастера Беларуси",
+  "path": "/masterabelarusi"
+ },
+ {
+  "id": "2528",
+  "name": "Супер ФМ",
+  "path": "/superfm"
+ },
+ {
+  "id": "1021",
+  "name": "Комсомольская правда Россия",
+  "path": "/radio/1021"
+ },
+ {
+  "id": "773",
+  "name": "Питер FM 100.9",
+  "path": "/radio/773"
+ },
+ {
+  "id": "602",
+  "name": "Дорожное радио Златоуст",
+  "path": "/radio/602"
+ },
+ {
+  "id": "495",
+  "name": "Радио Звезда",
+  "path": "/radio/495"
+ },
+ {
+  "id": "2475",
+  "name": "Радио Мегаполис",
+  "path": "/radio-megapolis"
+ },
+ {
+  "id": "1175",
+  "name": "РУССКОЕ FM",
+  "path": "/radio/1175"
+ },
+ {
+  "id": "916",
+  "name": "Like FM",
+  "path": "/radio/916"
+ },
+ {
+  "id": "2267",
+  "name": "Радио Легенда",
+  "path": "/radio/2267"
+ },
+ {
+  "id": "1540",
+  "name": "Романтический шансон",
+  "path": "/radio/1540"
+ },
+ {
+  "id": "203",
+  "name": "Whisperings",
+  "path": "/radio/203"
+ },
+ {
+  "id": "36",
+  "name": "Fréquence 3",
+  "path": "/radio/36"
+ },
+ {
+  "id": "1926",
+  "name": "Overdrive Live! Station",
+  "path": "/radio/1926"
+ },
+ {
+  "id": "1105",
+  "name": "Радио Скала",
+  "path": "/radio/1105"
+ },
+ {
+  "id": "2457",
+  "name": "PIKIVOK 18+",
+  "path": "/pikivok"
+ },
+ {
+  "id": "2462",
+  "name": "Джем FM",
+  "path": "/jamfm"
+ },
+ {
+  "id": "2532",
+  "name": "Топ Радио",
+  "path": "/topradiofm"
+ },
+ {
+  "id": "721",
+  "name": "Радио «Книга»",
+  "path": "/radio/721"
+ },
+ {
+  "id": "63",
+  "name": "Бизнес ФМ",
+  "path": "/radio/63"
+ },
+ {
+  "id": "422",
+  "name": "Радио Вера",
+  "path": "/radio/422"
+ },
+ {
+  "id": "893",
+  "name": "90s Eurodance",
+  "path": "/radio/893"
+ },
+ {
+  "id": "1365",
+  "name": "Орфей",
+  "path": "/radio/1365"
+ },
+ {
+  "id": "61",
+  "name": "Radio Swiss Jazz",
+  "path": "/radio/61"
+ },
+ {
+  "id": "614",
+  "name": "Коммерсантъ FM",
+  "path": "/radio/614"
+ },
+ {
+  "id": "208",
+  "name": "Mixadance Fm Online Radio",
+  "path": "/radio/208"
+ },
+ {
+  "id": "1414",
+  "name": "Радио ULTRA",
+  "path": "/radio/1414"
+ },
+ {
+  "id": "679",
+  "name": "DEEP ONE - deep house radio",
+  "path": "/radio/679"
+ },
+ {
+  "id": "2585",
+  "name": "Серебряный Дождь",
+  "path": "/silver"
+ },
+ {
+  "id": "38",
+  "name": "1.FM – TOP 40",
+  "path": "/radio/38"
+ },
+ {
+  "id": "2679",
+  "name": "Радио Рокс",
+  "path": "/roks"
+ },
+ {
+  "id": "608",
+  "name": "Радио МИР.Беларусь",
+  "path": "/radio/608"
+ },
+ {
+  "id": "2461",
+  "name": "Радио СИ",
+  "path": "/radioc"
+ },
+ {
+  "id": "1740",
+  "name": "РАДИО ДЛЯ ВЗРОСЛЫХ",
+  "path": "/radio/1740"
+ },
+ {
+  "id": "2492",
+  "name": "Авторадио Беларусь",
+  "path": "/avtoradioby"
+ },
+ {
+  "id": "162",
+  "name": "МЕГА РАДИО",
+  "path": "/radio/162"
+ },
+ {
+  "id": "2442",
+  "name": "Радио Эрмитаж",
+  "path": "/hermitage"
+ },
+ {
+  "id": "2663",
+  "name": "SmoothJazz",
+  "path": "/smoothjazz"
+ },
+ {
+  "id": "2341",
+  "name": "Книга Вслух",
+  "path": "/KnigaVsluh"
+ },
+ {
+  "id": "2311",
+  "name": "LoFi Радио",
+  "path": "/lofiradio"
+ },
+ {
+  "id": "784",
+  "name": "Казак FM",
+  "path": "/radio/784"
+ },
+ {
+  "id": "844",
+  "name": "Татар Радиосы",
+  "path": "/radio/844"
+ },
+ {
+  "id": "2074",
+  "name": "Радио Монте-Карло Санкт-Петербург 105.9 FM",
+  "path": "/radio/2074"
+ },
+ {
+  "id": "2122",
+  "name": "Дискотека 80-90",
+  "path": "/radio/2122"
+ },
+ {
+  "id": "1734",
+  "name": "Fitness Radio",
+  "path": "/radio/1734"
+ },
+ {
+  "id": "2466",
+  "name": "Радио Лето",
+  "path": "/radioletofm"
+ },
+ {
+  "id": "2031",
+  "name": "Родные Песни",
+  "path": "/RodnyePesni"
+ },
+ {
+  "id": "2682",
+  "name": "Радио РБК",
+  "path": "/rbc"
+ },
+ {
+  "id": "1796",
+  "name": "Super-Radio Dance",
+  "path": "/radio/1796"
+ },
+ {
+  "id": "2028",
+  "name": "Classic FM",
+  "path": "/ClassicFM"
+ },
+ {
+  "id": "2465",
+  "name": "Радио Спутник 107.0 FM Екатеринбург",
+  "path": "/sputnik107"
+ },
+ {
+  "id": "2624",
+  "name": "METALчет",
+  "path": "/metalchet"
+ },
+ {
+  "id": "2469",
+  "name": "Радио СПУТНИК Волгоград 105.1 FM",
+  "path": "/sputnikfm"
+ },
+ {
+  "id": "1244",
+  "name": "Costa Del Mar - Smooth Sax",
+  "path": "/radio/1244"
+ },
+ {
+  "id": "1494",
+  "name": "Beautiful Instrumentals Channel",
+  "path": "/radio/1494"
+ },
+ {
+  "id": "2349",
+  "name": "TranceProgExpress",
+  "path": "/tranceprogexpress"
+ },
+ {
+  "id": "310",
+  "name": "LOUNGE-RADIO.COM",
+  "path": "/radio/310"
+ },
+ {
+  "id": "1689",
+  "name": "MR DANCE RADIO",
+  "path": "/radio/1689"
+ },
+ {
+  "id": "1362",
+  "name": "Радио Родных Дорог",
+  "path": "/radio/1362"
+ },
+ {
+  "id": "1508",
+  "name": "Ibiza Radios - Hits",
+  "path": "/radio/1508"
+ },
+ {
+  "id": "1829",
+  "name": "Компас FM",
+  "path": "/radio/1829"
+ },
+ {
+  "id": "2324",
+  "name": "PIRAT.FM",
+  "path": "/piratfmradio"
+ },
+ {
+  "id": "79",
+  "name": "Радио Фантастики",
+  "path": "/radio/79"
+ },
+ {
+  "id": "1791",
+  "name": "MOTORADIO LITE",
+  "path": "/radio/1791"
+ },
+ {
+  "id": "2476",
+  "name": "Радио 106.9 Тольятти",
+  "path": "/106i9fm"
+ },
+ {
+  "id": "1262",
+  "name": "ChilloutFM",
+  "path": "/radio/1262"
+ },
+ {
+  "id": "2473",
+  "name": "Радио АЛЬФА",
+  "path": "/alfafm"
+ },
+ {
+  "id": "1756",
+  "name": "Легенды FM",
+  "path": "/radio/1756"
+ },
+ {
+  "id": "1067",
+  "name": "Radio Monte Carlo Lounge",
+  "path": "/radio/1067"
+ },
+ {
+  "id": "2030",
+  "name": "Мурка FM",
+  "path": "/murka"
+ },
+ {
+  "id": "2591",
+  "name": "Приморская волна",
+  "path": "/primvolna"
+ },
+ {
+  "id": "133",
+  "name": "БИМ радио",
+  "path": "/radio/133"
+ },
+ {
+  "id": "291",
+  "name": "Радио ПАССАЖ",
+  "path": "/radio/291"
+ },
+ {
+  "id": "1385",
+  "name": "Радио-3",
+  "path": "/radio/1385"
+ },
+ {
+  "id": "1607",
+  "name": "Центр FM 101,7 FM",
+  "path": "/radio/1607"
+ },
+ {
+  "id": "801",
+  "name": "Радио-Континенталь",
+  "path": "/radio/801"
+ },
+ {
+  "id": "2296",
+  "name": "Radio Swiss Classic",
+  "path": "/radioswissclassic"
+ },
+ {
+  "id": "2500",
+  "name": "DANCE FM",
+  "path": "/dance-radio"
+ },
+ {
+  "id": "2467",
+  "name": "Радио Олимп",
+  "path": "/olimpfm"
+ },
+ {
+  "id": "2477",
+  "name": "Ульяновск FM",
+  "path": "/ulskfm"
+ },
+ {
+  "id": "650",
+  "name": "Noise FM",
+  "path": "/radio/650"
+ },
+ {
+  "id": "677",
+  "name": "Говорит Москва",
+  "path": "/radio/677"
+ },
+ {
+  "id": "1884",
+  "name": "Диско-радио SOVA",
+  "path": "/radio/1884"
+ },
+ {
+  "id": "2078",
+  "name": "Cassiopeia Station (Наука)",
+  "path": "/radio/2078"
+ },
+ {
+  "id": "2398",
+  "name": "Радио Гордость",
+  "path": "/radiogordost"
+ },
+ {
+  "id": "1465",
+  "name": "Модель для сборки / МДС",
+  "path": "/radio/1465"
+ },
+ {
+  "id": "2256",
+  "name": "Radio Legends",
+  "path": "/radio/2256"
+ },
+ {
+  "id": "373",
+  "name": "DNB FM",
+  "path": "/radio/373"
+ },
+ {
+  "id": "1830",
+  "name": "Любимые хиты",
+  "path": "/radio/1830"
+ },
+ {
+  "id": "1582",
+  "name": "Мегахит",
+  "path": "/radio/1582"
+ },
+ {
+  "id": "2464",
+  "name": "Rock Arsenal",
+  "path": "/rockarsenal"
+ },
+ {
+  "id": "803",
+  "name": "Радио Роксана 103.0FM",
+  "path": "/radio/803"
+ },
+ {
+  "id": "1392",
+  "name": "URALSOUND FM | DEEP HOUSE",
+  "path": "/radio/1392"
+ },
+ {
+  "id": "1863",
+  "name": "Всемирное Одесское радио",
+  "path": "/radio/1863"
+ },
+ {
+  "id": "2033",
+  "name": "Умное Радио",
+  "path": "/Umnoe"
+ },
+ {
+  "id": "2163",
+  "name": "Ночной звонок",
+  "path": "/radio/2163"
+ },
+ {
+  "id": "1297",
+  "name": "Радио Радонеж",
+  "path": "/radio/1297"
+ },
+ {
+  "id": "1547",
+  "name": "Радио Калина Красная 107.4 FM",
+  "path": "/radio/1547"
+ },
+ {
+  "id": "2100",
+  "name": "Калейдоскоп:Шансон",
+  "path": "/radio/2100"
+ },
+ {
+  "id": "34",
+  "name": "Discover Trance Radio",
+  "path": "/radio/34"
+ },
+ {
+  "id": "2367",
+  "name": "Радио Краснодар",
+  "path": "/tvkrasnodar"
+ },
+ {
+  "id": "2535",
+  "name": "Своё радио Пинск 106.1 FM",
+  "path": "/svoyoradioby"
+ },
+ {
+  "id": "2490",
+  "name": "Alternative X-Rock Station",
+  "path": "/alternativerockstation"
+ },
+ {
+  "id": "1395",
+  "name": "Детский Хит",
+  "path": "/radio/1395"
+ },
+ {
+  "id": "2562",
+  "name": "DEEP IN SPACE",
+  "path": "/deepinspace"
+ },
+ {
+  "id": "2565",
+  "name": "Диско-радио ВЕНЕРА",
+  "path": "/radiovenera"
+ },
+ {
+  "id": "1676",
+  "name": "HIP HOP RADIO",
+  "path": "/radio/1676"
+ },
+ {
+  "id": "2463",
+  "name": "Радио Пилот Екатеринбург 100.4 FM",
+  "path": "/pilotfm"
+ },
+ {
+  "id": "1369",
+  "name": "Radio Kamchatka LIVE - Dance Radio",
+  "path": "/radio/1369"
+ },
+ {
+  "id": "2108",
+  "name": "МВ-Радио",
+  "path": "/radio/2108"
+ },
+ {
+  "id": "2166",
+  "name": "Наш Шансон",
+  "path": "/radio/2166"
+ },
+ {
+  "id": "2408",
+  "name": "Гусь.Дипхаус",
+  "path": "/radiogoose-deep"
+ },
+ {
+  "id": "1685",
+  "name": "RADIO FRESH",
+  "path": "/radio/1685"
+ },
+ {
+  "id": "2655",
+  "name": "Владивосток FM",
+  "path": "/vladfm"
+ },
+ {
+  "id": "776",
+  "name": "Москва FM 92.0",
+  "path": "/radio/776"
+ },
+ {
+  "id": "1164",
+  "name": "Радио Bananastreet",
+  "path": "/radio/1164"
+ },
+ {
+  "id": "1827",
+  "name": "Радио Патриот",
+  "path": "/radio/1827"
+ },
+ {
+  "id": "2357",
+  "name": "Старый портфель",
+  "path": "/oldbrief"
+ },
+ {
+  "id": "491",
+  "name": "161Fm",
+  "path": "/radio/491"
+ },
+ {
+  "id": "2443",
+  "name": "Радио Джем",
+  "path": "/jam_radio"
+ },
+ {
+  "id": "918",
+  "name": "Sax4Love",
+  "path": "/radio/918"
+ },
+ {
+  "id": "2152",
+  "name": "Вечная Молодость",
+  "path": "/radio/2152"
+ },
+ {
+  "id": "2652",
+  "name": "Соль FM",
+  "path": "/solfm"
+ },
+ {
+  "id": "2471",
+  "name": "Радио 99.1 FM Красноярск",
+  "path": "/99i1"
+ },
+ {
+  "id": "1242",
+  "name": "Costa Del Mar - Zen",
+  "path": "/radio/1242"
+ },
+ {
+  "id": "1551",
+  "name": "Радио странствий",
+  "path": "/radio/1551"
+ },
+ {
+  "id": "1733",
+  "name": "Epic Radio",
+  "path": "/epicradio"
+ },
+ {
+  "id": "2355",
+  "name": "Magnatosphere",
+  "path": "/magnatos"
+ },
+ {
+  "id": "2455",
+  "name": "Релакс радио 24",
+  "path": "/relaxradio24"
+ },
+ {
+  "id": "2656",
+  "name": "Авторадио Владивосток",
+  "path": "/avtoradio25"
+ },
+ {
+  "id": "1778",
+  "name": "Радио Шторм",
+  "path": "/radio/1778"
+ },
+ {
+  "id": "883",
+  "name": "Чикен FM",
+  "path": "/radio/883"
+ },
+ {
+  "id": "1978",
+  "name": "Радио Старого Полковника",
+  "path": "/radio/1978"
+ },
+ {
+  "id": "2032",
+  "name": "Сказка FM",
+  "path": "/skazka"
+ },
+ {
+  "id": "2384",
+  "name": "Нормальное радио",
+  "path": "/radionorm"
+ },
+ {
+  "id": "2610",
+  "name": "M.Deep Radio",
+  "path": "/mdeep"
+ },
+ {
+  "id": "1333",
+  "name": "Costa Del Mar – Dance",
+  "path": "/radio/1333"
+ },
+ {
+  "id": "477",
+  "name": "SomaFM: Space Station",
+  "path": "/radio/477"
+ },
+ {
+  "id": "1981",
+  "name": "Радио Nostalgie Махачкала",
+  "path": "/radio/1981"
+ },
+ {
+  "id": "2316",
+  "name": "Радио Шоколад ФМ",
+  "path": "/chocolatefm"
+ },
+ {
+  "id": "2496",
+  "name": "Русская Дискотека",
+  "path": "/rusdisco"
+ },
+ {
+  "id": "2534",
+  "name": "Барановичи FM",
+  "path": "/100fmby"
+ },
+ {
+  "id": "2627",
+  "name": "Luxury Music",
+  "path": "/luxury"
+ },
+ {
+  "id": "2706",
+  "name": "ROYALRADIO 98/6 FM",
+  "path": "/royalradio"
+ },
+ {
+  "id": "1168",
+  "name": "Metaradio",
+  "path": "/radio/1168"
+ },
+ {
+  "id": "1450",
+  "name": "Русское Радио: Русское Кино",
+  "path": "/radio/1450"
+ },
+ {
+  "id": "1626",
+  "name": "Cafe Del Mar",
+  "path": "/radio/1626"
+ },
+ {
+  "id": "2363",
+  "name": "Musi-Q",
+  "path": "/musi-q"
+ },
+ {
+  "id": "2282",
+  "name": "Русские Песни",
+  "path": "/radio/2282"
+ },
+ {
+  "id": "2491",
+  "name": "Радио Камчатка 105.5fm",
+  "path": "/radiokamchatka"
+ },
+ {
+  "id": "2424",
+  "name": "Садовод",
+  "path": "/gardener"
+ },
+ {
+  "id": "2564",
+  "name": "Катюша FM",
+  "path": "/katushafm"
+ },
+ {
+  "id": "2601",
+  "name": "Русский Винтаж",
+  "path": "/rusvintage"
+ },
+ {
+  "id": "94",
+  "name": "Radio Alpha FM",
+  "path": "/radio/94"
+ },
+ {
+  "id": "406",
+  "name": "Радио Вышка",
+  "path": "/radio/406"
+ },
+ {
+  "id": "814",
+  "name": "Радио mCm 102.1 FM",
+  "path": "/radio/814"
+ },
+ {
+  "id": "1371",
+  "name": "Radio Kamchatka LIVE - Chilout Radio",
+  "path": "/radio/1371"
+ },
+ {
+  "id": "2281",
+  "name": "Music Box Radio",
+  "path": "/radio/2281"
+ },
+ {
+  "id": "2145",
+  "name": "РЕТРО РАДИО",
+  "path": "/radio/2145"
+ },
+ {
+  "id": "2519",
+  "name": "Радио-Минск",
+  "path": "/minsknews"
+ },
+ {
+  "id": "2674",
+  "name": "Шансон Беларусь",
+  "path": "/shanson-by"
+ },
+ {
+  "id": "2637",
+  "name": "Малина FM",
+  "path": "/malinafm"
+ },
+ {
+  "id": "2644",
+  "name": "Мир Белогорья (Радио Z)",
+  "path": "/mirbelogorya"
+ },
+ {
+  "id": "2650",
+  "name": "Boombox Life",
+  "path": "/boombox"
+ },
+ {
+  "id": "3",
+  "name": "Business FM 107.4 (Петербург)",
+  "path": "/radio/3"
+ },
+ {
+  "id": "127",
+  "name": "GTI Radio - Trance",
+  "path": "/radio/127"
+ },
+ {
+  "id": "1690",
+  "name": "Супер-радио",
+  "path": "/radio/1690"
+ },
+ {
+  "id": "1868",
+  "name": "Splash Classical",
+  "path": "/radio/1868"
+ },
+ {
+  "id": "2063",
+  "name": "Радио Христианская Песня",
+  "path": "/radio/2063"
+ },
+ {
+  "id": "2285",
+  "name": "Retro LAN Party",
+  "path": "/radio/2285"
+ },
+ {
+  "id": "2531",
+  "name": "Радио Говорит Майкоп",
+  "path": "/govoritmaykop"
+ },
+ {
+  "id": "2603",
+  "name": "Юмор FM. Анекдоты",
+  "path": "/anekdoty"
+ },
+ {
+  "id": "2614",
+  "name": "Живая природа",
+  "path": "/priroda"
+ },
+ {
+  "id": "2626",
+  "name": "Радио ретро 24",
+  "path": "/retro24"
+ },
+ {
+  "id": "30",
+  "name": "Venice Classic Radio AUDITORIUM",
+  "path": "/radio/30"
+ },
+ {
+  "id": "469",
+  "name": "181.FM - Chilled Out",
+  "path": "/radio/469"
+ },
+ {
+  "id": "68",
+  "name": "L-radio",
+  "path": "/radio/68"
+ },
+ {
+  "id": "145",
+  "name": "Пилот-Радио",
+  "path": "/radio/145"
+ },
+ {
+  "id": "1427",
+  "name": "Радио «Петербург»",
+  "path": "/radio/1427"
+ },
+ {
+  "id": "1510",
+  "name": "Ibiza Radios – Smooth Jazz",
+  "path": "/radio/1510"
+ },
+ {
+  "id": "762",
+  "name": "Радио Городская Волна",
+  "path": "/radio/762"
+ },
+ {
+  "id": "1869",
+  "name": "Splash Jazz",
+  "path": "/radio/1869"
+ },
+ {
+  "id": "2027",
+  "name": "Chilla FM",
+  "path": "/ChillaFM"
+ },
+ {
+  "id": "1757",
+  "name": "Bay Smooth Jazz",
+  "path": "/radio/1757"
+ },
+ {
+  "id": "2288",
+  "name": "Известия",
+  "path": "/iz"
+ },
+ {
+  "id": "2034",
+  "name": "Звуки Природы",
+  "path": "/ZvukiPrirody"
+ },
+ {
+  "id": "2432",
+  "name": "CosmosFM",
+  "path": "/cosmosfm"
+ },
+ {
+  "id": "2381",
+  "name": "Deep Dub Tech",
+  "path": "/ddtradio"
+ },
+ {
+  "id": "2556",
+  "name": "Radio Moments",
+  "path": "/radio-moments"
+ },
+ {
+  "id": "2489",
+  "name": "МАКС FM",
+  "path": "/maksfm"
+ },
+ {
+  "id": "2622",
+  "name": "Neon FM",
+  "path": "/neon"
+ },
+ {
+  "id": "457",
+  "name": "Старое радио — музыка",
+  "path": "/radio/457"
+ },
+ {
+  "id": "903",
+  "name": "Ника FM",
+  "path": "/radio/903"
+ },
+ {
+  "id": "80",
+  "name": "Радио Сибирь",
+  "path": "/radio/80"
+ },
+ {
+  "id": "192",
+  "name": "Ночное такси",
+  "path": "/radio/192"
+ },
+ {
+  "id": "637",
+  "name": "Радио Культура",
+  "path": "/radio/637"
+ },
+ {
+  "id": "666",
+  "name": "Радио Лучшие Песни",
+  "path": "/radio/666"
+ },
+ {
+  "id": "782",
+  "name": "Радио 107",
+  "path": "/radio/782"
+ },
+ {
+  "id": "1828",
+  "name": "RockTime Radio",
+  "path": "/radio/1828"
+ },
+ {
+  "id": "822",
+  "name": "BOLID FM",
+  "path": "/radio/822"
+ },
+ {
+  "id": "1843",
+  "name": "1PVK RusRAP",
+  "path": "/radio/1843"
+ },
+ {
+  "id": "945",
+  "name": "AlexFM Radiostation",
+  "path": "/radio/945"
+ },
+ {
+  "id": "948",
+  "name": "Visual Neoclassical Omdaru radio",
+  "path": "/radio/948"
+ },
+ {
+  "id": "1987",
+  "name": "Wow Music Hip-Hop",
+  "path": "/radio/1987"
+ },
+ {
+  "id": "1347",
+  "name": "Rock`n`Roll.Fm",
+  "path": "/radio/1347"
+ },
+ {
+  "id": "2116",
+  "name": "Яхт-Радио",
+  "path": "/radio/2116"
+ },
+ {
+  "id": "2161",
+  "name": "Радио Nostalgie Perm",
+  "path": "/radio/2161"
+ },
+ {
+  "id": "2252",
+  "name": "New Age",
+  "path": "/NewAge"
+ },
+ {
+  "id": "2286",
+  "name": "BIKER-FM",
+  "path": "/radio/2286"
+ },
+ {
+  "id": "2005",
+  "name": "ElectroLife",
+  "path": "/e"
+ },
+ {
+  "id": "2110",
+  "name": "RADIO24",
+  "path": "/radio/2110"
+ },
+ {
+  "id": "2141",
+  "name": "Пиратское Rock радио",
+  "path": "/radio/2141"
+ },
+ {
+  "id": "2159",
+  "name": "Упоротая Волна",
+  "path": "/radio/2159"
+ },
+ {
+  "id": "2255",
+  "name": "Радио-Н (Новочеркасск)",
+  "path": "/radio/2255"
+ },
+ {
+  "id": "2513",
+  "name": "MY Radio 104.5 FM | Радио Май",
+  "path": "/pervomaysk"
+ },
+ {
+  "id": "2572",
+  "name": "Русское Радио Азия",
+  "path": "/rusradio-asia"
+ },
+ {
+  "id": "2616",
+  "name": "Radio OldHit",
+  "path": "/oldhit"
+ },
+ {
+  "id": "2676",
+  "name": "Радио Благо",
+  "path": "/radioblago"
+ },
+ {
+  "id": "1556",
+  "name": "Машенька",
+  "path": "/radio/1556"
+ },
+ {
+  "id": "611",
+  "name": "Музыка для Медитации",
+  "path": "/radio/611"
+ },
+ {
+  "id": "759",
+  "name": "Комсомольская правда Новосибирск",
+  "path": "/radio/759"
+ },
+ {
+  "id": "827",
+  "name": "Кузбасс FM",
+  "path": "/radio/827"
+ },
+ {
+  "id": "1839",
+  "name": "Radio Air TOUCH",
+  "path": "/radio/1839"
+ },
+ {
+  "id": "1878",
+  "name": "1000 HITS 80s",
+  "path": "/radio/1878"
+ },
+ {
+  "id": "915",
+  "name": "Costa Del Mar - Deep–House",
+  "path": "/radio/915"
+ },
+ {
+  "id": "1966",
+  "name": "Радио Редкие Рыбы",
+  "path": "/radio/1966"
+ },
+ {
+  "id": "1360",
+  "name": "Неслучайное Радио",
+  "path": "/radio/1360"
+ },
+ {
+  "id": "1579",
+  "name": "DWGradio Радио Слово Божие",
+  "path": "/radio/1579"
+ },
+ {
+  "id": "1651",
+  "name": "LightRadio",
+  "path": "/radio/1651"
+ },
+ {
+  "id": "2205",
+  "name": "The Sound of Phonk",
+  "path": "/radio/2205"
+ },
+ {
+  "id": "2206",
+  "name": "Street Beat FM",
+  "path": "/radio/2206"
+ },
+ {
+  "id": "2230",
+  "name": "Ретроклуб Инструментал",
+  "path": "/radio/2230"
+ },
+ {
+  "id": "1793",
+  "name": "ПИРАМИДА",
+  "path": "/radio/1793"
+ },
+ {
+  "id": "1801",
+  "name": "РАДИО СТОЛИЦА",
+  "path": "/radio/1801"
+ },
+ {
+  "id": "1960",
+  "name": "Монстры Рока СССР",
+  "path": "/Monsters-of-Rock"
+ },
+ {
+  "id": "2313",
+  "name": "RadIO Chicago.161",
+  "path": "/161chicago"
+ },
+ {
+  "id": "2056",
+  "name": "Вольтаж FM",
+  "path": "/radio/2056"
+ },
+ {
+  "id": "2376",
+  "name": "Динамит FM",
+  "path": "/radiodinamit"
+ },
+ {
+  "id": "2379",
+  "name": "УлетайРадио",
+  "path": "/uletayradio"
+ },
+ {
+  "id": "2303",
+  "name": "Tanz FM",
+  "path": "/tanzfm"
+ },
+ {
+  "id": "2524",
+  "name": "Радио Небесных Сфер",
+  "path": "/sky"
+ },
+ {
+  "id": "2433",
+  "name": "Русская музыка 24",
+  "path": "/russianmusic24"
+ },
+ {
+  "id": "2439",
+  "name": "EvoHit — Радио 90-х и 2000-х",
+  "path": "/evohit"
+ },
+ {
+  "id": "2580",
+  "name": "ГУСЬ.Транс",
+  "path": "/radiogoose-trance"
+ },
+ {
+  "id": "2470",
+  "name": "Волгоград FM",
+  "path": "/volgogradfm"
+ },
+ {
+  "id": "2575",
+  "name": "Свободное Радио",
+  "path": "/svobodnoe"
+ },
+ {
+  "id": "2694",
+  "name": "LadyFM",
+  "path": "/ladyfm"
+ },
+ {
+  "id": "2725",
+  "name": "dewoq Lo-Fi Radio",
+  "path": "/dewoq-lofi"
+ },
+ {
+  "id": "2667",
+  "name": "STUDIO 54 RADIO",
+  "path": "/studio54"
+ },
+ {
+  "id": "2695",
+  "name": "Радио АФРОДИТА",
+  "path": "/afrodita"
+ },
+ {
+  "id": "44",
+  "name": "Swiss Internet Radio Classical",
+  "path": "/radio/44"
+ },
+ {
+  "id": "50",
+  "name": "Radio Paradise",
+  "path": "/radio/50"
+ },
+ {
+  "id": "57",
+  "name": "SwissRadio Jazz/Swing",
+  "path": "/radio/57"
+ },
+ {
+  "id": "76",
+  "name": "Megapolis FM",
+  "path": "/radio/76"
+ },
+ {
+  "id": "1152",
+  "name": "Slow Radio",
+  "path": "/radio/1152"
+ },
+ {
+  "id": "1198",
+  "name": "ЯсенБит",
+  "path": "/radio/1198"
+ },
+ {
+  "id": "1468",
+  "name": "Старое радио",
+  "path": "/radio/1468"
+ },
+ {
+  "id": "1504",
+  "name": "Ibiza Radios - Chill",
+  "path": "/radio/1504"
+ },
+ {
+  "id": "420",
+  "name": "Радио Благовестие",
+  "path": "/radio/420"
+ },
+ {
+  "id": "482",
+  "name": "Радио Хит | Смотри Радио",
+  "path": "/radio/482"
+ },
+ {
+  "id": "1588",
+  "name": "Caroline Flashback",
+  "path": "/radio/1588"
+ },
+ {
+  "id": "1716",
+  "name": "Time To Relax",
+  "path": "/radio/1716"
+ },
+ {
+  "id": "1736",
+  "name": "FM 80 FUNKY MUSIC",
+  "path": "/radio/1736"
+ },
+ {
+  "id": "730",
+  "name": "Детское радио",
+  "path": "/radio/730"
+ },
+ {
+  "id": "744",
+  "name": "«Красноярск Главный» на FM 102.8",
+  "path": "/radio/744"
+ },
+ {
+  "id": "758",
+  "name": "Комсомольская правда Екатеринбург",
+  "path": "/radio/758"
+ },
+ {
+  "id": "836",
+  "name": "Радио Борнео",
+  "path": "/radio/836"
+ },
+ {
+  "id": "1870",
+  "name": "Splash 80s",
+  "path": "/radio/1870"
+ },
+ {
+  "id": "1910",
+  "name": "DRUMFUNK.RU",
+  "path": "/radio/1910"
+ },
+ {
+  "id": "1216",
+  "name": "Интернет Онлайн Радио SPB1",
+  "path": "/radio/1216"
+ },
+ {
+  "id": "1300",
+  "name": "Радио Dendy-Collection",
+  "path": "/radio/1300"
+ },
+ {
+  "id": "1986",
+  "name": "Wow Music Русское",
+  "path": "/radio/1986"
+ },
+ {
+  "id": "2018",
+  "name": "Интерволна Челябинск",
+  "path": "/radio/2018"
+ },
+ {
+  "id": "2029",
+  "name": "Radio FUNK",
+  "path": "/FUNK"
+ },
+ {
+  "id": "1456",
+  "name": "Bolly FM",
+  "path": "/radio/1456"
+ },
+ {
+  "id": "1461",
+  "name": "Музыка мюзиклов",
+  "path": "/radio/1461"
+ },
+ {
+  "id": "1477",
+  "name": "DFM Орск 104.1 FM",
+  "path": "/radio/1477"
+ },
+ {
+  "id": "2105",
+  "name": "Anti Radio",
+  "path": "/radio/2105"
+ },
+ {
+  "id": "2107",
+  "name": "SOHO FM / DEEP HOUSE",
+  "path": "/radio/2107"
+ },
+ {
+  "id": "1489",
+  "name": "SomaFM: Drone Zone",
+  "path": "/radio/1489"
+ },
+ {
+  "id": "1490",
+  "name": "SomaFM: Beat Blender",
+  "path": "/radio/1490"
+ },
+ {
+  "id": "1527",
+  "name": "UltraPlay",
+  "path": "/radio/1527"
+ },
+ {
+  "id": "1549",
+  "name": "Baby FM",
+  "path": "/radio/1549"
+ },
+ {
+  "id": "1610",
+  "name": "Life-Radio",
+  "path": "/radio/1610"
+ },
+ {
+  "id": "1754",
+  "name": "Классное Радио РДШ",
+  "path": "/radio/1754"
+ },
+ {
+  "id": "1861",
+  "name": "AniSonFM",
+  "path": "/radio/1861"
+ },
+ {
+  "id": "2283",
+  "name": "DJIN FM",
+  "path": "/radio/2283"
+ },
+ {
+  "id": "1963",
+  "name": "Ретроклуб",
+  "path": "/radio/1963"
+ },
+ {
+  "id": "2023",
+  "name": "Ермак Урал",
+  "path": "/radio/2023"
+ },
+ {
+  "id": "2026",
+  "name": "Радио Новый Год 2026",
+  "path": "/radio/2026"
+ },
+ {
+  "id": "2153",
+  "name": "Joint Radio Blues Rock",
+  "path": "/radio/2153"
+ },
+ {
+  "id": "2307",
+  "name": "PROGRAMIQA Radio",
+  "path": "/programiqa"
+ },
+ {
+  "id": "2327",
+  "name": "Атаман FM",
+  "path": "/ataman"
+ },
+ {
+  "id": "2350",
+  "name": "Радио Вышка Узбекистан",
+  "path": "/vyshkauzbekistan"
+ },
+ {
+  "id": "2382",
+  "name": "Кумылженское — Новая волна",
+  "path": "/kumylgaradio"
+ },
+ {
+  "id": "2389",
+  "name": "JoyHits UK",
+  "path": "/joyhits"
+ },
+ {
+  "id": "2543",
+  "name": "Retrowave.One Radio",
+  "path": "/retrowave"
+ },
+ {
+  "id": "2581",
+  "name": "ГУСЬ.Фонк",
+  "path": "/radiogoose-phonk"
+ },
+ {
+  "id": "2664",
+  "name": "Radio Pop",
+  "path": "/radiopop"
+ },
+ {
+  "id": "2670",
+  "name": "Тэтим",
+  "path": "/saha"
+ },
+ {
+  "id": "2620",
+  "name": "Tape Hits",
+  "path": "/tapehits"
+ },
+ {
+  "id": "2703",
+  "name": "Красное радио",
+  "path": "/krasnoe"
+ },
+ {
+  "id": "2716",
+  "name": "ГУСЬ-Релакс",
+  "path": "/radiogoose-relax"
+ },
+ {
+  "id": "400",
+  "name": "TrueColors Radio",
+  "path": "/radio/400"
+ },
+ {
+  "id": "427",
+  "name": "Р52 (105,7 FM)",
+  "path": "/radio/427"
+ },
+ {
+  "id": "42",
+  "name": "Adagio.FM – Бесконечная Классическая музыка.",
+  "path": "/radio/42"
+ },
+ {
+  "id": "649",
+  "name": "Radio GamePlay",
+  "path": "/radio/649"
+ },
+ {
+  "id": "723",
+  "name": "Fallout.FM",
+  "path": "/radio/723"
+ },
+ {
+  "id": "56",
+  "name": "Radio Dismuke",
+  "path": "/radio/56"
+ },
+ {
+  "id": "940",
+  "name": "House Monkey",
+  "path": "/radio/940"
+ },
+ {
+  "id": "982",
+  "name": "PRODj Radio",
+  "path": "/radio/982"
+ },
+ {
+  "id": "1023",
+  "name": "Комсомольская правда Москва",
+  "path": "/radio/1023"
+ },
+ {
+  "id": "1048",
+  "name": "Православное радио «Воскресение»",
+  "path": "/radio/1048"
+ },
+ {
+  "id": "1051",
+  "name": "Народная Волна Чикаго",
+  "path": "/radio/1051"
+ },
+ {
+  "id": "1181",
+  "name": "HIPHOPBY",
+  "path": "/radio/1181"
+ },
+ {
+  "id": "110",
+  "name": "Детское радио (Старое радио)",
+  "path": "/radio/110"
+ },
+ {
+  "id": "112",
+  "name": "Колыбельная",
+  "path": "/radio/112"
+ },
+ {
+  "id": "118",
+  "name": "Новая Жизнь",
+  "path": "/radio/118"
+ },
+ {
+  "id": "147",
+  "name": "APLUS.FM",
+  "path": "/radio/147"
+ },
+ {
+  "id": "1252",
+  "name": "Пульс-Радио",
+  "path": "/radio/1252"
+ },
+ {
+  "id": "1308",
+  "name": "#1 Oldies",
+  "path": "/radio/1308"
+ },
+ {
+  "id": "1320",
+  "name": "1000 HITS Love",
+  "path": "/radio/1320"
+ },
+ {
+  "id": "296",
+  "name": "PriMuzFM",
+  "path": "/radio/296"
+ },
+ {
+  "id": "1512",
+  "name": "New Age Radio",
+  "path": "/radio/1512"
+ },
+ {
+  "id": "543",
+  "name": "Revolution Radio",
+  "path": "/radio/543"
+ },
+ {
+  "id": "1640",
+  "name": "UltraFan",
+  "path": "/radio/1640"
+ },
+ {
+  "id": "1650",
+  "name": "ROCK СТАНЦИЯ",
+  "path": "/radio/1650"
+ },
+ {
+  "id": "620",
+  "name": "УВБ-76",
+  "path": "/radio/620"
+ },
+ {
+  "id": "1681",
+  "name": "Lux-Radio",
+  "path": "/radio/1681"
+ },
+ {
+  "id": "1706",
+  "name": "Dancefloor Radio",
+  "path": "/radio/1706"
+ },
+ {
+  "id": "652",
+  "name": ".:: KAZA FM : КАЗА ФМ ::.",
+  "path": "/radio/652"
+ },
+ {
+  "id": "1713",
+  "name": "Relax Zone",
+  "path": "/radio/1713"
+ },
+ {
+  "id": "1717",
+  "name": "Yoga Chill",
+  "path": "/radio/1717"
+ },
+ {
+  "id": "1723",
+  "name": "Splash Coffee",
+  "path": "/radio/1723"
+ },
+ {
+  "id": "682",
+  "name": "Город FM 107.6",
+  "path": "/radio/682"
+ },
+ {
+  "id": "708",
+  "name": "KISS FM - 98,8 FM",
+  "path": "/radio/708"
+ },
+ {
+  "id": "710",
+  "name": "Hot 108 JAMZ",
+  "path": "/radio/710"
+ },
+ {
+  "id": "1774",
+  "name": "РУССКОЕ РАДИО КОСТАНАЙ",
+  "path": "/radio/1774"
+ },
+ {
+  "id": "1780",
+  "name": "Alyaxen Radiostation",
+  "path": "/radio/1780"
+ },
+ {
+  "id": "1781",
+  "name": "MegaNight RADIO",
+  "path": "/radio/1781"
+ },
+ {
+  "id": "1789",
+  "name": "Venice Classic Radio LIVE",
+  "path": "/radio/1789"
+ },
+ {
+  "id": "816",
+  "name": "Старое Доброе Радио",
+  "path": "/radio/816"
+ },
+ {
+  "id": "817",
+  "name": "Голос Ангары",
+  "path": "/radio/817"
+ },
+ {
+  "id": "880",
+  "name": "MIX FM г. Хабаровск",
+  "path": "/radio/880"
+ },
+ {
+  "id": "949",
+  "name": "Davidzon Radio",
+  "path": "/radio/949"
+ },
+ {
+  "id": "1010",
+  "name": "Первое сетевое",
+  "path": "/radio/1010"
+ },
+ {
+  "id": "1131",
+  "name": "Радио Imagination",
+  "path": "/radio/1131"
+ },
+ {
+  "id": "1143",
+  "name": "Радио Ангелов",
+  "path": "/radio/1143"
+ },
+ {
+  "id": "1155",
+  "name": "Сказочное радио Гамаюн",
+  "path": "/radio/1155"
+ },
+ {
+  "id": "1230",
+  "name": "Sideline FM",
+  "path": "/radio/1230"
+ },
+ {
+  "id": "1984",
+  "name": "Wow Music Top50",
+  "path": "/radio/1984"
+ },
+ {
+  "id": "1988",
+  "name": "Wow Music Rock",
+  "path": "/radio/1988"
+ },
+ {
+  "id": "1341",
+  "name": "RADIO ESSENTIAL",
+  "path": "/radio/1341"
+ },
+ {
+  "id": "2006",
+  "name": "Радио Пляж",
+  "path": "/radio/2006"
+ },
+ {
+  "id": "1386",
+  "name": "DFM Краснодар 106.0 FM",
+  "path": "/radio/1386"
+ },
+ {
+  "id": "2065",
+  "name": "Христианское Радио Сибири",
+  "path": "/radio/2065"
+ },
+ {
+  "id": "1460",
+  "name": "Музыка кино",
+  "path": "/radio/1460"
+ },
+ {
+  "id": "1478",
+  "name": "MixCult Radio",
+  "path": "/radio/1478"
+ },
+ {
+  "id": "1599",
+  "name": "Beloe Radio",
+  "path": "/radio/1599"
+ },
+ {
+  "id": "1614",
+  "name": "Севастополь FM",
+  "path": "/radio/1614"
+ },
+ {
+  "id": "2185",
+  "name": "Radio.Fish",
+  "path": "/radio/2185"
+ },
+ {
+  "id": "2196",
+  "name": "8 BIT FM",
+  "path": "/radio/2196"
+ },
+ {
+  "id": "2211",
+  "name": "The Good Life Radio",
+  "path": "/radio/2211"
+ },
+ {
+  "id": "1755",
+  "name": "Грайндотека",
+  "path": "/radio/1755"
+ },
+ {
+  "id": "1799",
+  "name": "AutoLife Azerbaijan",
+  "path": "/radio/1799"
+ },
+ {
+  "id": "1860",
+  "name": "Cassiopeia Station",
+  "path": "/radio/1860"
+ },
+ {
+  "id": "2272",
+  "name": "The Disco Paradise - Italo Disco",
+  "path": "/radio/2272"
+ },
+ {
+  "id": "1958",
+  "name": "Радио 54",
+  "path": "/radio/1958"
+ },
+ {
+  "id": "2330",
+  "name": "SINTEZI",
+  "path": "/sintezi"
+ },
+ {
+  "id": "2353",
+  "name": "7Kilowatte Radio Station",
+  "path": "/7kilowatte"
+ },
+ {
+  "id": "2115",
+  "name": "Radio LOL",
+  "path": "/radio/2115"
+ },
+ {
+  "id": "2364",
+  "name": "Радио Таврия",
+  "path": "/tavria"
+ },
+ {
+  "id": "2369",
+  "name": "Радио Рок-Омлет",
+  "path": "/rock-omlet"
+ },
+ {
+  "id": "2146",
+  "name": "Радио Гусь",
+  "path": "/radio/2146"
+ },
+ {
+  "id": "2390",
+  "name": "Wow Music 2010",
+  "path": "/wow2010"
+ },
+ {
+  "id": "2399",
+  "name": "Радио Красота",
+  "path": "/radiobeauty"
+ },
+ {
+  "id": "2411",
+  "name": "Гусь.Олдскул",
+  "path": "/radiogoose-oldschool"
+ },
+ {
+  "id": "2308",
+  "name": "Севро Станция",
+  "path": "/djsevro"
+ },
+ {
+  "id": "2459",
+  "name": "Радио 1000 Хитов",
+  "path": "/1000hit"
+ },
+ {
+  "id": "2460",
+  "name": "Радио Пурга",
+  "path": "/radiopurga"
+ },
+ {
+  "id": "2345",
+  "name": "Radio Cafe Zimmermann",
+  "path": "/cafezimmermann"
+ },
+ {
+  "id": "2497",
+  "name": "AbgarBar Radio",
+  "path": "/abgarbar"
+ },
+ {
+  "id": "2501",
+  "name": "Чурканов ФМ",
+  "path": "/churkanov"
+ },
+ {
+  "id": "2507",
+  "name": "MEGATON CAFE RADIO",
+  "path": "/megatoncaferadio"
+ },
+ {
+  "id": "2371",
+  "name": "Voices of the Univerce",
+  "path": "/VU"
+ },
+ {
+  "id": "2374",
+  "name": "Арифулин FM",
+  "path": "/AFM"
+ },
+ {
+  "id": "2542",
+  "name": "Русский шансон 24",
+  "path": "/russhanson24"
+ },
+ {
+  "id": "2579",
+  "name": "ГУСЬ.Драм",
+  "path": "/radiogoose-dnb"
+ },
+ {
+  "id": "2582",
+  "name": "ГУСЬ.Бигрум",
+  "path": "/radiogoose-bigroom"
+ },
+ {
+  "id": "2590",
+  "name": "One DJ Radio",
+  "path": "/onedjradio"
+ },
+ {
+  "id": "2472",
+  "name": "Красноярск FM",
+  "path": "/krasnoyarskfm"
+ },
+ {
+  "id": "2474",
+  "name": "Радио Пилот Пермь 103.6 FM",
+  "path": "/permpilotfm"
+ },
+ {
+  "id": "2487",
+  "name": "Радио 333",
+  "path": "/333"
+ },
+ {
+  "id": "2488",
+  "name": "Липецк-FM 90.7",
+  "path": "/lipetskfm907"
+ },
+ {
+  "id": "2530",
+  "name": "Радио Панельных Домов",
+  "path": "/panelka"
+ },
+ {
+  "id": "2640",
+  "name": "Радио Мята Gold",
+  "path": "/radiomyata-gold"
+ },
+ {
+  "id": "2578",
+  "name": "ГУСЬ.Мидтемпо",
+  "path": "/radiogoose-midtempo"
+ },
+ {
+  "id": "2645",
+  "name": "Радио Трансмит (Череповец)",
+  "path": "/transmit"
+ },
+ {
+  "id": "2638",
+  "name": "Афонтовское",
+  "path": "/afontovskoe"
+ },
+ {
+  "id": "2639",
+  "name": "Радио Мята",
+  "path": "/radiomyata"
+ },
+ {
+  "id": "2709",
+  "name": "Алынг",
+  "path": "/alyng"
+ },
+ {
+  "id": "2657",
+  "name": "Шансон Владивосток",
+  "path": "/shansonvl"
+ },
+ {
+  "id": "2666",
+  "name": "ROMANTICA RADIO",
+  "path": "/romanticaradio"
+ },
+ {
+  "id": "2728",
+  "name": "Радио Фирн",
+  "path": "/firn"
+ },
+ {
+  "id": "2675",
+  "name": "Радиостанция Благовещение",
+  "path": "/blagoveshchenie"
+ },
+ {
+  "id": "2684",
+  "name": "1Z1 Radio",
+  "path": "/1z1radio"
+ },
+ {
+  "id": "2686",
+  "name": "SUNO-FM.RU",
+  "path": "/sunofm"
+ },
+ {
+  "id": "2692",
+  "name": "Темная сторона Луны",
+  "path": "/dmoon"
+ },
+ {
+  "id": "2710",
+  "name": "Радио Здоровье",
+  "path": "/radiozdorovie"
+ },
+ {
+  "id": "2715",
+  "name": "POPFM Рок",
+  "path": "/popfm-rock"
+ },
+ {
+  "id": "2714",
+  "name": "POPFM Русское",
+  "path": "/popfmrus"
+ },
+ {
+  "id": "2726",
+  "name": "Analoq 84 Radio",
+  "path": "/analoq"
+ },
+ {
+  "id": "104",
+  "name": "KEXP 90.3 FM",
+  "path": "/radio/104"
+ },
+ {
+  "id": "138",
+  "name": "SoulLive",
+  "path": "/radio/138"
+ },
+ {
+  "id": "142",
+  "name": "Radio13",
+  "path": "/radio/142"
+ },
+ {
+  "id": "158",
+  "name": "Радиогора (Radiogora)",
+  "path": "/radio/158"
+ },
+ {
+  "id": "184",
+  "name": "Deutscher HipHop &amp; Rap",
+  "path": "/radio/184"
+ },
+ {
+  "id": "361",
+  "name": "Чистые ключи - Брянск",
+  "path": "/radio/361"
+ },
+ {
+  "id": "364",
+  "name": "Православное радио Молдовы",
+  "path": "/radio/364"
+ },
+ {
+  "id": "485",
+  "name": "Радио Uvaga.by",
+  "path": "/radio/485"
+ },
+ {
+  "id": "488",
+  "name": "Радио Теос",
+  "path": "/radio/488"
+ },
+ {
+  "id": "687",
+  "name": "Отличное радио",
+  "path": "/radio/687"
+ },
+ {
+  "id": "51",
+  "name": "idobi Radio",
+  "path": "/radio/51"
+ },
+ {
+  "id": "55",
+  "name": "JazzRadio",
+  "path": "/radio/55"
+ },
+ {
+  "id": "692",
+  "name": "Радио Ватан",
+  "path": "/radio/692"
+ },
+ {
+  "id": "729",
+  "name": "Atm.Fm",
+  "path": "/radio/729"
+ },
+ {
+  "id": "826",
+  "name": "Dixi 102.8 Fm г.Чайковский",
+  "path": "/radio/826"
+ },
+ {
+  "id": "840",
+  "name": "Radio UP FM",
+  "path": "/radio/840"
+ },
+ {
+  "id": "59",
+  "name": "KCSM Jazz 91",
+  "path": "/radio/59"
+ },
+ {
+  "id": "941",
+  "name": "Lumix FM",
+  "path": "/radio/941"
+ },
+ {
+  "id": "60",
+  "name": "WDNA Serious Jazz",
+  "path": "/radio/60"
+ },
+ {
+  "id": "955",
+  "name": "dbdrum radio",
+  "path": "/radio/955"
+ },
+ {
+  "id": "958",
+  "name": "Солнечный Вектор",
+  "path": "/radio/958"
+ },
+ {
+  "id": "1002",
+  "name": "Musical Decadence Radio",
+  "path": "/radio/1002"
+ },
+ {
+  "id": "1024",
+  "name": "Комсомольская правда Абакан",
+  "path": "/radio/1024"
+ },
+ {
+  "id": "1025",
+  "name": "Комсомольская правда Барнаул",
+  "path": "/radio/1025"
+ },
+ {
+  "id": "1026",
+  "name": "Комсомольская правда Владимир",
+  "path": "/radio/1026"
+ },
+ {
+  "id": "1027",
+  "name": "Комсомольская правда Волгоград",
+  "path": "/radio/1027"
+ },
+ {
+  "id": "1028",
+  "name": "Комсомольская правда Вологда",
+  "path": "/radio/1028"
+ },
+ {
+  "id": "1029",
+  "name": "Комсомольская правда Донецк",
+  "path": "/radio/1029"
+ },
+ {
+  "id": "1030",
+  "name": "Комсомольская правда Ижевск",
+  "path": "/radio/1030"
+ },
+ {
+  "id": "1031",
+  "name": "Комсомольская правда Иркутск",
+  "path": "/radio/1031"
+ },
+ {
+  "id": "1032",
+  "name": "Комсомольская правда Киров",
+  "path": "/radio/1032"
+ },
+ {
+  "id": "1033",
+  "name": "Комсомольская правда Липецк",
+  "path": "/radio/1033"
+ },
+ {
+  "id": "1034",
+  "name": "Комсомольская правда Нижний Новгород",
+  "path": "/radio/1034"
+ },
+ {
+  "id": "1035",
+  "name": "Комсомольская правда Пермь",
+  "path": "/radio/1035"
+ },
+ {
+  "id": "1036",
+  "name": "Комсомольская правда Ростов-на-Дону",
+  "path": "/radio/1036"
+ },
+ {
+  "id": "1037",
+  "name": "Комсомольская правда Саратов, Энгельс",
+  "path": "/radio/1037"
+ },
+ {
+  "id": "1038",
+  "name": "Комсомольская правда Ставрополь, Армавир",
+  "path": "/radio/1038"
+ },
+ {
+  "id": "1039",
+  "name": "Комсомольская правда Тверь",
+  "path": "/radio/1039"
+ },
+ {
+  "id": "1056",
+  "name": "Win-Win radio",
+  "path": "/radio/1056"
+ },
+ {
+  "id": "1077",
+  "name": "bignoise",
+  "path": "/radio/1077"
+ },
+ {
+  "id": "1083",
+  "name": "Atlantica Radio",
+  "path": "/radio/1083"
+ },
+ {
+  "id": "1084",
+  "name": "Atlantica Soleil",
+  "path": "/radio/1084"
+ },
+ {
+  "id": "1085",
+  "name": "Atlantica Oldies",
+  "path": "/radio/1085"
+ },
+ {
+  "id": "1109",
+  "name": "Comedy Radio Екатеринбург",
+  "path": "/radio/1109"
+ },
+ {
+  "id": "1113",
+  "name": "Sway and Breathe Radio",
+  "path": "/radio/1113"
+ },
+ {
+  "id": "1135",
+  "name": "IMPULSE RADIO",
+  "path": "/radio/1135"
+ },
+ {
+  "id": "1137",
+  "name": "Земля plus",
+  "path": "/radio/1137"
+ },
+ {
+  "id": "1199",
+  "name": "Fresh Rock",
+  "path": "/radio/1199"
+ },
+ {
+  "id": "1201",
+  "name": "Средиземноморская смесь",
+  "path": "/radio/1201"
+ },
+ {
+  "id": "95",
+  "name": "Radio Bob!",
+  "path": "/radio/95"
+ },
+ {
+  "id": "96",
+  "name": "DEFJAY Radio Deutschland",
+  "path": "/radio/96"
+ },
+ {
+  "id": "103",
+  "name": "Комсомольская правда в Красноярске 107,1 FM",
+  "path": "/radio/103"
+ },
+ {
+  "id": "1209",
+  "name": "bTuner",
+  "path": "/radio/1209"
+ },
+ {
+  "id": "1215",
+  "name": "Виктори Рок",
+  "path": "/radio/1215"
+ },
+ {
+  "id": "1236",
+  "name": "Север FM - 87.5",
+  "path": "/radio/1236"
+ },
+ {
+  "id": "1237",
+  "name": "Dance Wave!",
+  "path": "/radio/1237"
+ },
+ {
+  "id": "1241",
+  "name": "100 Hip Hop and RNB.FM",
+  "path": "/radio/1241"
+ },
+ {
+  "id": "1243",
+  "name": "Costa Del Mar - Funky",
+  "path": "/radio/1243"
+ },
+ {
+  "id": "1251",
+  "name": "Город Кудрово",
+  "path": "/radio/1251"
+ },
+ {
+  "id": "1264",
+  "name": "Компот FM",
+  "path": "/radio/1264"
+ },
+ {
+  "id": "1286",
+  "name": "Междугородье",
+  "path": "/radio/1286"
+ },
+ {
+  "id": "1287",
+  "name": "Первое железнодорожное радио - канал RocK",
+  "path": "/radio/1287"
+ },
+ {
+  "id": "1324",
+  "name": "Synth Radio",
+  "path": "/radio/1324"
+ },
+ {
+  "id": "1328",
+  "name": "Виктори Поп-музыка",
+  "path": "/radio/1328"
+ },
+ {
+  "id": "1342",
+  "name": "Комсомольская правда - Санкт-Петербург",
+  "path": "/radio/1342"
+ },
+ {
+  "id": "1343",
+  "name": "Комсомольская правда - Самара",
+  "path": "/radio/1343"
+ },
+ {
+  "id": "1354",
+  "name": "KEKS FM Kiev",
+  "path": "/radio/1354"
+ },
+ {
+  "id": "1363",
+  "name": "HardBase.FM",
+  "path": "/radio/1363"
+ },
+ {
+  "id": "1403",
+  "name": "Радио Сибирь Омск",
+  "path": "/radio/1403"
+ },
+ {
+  "id": "1405",
+  "name": "Авторадио Красноярск 105,2 FM",
+  "path": "/radio/1405"
+ },
+ {
+  "id": "316",
+  "name": "Диполь FM",
+  "path": "/radio/316"
+ },
+ {
+  "id": "1505",
+  "name": "Ibiza Radios - Dance",
+  "path": "/radio/1505"
+ },
+ {
+  "id": "1506",
+  "name": "Ibiza Radios - Deep–House",
+  "path": "/radio/1506"
+ },
+ {
+  "id": "1507",
+  "name": "Ibiza Radios - Funky",
+  "path": "/radio/1507"
+ },
+ {
+  "id": "354",
+  "name": "Радио Брянск 32",
+  "path": "/radio/354"
+ },
+ {
+  "id": "362",
+  "name": "Радио НЕСТАНДАРТ",
+  "path": "/radio/362"
+ },
+ {
+  "id": "1509",
+  "name": "Ibiza Radios - Relax",
+  "path": "/radio/1509"
+ },
+ {
+  "id": "384",
+  "name": "BrooklynFM (BFM Radio)",
+  "path": "/radio/384"
+ },
+ {
+  "id": "1518",
+  "name": "WalconFM",
+  "path": "/radio/1518"
+ },
+ {
+  "id": "1528",
+  "name": "AlexFM LetsRock",
+  "path": "/radio/1528"
+ },
+ {
+  "id": "423",
+  "name": "Soulplay Radiostation",
+  "path": "/radio/423"
+ },
+ {
+  "id": "426",
+  "name": "Europarussia",
+  "path": "/radio/426"
+ },
+ {
+  "id": "429",
+  "name": "Radio Muzkom",
+  "path": "/radio/429"
+ },
+ {
+  "id": "1530",
+  "name": "GRAZ FM",
+  "path": "/radio/1530"
+ },
+ {
+  "id": "436",
+  "name": "Комсомольская Правда Челябинск",
+  "path": "/radio/436"
+ },
+ {
+  "id": "444",
+  "name": "Радио Орэну",
+  "path": "/radio/444"
+ },
+ {
+  "id": "465",
+  "name": "Ambient Sleeping Pill",
+  "path": "/radio/465"
+ },
+ {
+  "id": "471",
+  "name": "Radio Schizoid - Chillout",
+  "path": "/radio/471"
+ },
+ {
+  "id": "1561",
+  "name": "Новое Вещание Liquid Flash",
+  "path": "/radio/1561"
+ },
+ {
+  "id": "478",
+  "name": "SomaFM: Mission Control",
+  "path": "/radio/478"
+ },
+ {
+  "id": "523",
+  "name": "Радио Экстрим",
+  "path": "/radio/523"
+ },
+ {
+  "id": "1562",
+  "name": "Radio Plato",
+  "path": "/radio/1562"
+ },
+ {
+  "id": "541",
+  "name": "Лемма (Владивосток)",
+  "path": "/radio/541"
+ },
+ {
+  "id": "561",
+  "name": "Trance Century Radio",
+  "path": "/radio/561"
+ },
+ {
+  "id": "1569",
+  "name": "Givin School Radio",
+  "path": "/radio/1569"
+ },
+ {
+  "id": "1574",
+  "name": "ЖАРА FM",
+  "path": "/radio/1574"
+ },
+ {
+  "id": "1589",
+  "name": "Radio DJ Shmagi",
+  "path": "/radio/1589"
+ },
+ {
+  "id": "1592",
+  "name": "Гламурная волна",
+  "path": "/radio/1592"
+ },
+ {
+  "id": "609",
+  "name": "Музыка и Культура Народов Мира",
+  "path": "/radio/609"
+ },
+ {
+  "id": "1631",
+  "name": "IDS Radio",
+  "path": "/radio/1631"
+ },
+ {
+  "id": "1641",
+  "name": "Свой стиль",
+  "path": "/radio/1641"
+ },
+ {
+  "id": "1642",
+  "name": "Radio Deepa.Net",
+  "path": "/radio/1642"
+ },
+ {
+  "id": "1643",
+  "name": "Радио Школы Гивина",
+  "path": "/radio/1643"
+ },
+ {
+  "id": "616",
+  "name": "Radio Moldova",
+  "path": "/radio/616"
+ },
+ {
+  "id": "617",
+  "name": "Радио День",
+  "path": "/radio/617"
+ },
+ {
+  "id": "1649",
+  "name": "Радио ТМ-26",
+  "path": "/radio/1649"
+ },
+ {
+  "id": "1664",
+  "name": "Радио Коп",
+  "path": "/radio/1664"
+ },
+ {
+  "id": "1674",
+  "name": "NEON channel by Sochi Lounge",
+  "path": "/radio/1674"
+ },
+ {
+  "id": "1677",
+  "name": "Insounds",
+  "path": "/radio/1677"
+ },
+ {
+  "id": "1678",
+  "name": "Радио ZEFIROT",
+  "path": "/radio/1678"
+ },
+ {
+  "id": "639",
+  "name": "1.FM - Gorilla FM",
+  "path": "/radio/639"
+ },
+ {
+  "id": "1696",
+  "name": "Dance Wave Retro!",
+  "path": "/radio/1696"
+ },
+ {
+  "id": "1701",
+  "name": "ELF Radio (Moscow)",
+  "path": "/radio/1701"
+ },
+ {
+  "id": "1702",
+  "name": "JAM Radio",
+  "path": "/radio/1702"
+ },
+ {
+  "id": "646",
+  "name": "Христианское радио Сити Эдем",
+  "path": "/radio/646"
+ },
+ {
+  "id": "1704",
+  "name": "Buddha Beach",
+  "path": "/radio/1704"
+ },
+ {
+  "id": "1707",
+  "name": "Deep House Ibiza",
+  "path": "/radio/1707"
+ },
+ {
+  "id": "1708",
+  "name": "Disco Power",
+  "path": "/radio/1708"
+ },
+ {
+  "id": "657",
+  "name": "Авторадио Екатеринбург",
+  "path": "/radio/657"
+ },
+ {
+  "id": "658",
+  "name": "Юмор FM Екатеринбург",
+  "path": "/radio/658"
+ },
+ {
+  "id": "1709",
+  "name": "Funky Town",
+  "path": "/radio/1709"
+ },
+ {
+  "id": "1710",
+  "name": "Healing Music",
+  "path": "/radio/1710"
+ },
+ {
+  "id": "1711",
+  "name": "Hit Club Dance",
+  "path": "/radio/1711"
+ },
+ {
+  "id": "1712",
+  "name": "Party Dance Radio",
+  "path": "/radio/1712"
+ },
+ {
+  "id": "1715",
+  "name": "Soulful House",
+  "path": "/radio/1715"
+ },
+ {
+  "id": "660",
+  "name": "Радио NRJ (ENERGY) Екатеринбург",
+  "path": "/radio/660"
+ },
+ {
+  "id": "1722",
+  "name": "Splash Spa",
+  "path": "/radio/1722"
+ },
+ {
+  "id": "1724",
+  "name": "Splash Lounge",
+  "path": "/radio/1724"
+ },
+ {
+  "id": "1728",
+  "name": "Татарское Радио ТМК",
+  "path": "/radio/1728"
+ },
+ {
+  "id": "1731",
+  "name": "Nicefm",
+  "path": "/radio/1731"
+ },
+ {
+  "id": "1745",
+  "name": "Радио Тандем 104.7 FM",
+  "path": "/radio/1745"
+ },
+ {
+  "id": "715",
+  "name": "K-100 RADIO",
+  "path": "/radio/715"
+ },
+ {
+  "id": "716",
+  "name": "KIDS HITS",
+  "path": "/radio/716"
+ },
+ {
+  "id": "1746",
+  "name": "Движение",
+  "path": "/radio/1746"
+ },
+ {
+  "id": "1752",
+  "name": "J Radio",
+  "path": "/radio/1752"
+ },
+ {
+  "id": "766",
+  "name": "Radio Metro",
+  "path": "/radio/766"
+ },
+ {
+  "id": "1794",
+  "name": "Xradio Greatest Hits",
+  "path": "/radio/1794"
+ },
+ {
+  "id": "771",
+  "name": "Радио Зенит",
+  "path": "/radio/771"
+ },
+ {
+  "id": "772",
+  "name": "Интернет-радио Град Петров",
+  "path": "/radio/772"
+ },
+ {
+  "id": "1797",
+  "name": "Радио Контур",
+  "path": "/radio/1797"
+ },
+ {
+  "id": "1800",
+  "name": "RadioMIX",
+  "path": "/radio/1800"
+ },
+ {
+  "id": "1802",
+  "name": "Бхакти Расаяна Сагара Свами",
+  "path": "/radio/1802"
+ },
+ {
+  "id": "1803",
+  "name": "NSK54 vs. Russian Dance",
+  "path": "/radio/1803"
+ },
+ {
+  "id": "1807",
+  "name": "Шансон (Орск)",
+  "path": "/radio/1807"
+ },
+ {
+  "id": "1808",
+  "name": "OM Radio",
+  "path": "/radio/1808"
+ },
+ {
+  "id": "1810",
+  "name": "DJET RADIO",
+  "path": "/radio/1810"
+ },
+ {
+  "id": "1811",
+  "name": "DeeJay 97.5 Greece Corfu",
+  "path": "/radio/1811"
+ },
+ {
+  "id": "1817",
+  "name": "Radio Extasy",
+  "path": "/radio/1817"
+ },
+ {
+  "id": "1822",
+  "name": "Первое союзное радио",
+  "path": "/radio/1822"
+ },
+ {
+  "id": "789",
+  "name": "Радио «Образ»",
+  "path": "/radio/789"
+ },
+ {
+  "id": "1831",
+  "name": "Джон Радио",
+  "path": "/radio/1831"
+ },
+ {
+  "id": "1832",
+  "name": "Radio Tourist",
+  "path": "/radio/1832"
+ },
+ {
+  "id": "825",
+  "name": "Белое Радио",
+  "path": "/radio/825"
+ },
+ {
+  "id": "829",
+  "name": "Апекс-Радио - в ритме любимого города!",
+  "path": "/radio/829"
+ },
+ {
+  "id": "1834",
+  "name": "Радио НоваСтом",
+  "path": "/radio/1834"
+ },
+ {
+  "id": "837",
+  "name": "Радио Губерния",
+  "path": "/radio/837"
+ },
+ {
+  "id": "1842",
+  "name": "1PVK EDM",
+  "path": "/radio/1842"
+ },
+ {
+  "id": "1845",
+  "name": "Кафе мечты!",
+  "path": "/radio/1845"
+ },
+ {
+  "id": "1847",
+  "name": "Радио Колыма 107.5 Fm",
+  "path": "/radio/1847"
+ },
+ {
+  "id": "1864",
+  "name": "Два Берега",
+  "path": "/radio/1864"
+ },
+ {
+  "id": "889",
+  "name": "Music In Paradise",
+  "path": "/radio/889"
+ },
+ {
+  "id": "890",
+  "name": "Первое железнодорожное радио - канал ПЖ",
+  "path": "/radio/890"
+ },
+ {
+  "id": "1867",
+  "name": "ArtRemixRadio",
+  "path": "/radio/1867"
+ },
+ {
+  "id": "1874",
+  "name": "Radio REDBOX",
+  "path": "/radio/1874"
+ },
+ {
+  "id": "1875",
+  "name": "RADIOSPHERA",
+  "path": "/radio/1875"
+ },
+ {
+  "id": "900",
+  "name": "Радио Олдхит",
+  "path": "/radio/900"
+ },
+ {
+  "id": "906",
+  "name": "Русский мир",
+  "path": "/radio/906"
+ },
+ {
+  "id": "1879",
+  "name": "Радио Посад",
+  "path": "/radio/1879"
+ },
+ {
+  "id": "1881",
+  "name": "Прайм Радио",
+  "path": "/radio/1881"
+ },
+ {
+  "id": "1885",
+  "name": "Радио Победы",
+  "path": "/radio/1885"
+ },
+ {
+  "id": "1887",
+  "name": "Geek-Speak D&B Station",
+  "path": "/radio/1887"
+ },
+ {
+  "id": "1903",
+  "name": "Алмазный край",
+  "path": "/radio/1903"
+ },
+ {
+  "id": "1914",
+  "name": "Tranc2010",
+  "path": "/radio/1914"
+ },
+ {
+  "id": "1922",
+  "name": "Realton Live Radio",
+  "path": "/radio/1922"
+ },
+ {
+  "id": "944",
+  "name": "Радио 7 Ветров",
+  "path": "/radio/944"
+ },
+ {
+  "id": "1923",
+  "name": "Радио Боль",
+  "path": "/radio/1923"
+ },
+ {
+  "id": "1925",
+  "name": "Бродяга On-Line",
+  "path": "/radio/1925"
+ },
+ {
+  "id": "1929",
+  "name": "RS dance station",
+  "path": "/radio/1929"
+ },
+ {
+  "id": "947",
+  "name": "Happy Radio",
+  "path": "/radio/947"
+ },
+ {
+  "id": "957",
+  "name": "Радио Автодор",
+  "path": "/radio/957"
+ },
+ {
+  "id": "1931",
+  "name": "The Disco Palace",
+  "path": "/radio/1931"
+ },
+ {
+  "id": "1932",
+  "name": "The Disco Paradise",
+  "path": "/radio/1932"
+ },
+ {
+  "id": "1933",
+  "name": "The Disco Planet",
+  "path": "/radio/1933"
+ },
+ {
+  "id": "1935",
+  "name": "Калейдоскоп",
+  "path": "/radio/1935"
+ },
+ {
+  "id": "1943",
+  "name": "Radio Office",
+  "path": "/radio/1943"
+ },
+ {
+  "id": "963",
+  "name": "Sputnik International",
+  "path": "/radio/963"
+ },
+ {
+  "id": "1004",
+  "name": "Радио Трасса",
+  "path": "/radio/1004"
+ },
+ {
+  "id": "1944",
+  "name": "The Disco Paradise - Casablanca",
+  "path": "/radio/1944"
+ },
+ {
+  "id": "1009",
+  "name": "Радио Голос Бирмы - Голос всей Азии!",
+  "path": "/radio/1009"
+ },
+ {
+  "id": "1060",
+  "name": "Радио «Русская реклама»",
+  "path": "/radio/1060"
+ },
+ {
+  "id": "1945",
+  "name": "The Disco Paradise - Prelude",
+  "path": "/radio/1945"
+ },
+ {
+  "id": "1946",
+  "name": "The Disco Paradise - Salsoul",
+  "path": "/radio/1946"
+ },
+ {
+  "id": "1087",
+  "name": "NU EUPHORIA Online Trance Radio",
+  "path": "/radio/1087"
+ },
+ {
+  "id": "1947",
+  "name": "The Disco Paradise - T.K. Disco",
+  "path": "/radio/1947"
+ },
+ {
+  "id": "1948",
+  "name": "The Disco Paradise - Unidisco",
+  "path": "/radio/1948"
+ },
+ {
+  "id": "1949",
+  "name": "The Disco Paradise - West End",
+  "path": "/radio/1949"
+ },
+ {
+  "id": "1951",
+  "name": "Москвичи",
+  "path": "/radio/1951"
+ },
+ {
+  "id": "1952",
+  "name": "The Disco Paradise - Atlantic",
+  "path": "/radio/1952"
+ },
+ {
+  "id": "1089",
+  "name": "Радио СОК",
+  "path": "/radio/1089"
+ },
+ {
+  "id": "1104",
+  "name": "ТИПИЧНОЕ FM",
+  "path": "/radio/1104"
+ },
+ {
+  "id": "1108",
+  "name": "Детское радио Екатеринбург",
+  "path": "/radio/1108"
+ },
+ {
+  "id": "1953",
+  "name": "The Disco Paradise - Columbia",
+  "path": "/radio/1953"
+ },
+ {
+  "id": "1954",
+  "name": "The Disco Paradise - Motown",
+  "path": "/radio/1954"
+ },
+ {
+  "id": "1955",
+  "name": "The Disco Paradise - Solar",
+  "path": "/radio/1955"
+ },
+ {
+  "id": "1956",
+  "name": "The Disco Paradise - TSOP",
+  "path": "/radio/1956"
+ },
+ {
+  "id": "1138",
+  "name": "Экспресс Радио Орёл",
+  "path": "/radio/1138"
+ },
+ {
+  "id": "1163",
+  "name": "RussianFM",
+  "path": "/radio/1163"
+ },
+ {
+  "id": "1964",
+  "name": "ONE FM",
+  "path": "/radio/1964"
+ },
+ {
+  "id": "1969",
+  "name": "Антология",
+  "path": "/radio/1969"
+ },
+ {
+  "id": "1177",
+  "name": "Радио Страна FM",
+  "path": "/radio/1177"
+ },
+ {
+  "id": "1195",
+  "name": "Радио Верста",
+  "path": "/radio/1195"
+ },
+ {
+  "id": "1970",
+  "name": "GRELLA Radio",
+  "path": "/radio/1970"
+ },
+ {
+  "id": "1973",
+  "name": "Наше Радио Кисловодск",
+  "path": "/radio/1973"
+ },
+ {
+  "id": "1974",
+  "name": "Радио Шкипер",
+  "path": "/radio/1974"
+ },
+ {
+  "id": "1975",
+  "name": "GTF Instrumental",
+  "path": "/radio/1975"
+ },
+ {
+  "id": "1258",
+  "name": "Радио Go / Radio Go (Russia)",
+  "path": "/radio/1258"
+ },
+ {
+  "id": "1980",
+  "name": "sensuelle radio",
+  "path": "/radio/1980"
+ },
+ {
+  "id": "1983",
+  "name": "Wow Music",
+  "path": "/radio/1983"
+ },
+ {
+  "id": "1327",
+  "name": "DJRADIO RUSSIA",
+  "path": "/radio/1327"
+ },
+ {
+  "id": "1985",
+  "name": "Wow Music Chillout",
+  "path": "/radio/1985"
+ },
+ {
+  "id": "1995",
+  "name": "Li Soul FM",
+  "path": "/radio/1995"
+ },
+ {
+  "id": "1336",
+  "name": "Vintage Radio",
+  "path": "/radio/1336"
+ },
+ {
+  "id": "2001",
+  "name": "Справедливое Радио",
+  "path": "/radio/2001"
+ },
+ {
+  "id": "2003",
+  "name": "Dzhon Radio",
+  "path": "/radio/2003"
+ },
+ {
+  "id": "1370",
+  "name": "Radio Kamchatka LIVE - Rock Radio",
+  "path": "/radio/1370"
+ },
+ {
+  "id": "2010",
+  "name": "Radio Exclusive FM",
+  "path": "/radio/2010"
+ },
+ {
+  "id": "2012",
+  "name": "Aloha FM",
+  "path": "/radio/2012"
+ },
+ {
+  "id": "2017",
+  "name": "MGP-radio",
+  "path": "/radio/2017"
+ },
+ {
+  "id": "1374",
+  "name": "Правильное радио",
+  "path": "/radio/1374"
+ },
+ {
+  "id": "1399",
+  "name": "Мариинский ФМ",
+  "path": "/radio/1399"
+ },
+ {
+  "id": "2035",
+  "name": "NAGO Radio v.2.0",
+  "path": "/radio/2035"
+ },
+ {
+  "id": "2041",
+  "name": "МЭТР Top Music",
+  "path": "/radio/2041"
+ },
+ {
+  "id": "1432",
+  "name": "MOTORADIO.ONLINE",
+  "path": "/radio/1432"
+ },
+ {
+  "id": "1441",
+  "name": "Radio SEGA",
+  "path": "/radio/1441"
+ },
+ {
+  "id": "2042",
+  "name": "Первое Молодёжное Радио Североуральска",
+  "path": "/radio/2042"
+ },
+ {
+  "id": "2057",
+  "name": "MFM Radio",
+  "path": "/radio/2057"
+ },
+ {
+  "id": "1454",
+  "name": "SomaFM: Secret Agent",
+  "path": "/radio/1454"
+ },
+ {
+  "id": "1458",
+  "name": "Hits Of Bollywood",
+  "path": "/radio/1458"
+ },
+ {
+  "id": "1459",
+  "name": "Радио Chiru",
+  "path": "/radio/1459"
+ },
+ {
+  "id": "2067",
+  "name": "Республика Луганск",
+  "path": "/radio/2067"
+ },
+ {
+  "id": "2072",
+  "name": "DnB&EDM",
+  "path": "/radio/2072"
+ },
+ {
+  "id": "1464",
+  "name": "Литературное радио",
+  "path": "/radio/1464"
+ },
+ {
+  "id": "2082",
+  "name": "Enjoy Radio | Архангельск",
+  "path": "/radio/2082"
+ },
+ {
+  "id": "2084",
+  "name": "Калейдоскоп Рок",
+  "path": "/radio/2084"
+ },
+ {
+  "id": "2089",
+  "name": "Твой День",
+  "path": "/radio/2089"
+ },
+ {
+  "id": "1469",
+  "name": "Old Time Radio",
+  "path": "/radio/1469"
+ },
+ {
+  "id": "1470",
+  "name": "Cornucopia Broadcasting",
+  "path": "/radio/1470"
+ },
+ {
+  "id": "1476",
+  "name": "Legend Fm",
+  "path": "/radio/1476"
+ },
+ {
+  "id": "2091",
+  "name": "Радио Afrodita",
+  "path": "/radioafrodita"
+ },
+ {
+  "id": "1481",
+  "name": "Allinstars Радио",
+  "path": "/radio/1481"
+ },
+ {
+  "id": "1482",
+  "name": "Веда-радио",
+  "path": "/radio/1482"
+ },
+ {
+  "id": "1483",
+  "name": "ABC Lounge",
+  "path": "/radio/1483"
+ },
+ {
+  "id": "2095",
+  "name": "BREAKBEATZONE RADIO STATION",
+  "path": "/radio/2095"
+ },
+ {
+  "id": "2109",
+  "name": "White-FM",
+  "path": "/radio/2109"
+ },
+ {
+  "id": "1484",
+  "name": "89 HIT FM",
+  "path": "/radio/1484"
+ },
+ {
+  "id": "1485",
+  "name": "89 HIT FM - EAZY FM",
+  "path": "/radio/1485"
+ },
+ {
+  "id": "1486",
+  "name": "89 HIT FM - DREAM FM",
+  "path": "/radio/1486"
+ },
+ {
+  "id": "1487",
+  "name": "Anotherplanet.fm",
+  "path": "/radio/1487"
+ },
+ {
+  "id": "2112",
+  "name": "Радио Тема",
+  "path": "/radio/2112"
+ },
+ {
+  "id": "2113",
+  "name": "VTC Radio - Lactose",
+  "path": "/radio/2113"
+ },
+ {
+  "id": "1491",
+  "name": "Mantra Radio",
+  "path": "/radio/1491"
+ },
+ {
+  "id": "1492",
+  "name": "Yoga Radio",
+  "path": "/radio/1492"
+ },
+ {
+  "id": "2119",
+  "name": "Рок - Атака",
+  "path": "/radio/2119"
+ },
+ {
+  "id": "2121",
+  "name": "ABSOLUT Park Radio",
+  "path": "/radio/2121"
+ },
+ {
+  "id": "1500",
+  "name": "ПЕРВОЕ портальное",
+  "path": "/radio/1500"
+ },
+ {
+  "id": "1519",
+  "name": "BluesMen Channel (Hits)",
+  "path": "/radio/1519"
+ },
+ {
+  "id": "2127",
+  "name": "Радио SP12",
+  "path": "/radio/2127"
+ },
+ {
+  "id": "2128",
+  "name": "164FM",
+  "path": "/radio/2128"
+ },
+ {
+  "id": "2129",
+  "name": "The Disco Paradise - Indie Disco",
+  "path": "/radio/2129"
+ },
+ {
+  "id": "2130",
+  "name": "The Disco Paradise - BMG",
+  "path": "/radio/2130"
+ },
+ {
+  "id": "2131",
+  "name": "The Disco Paradise - RCA",
+  "path": "/radio/2131"
+ },
+ {
+  "id": "1536",
+  "name": "ЯпаРадио",
+  "path": "/radio/1536"
+ },
+ {
+  "id": "2132",
+  "name": "The Disco Paradise - Warner Bros",
+  "path": "/radio/2132"
+ },
+ {
+  "id": "2133",
+  "name": "The Disco Paradise - Polydor",
+  "path": "/radio/2133"
+ },
+ {
+  "id": "2134",
+  "name": "The Disco Paradise - Concord",
+  "path": "/radio/2134"
+ },
+ {
+  "id": "2137",
+  "name": "САФ балалар радиосы",
+  "path": "/radio/2137"
+ },
+ {
+  "id": "1554",
+  "name": "Волнорез",
+  "path": "/volnorez"
+ },
+ {
+  "id": "1558",
+  "name": "BluesMen Channel (Gold)",
+  "path": "/radio/1558"
+ },
+ {
+  "id": "2138",
+  "name": "Break Radio",
+  "path": "/radio/2138"
+ },
+ {
+  "id": "2154",
+  "name": "NR Astrology Radio",
+  "path": "/radio/2154"
+ },
+ {
+  "id": "2156",
+  "name": "Радио Азамат",
+  "path": "/radio/2156"
+ },
+ {
+  "id": "1580",
+  "name": "Славянский Мир",
+  "path": "/radio/1580"
+ },
+ {
+  "id": "2167",
+  "name": "Радио Вышка Казахстан",
+  "path": "/radio/2167"
+ },
+ {
+  "id": "2171",
+  "name": "MaxRadio",
+  "path": "/radio/2171"
+ },
+ {
+  "id": "2172",
+  "name": "#КАЧПОХАРДКОРУ",
+  "path": "/radio/2172"
+ },
+ {
+  "id": "1587",
+  "name": "АБСОЛЮТ парк радио",
+  "path": "/radio/1587"
+ },
+ {
+  "id": "1590",
+  "name": "Радио Линия",
+  "path": "/radio/1590"
+ },
+ {
+  "id": "2177",
+  "name": "InVoice Radio",
+  "path": "/radio/2177"
+ },
+ {
+  "id": "2179",
+  "name": "Кот рекомендует =)",
+  "path": "/radio/2179"
+ },
+ {
+  "id": "1606",
+  "name": "Радио Юность - ЮFM",
+  "path": "/radio/1606"
+ },
+ {
+  "id": "2184",
+  "name": "Lofifi Radio",
+  "path": "/radio/2184"
+ },
+ {
+  "id": "2187",
+  "name": "Первый Звук",
+  "path": "/radio/2187"
+ },
+ {
+  "id": "2188",
+  "name": "Radio Under",
+  "path": "/radio/2188"
+ },
+ {
+  "id": "1617",
+  "name": "SK-RADIO",
+  "path": "/radio/1617"
+ },
+ {
+  "id": "1620",
+  "name": "Радио Булбул",
+  "path": "/radio/1620"
+ },
+ {
+  "id": "1647",
+  "name": "Smooth Radio",
+  "path": "/radio/1647"
+ },
+ {
+  "id": "2189",
+  "name": "PLATOON",
+  "path": "/radio/2189"
+ },
+ {
+  "id": "2190",
+  "name": "Sound FM - Gospel",
+  "path": "/radio/2190"
+ },
+ {
+  "id": "2194",
+  "name": "АМБЕР ФМ",
+  "path": "/radio/2194"
+ },
+ {
+  "id": "2195",
+  "name": "КомпромиС ФМ",
+  "path": "/radio/2195"
+ },
+ {
+  "id": "1658",
+  "name": "Blow Back Radio",
+  "path": "/radio/1658"
+ },
+ {
+  "id": "1683",
+  "name": "Shoot’em Up Radio",
+  "path": "/radio/1683"
+ },
+ {
+  "id": "2198",
+  "name": "THE RAVE ZONE 24h",
+  "path": "/radio/2198"
+ },
+ {
+  "id": "2199",
+  "name": "R_sound - We Can Do Everything!",
+  "path": "/radio/2199"
+ },
+ {
+  "id": "1700",
+  "name": "Radio 4YOU (Радио фо ю)",
+  "path": "/radio/1700"
+ },
+ {
+  "id": "1721",
+  "name": "Русский Город в США",
+  "path": "/radio/1721"
+ },
+ {
+  "id": "2212",
+  "name": "Fallout Radio",
+  "path": "/Fallout"
+ },
+ {
+  "id": "2213",
+  "name": "Lofi hip hop radio",
+  "path": "/lofigirl"
+ },
+ {
+  "id": "2214",
+  "name": "Deep Mood",
+  "path": "/radio/2214"
+ },
+ {
+  "id": "2216",
+  "name": "Fashion TV",
+  "path": "/FashionTV"
+ },
+ {
+  "id": "1742",
+  "name": "Местное радио Воронеж (советское радио)",
+  "path": "/radio/1742"
+ },
+ {
+  "id": "1747",
+  "name": "Радио Релиз",
+  "path": "/radio/1747"
+ },
+ {
+  "id": "2217",
+  "name": "Rock RGN",
+  "path": "/RGNRock"
+ },
+ {
+  "id": "2220",
+  "name": "Классическая музыка",
+  "path": "/radio/2220"
+ },
+ {
+  "id": "2221",
+  "name": "Haa Taa Deep House",
+  "path": "/radio/2221"
+ },
+ {
+  "id": "2222",
+  "name": "Deep Light",
+  "path": "/radio/2222"
+ },
+ {
+  "id": "2224",
+  "name": "Legends Golden Eurodisco",
+  "path": "/radio/2224"
+ },
+ {
+  "id": "1758",
+  "name": "Пиратское радио SVG",
+  "path": "/radio/1758"
+ },
+ {
+  "id": "1759",
+  "name": "Народное Славянское радио",
+  "path": "/radio/1759"
+ },
+ {
+  "id": "2227",
+  "name": "BassBoosted",
+  "path": "/BassBoosted"
+ },
+ {
+  "id": "2228",
+  "name": "Summer Music Deep",
+  "path": "/radio/2228"
+ },
+ {
+  "id": "2229",
+  "name": "Ретроклуб Радиотеатр",
+  "path": "/radio/2229"
+ },
+ {
+  "id": "1798",
+  "name": "Радио Русские Эмираты",
+  "path": "/radio/1798"
+ },
+ {
+  "id": "2231",
+  "name": "Ретроклуб Радио 60-х",
+  "path": "/radio/2231"
+ },
+ {
+  "id": "2232",
+  "name": "М Радио",
+  "path": "/radio/2232"
+ },
+ {
+  "id": "2233",
+  "name": "Space Ambient",
+  "path": "/radio/2233"
+ },
+ {
+  "id": "2234",
+  "name": "Rap Radio",
+  "path": "/radio/2234"
+ },
+ {
+  "id": "2236",
+  "name": "Classical Piano & Fireplace",
+  "path": "/radio/2236"
+ },
+ {
+  "id": "1812",
+  "name": "Радио 1",
+  "path": "/radio/1812"
+ },
+ {
+  "id": "2238",
+  "name": "BEACH & REGGAE",
+  "path": "/radio/2238"
+ },
+ {
+  "id": "2239",
+  "name": "Nightride FM",
+  "path": "/radio/2239"
+ },
+ {
+  "id": "2241",
+  "name": "Анапский Район",
+  "path": "/radio/2241"
+ },
+ {
+  "id": "2246",
+  "name": "Lumix FM: Electronic Hits",
+  "path": "/radio/2246"
+ },
+ {
+  "id": "2251",
+  "name": "Большой детский хор В.С. Попова",
+  "path": "/radio/2251"
+ },
+ {
+  "id": "2254",
+  "name": "Мурзик Радио",
+  "path": "/radio/2254"
+ },
+ {
+  "id": "1872",
+  "name": "Sky Radio",
+  "path": "/radio/1872"
+ },
+ {
+  "id": "1883",
+  "name": "Красно-Белая Волна",
+  "path": "/radio/1883"
+ },
+ {
+  "id": "2259",
+  "name": "Счастливы вместе",
+  "path": "/radio/2259"
+ },
+ {
+  "id": "2266",
+  "name": "Lava FM",
+  "path": "/radio/2266"
+ },
+ {
+  "id": "2269",
+  "name": "Radio Sud International",
+  "path": "/radio/2269"
+ },
+ {
+  "id": "2271",
+  "name": "Радио MWT",
+  "path": "/radio/2271"
+ },
+ {
+  "id": "1886",
+  "name": "Радио Сибирь Хакасия",
+  "path": "/radio/1886"
+ },
+ {
+  "id": "1907",
+  "name": "Maestro FM",
+  "path": "/radio/1907"
+ },
+ {
+  "id": "1908",
+  "name": "Станция 3.0",
+  "path": "/radio/1908"
+ },
+ {
+  "id": "1920",
+  "name": "Радио Шансон Плюс",
+  "path": "/radio/1920"
+ },
+ {
+  "id": "1921",
+  "name": "МЭТР Golden Hits",
+  "path": "/radio/1921"
+ },
+ {
+  "id": "1938",
+  "name": "Радио Никольское",
+  "path": "/radio/1938"
+ },
+ {
+  "id": "1939",
+  "name": "NFMOSCOW RADIO",
+  "path": "/radio/1939"
+ },
+ {
+  "id": "2284",
+  "name": "SUPER-RADIO remix",
+  "path": "/radio/2284"
+ },
+ {
+  "id": "2289",
+  "name": "Кринж FM",
+  "path": "/cringeradio"
+ },
+ {
+  "id": "2290",
+  "name": "SEDUCTION DANCE TUNES RADIO",
+  "path": "/seduction-dance"
+ },
+ {
+  "id": "2293",
+  "name": "La Bonita X101",
+  "path": "/labonita"
+ },
+ {
+  "id": "1999",
+  "name": "Pyongyang FM",
+  "path": "/radio/1999"
+ },
+ {
+  "id": "2000",
+  "name": "Радио STICKER FM",
+  "path": "/radio/2000"
+ },
+ {
+  "id": "2302",
+  "name": "RADIOisbe",
+  "path": "/radioisbe"
+ },
+ {
+  "id": "2304",
+  "name": "MURZILKI FM",
+  "path": "/murzilkifm"
+ },
+ {
+  "id": "2309",
+  "name": "ВЕСТИ ИРКУТСК",
+  "path": "/vestiirk"
+ },
+ {
+  "id": "2310",
+  "name": "Радио ViBE",
+  "path": "/radiovibe"
+ },
+ {
+  "id": "2312",
+  "name": "Радио ASMR",
+  "path": "/radioasmr"
+ },
+ {
+  "id": "2007",
+  "name": "ART CITY Radio",
+  "path": "/radio/2007"
+ },
+ {
+  "id": "2015",
+  "name": "Женское радио Dolce Vita",
+  "path": "/radio/2015"
+ },
+ {
+  "id": "2021",
+  "name": "NUiRADIO (Ну и радио)",
+  "path": "/radio/2021"
+ },
+ {
+  "id": "2314",
+  "name": "Екатеринбург ФМ",
+  "path": "/ekaterinburgfm"
+ },
+ {
+  "id": "2315",
+  "name": "Радио ногинска (Богородский ФМ)",
+  "path": "/radionoginsk"
+ },
+ {
+  "id": "2011",
+  "name": "test radio",
+  "path": "/test"
+ },
+ {
+  "id": "2317",
+  "name": "MetalHeads",
+  "path": "/metalheads"
+ },
+ {
+  "id": "2321",
+  "name": "Магадан ФМ",
+  "path": "/magadanfm"
+ },
+ {
+  "id": "2045",
+  "name": "Radio Star Five",
+  "path": "/radio/2045"
+ },
+ {
+  "id": "2047",
+  "name": "Наше Радио Ставрополь",
+  "path": "/radio/2047"
+ },
+ {
+  "id": "2055",
+  "name": "Поколение Z",
+  "path": "/radio/2055"
+ },
+ {
+  "id": "2323",
+  "name": "ForBlitz.FM - Танковое радио",
+  "path": "/forblitzfm"
+ },
+ {
+  "id": "2335",
+  "name": "радио А",
+  "path": "/radioa"
+ },
+ {
+  "id": "2340",
+  "name": "Volna UAE",
+  "path": "/volnaae"
+ },
+ {
+  "id": "2058",
+  "name": "Global Dance Radio",
+  "path": "/radio/2058"
+ },
+ {
+  "id": "2061",
+  "name": "FREAQ RADIO",
+  "path": "/radio/2061"
+ },
+ {
+  "id": "2343",
+  "name": "The Disco Paradise - Partymix",
+  "path": "/thediscopartymix"
+ },
+ {
+  "id": "2344",
+  "name": "The Disco Paradise - Philharmonic",
+  "path": "/thediscophilharmonic"
+ },
+ {
+  "id": "2348",
+  "name": "Baker Street N",
+  "path": "/BakerStreetN"
+ },
+ {
+  "id": "2062",
+  "name": "Joint Radio Beat",
+  "path": "/radio/2062"
+ },
+ {
+  "id": "2073",
+  "name": "Arena Radio",
+  "path": "/radio/2073"
+ },
+ {
+  "id": "2086",
+  "name": "САМОПОЗНАНИЕ.online",
+  "path": "/radio/2086"
+ },
+ {
+  "id": "2352",
+  "name": "Радио-Ливны",
+  "path": "/radiolivny"
+ },
+ {
+  "id": "2088",
+  "name": "Радио ИСКАТЕЛЬ Златоуст 104.7 FM | Миасс 105.1 FM",
+  "path": "/radio/2088"
+ },
+ {
+  "id": "2093",
+  "name": "Новороссия ROCKS",
+  "path": "/radio/2093"
+ },
+ {
+  "id": "2120",
+  "name": "ЭлектроСтанция",
+  "path": "/radio/2120"
+ },
+ {
+  "id": "2365",
+  "name": "Radiomaya",
+  "path": "/radiomaya"
+ },
+ {
+  "id": "2368",
+  "name": "Radio Samui",
+  "path": "/radiosamui"
+ },
+ {
+  "id": "2125",
+  "name": "dopephonk",
+  "path": "/dopephonk"
+ },
+ {
+  "id": "2143",
+  "name": "Joint Radio Reggae",
+  "path": "/radio/2143"
+ },
+ {
+  "id": "2378",
+  "name": "Kamonoff radio",
+  "path": "/kamonfm"
+ },
+ {
+  "id": "2158",
+  "name": "SPEED GARAGE",
+  "path": "/radio/2158"
+ },
+ {
+  "id": "2380",
+  "name": "Ritmo X99",
+  "path": "/ritmox99"
+ },
+ {
+  "id": "2383",
+  "name": "DenStar",
+  "path": "/denstar"
+ },
+ {
+  "id": "2388",
+  "name": "НЕСТАНДАРТ.Архив",
+  "path": "/nestandart-archive"
+ },
+ {
+  "id": "2391",
+  "name": "Казак FM в Крыму",
+  "path": "/kazak-crimea"
+ },
+ {
+  "id": "2174",
+  "name": "Online-Radio NEVERMIND.",
+  "path": "/radio/2174"
+ },
+ {
+  "id": "2392",
+  "name": "БарсукФМ",
+  "path": "/barsukfm"
+ },
+ {
+  "id": "2393",
+  "name": "Wow Music Шансон",
+  "path": "/wowshanson"
+ },
+ {
+  "id": "2394",
+  "name": "Radio 77 (by RAHO)",
+  "path": "/radio77"
+ },
+ {
+  "id": "2395",
+  "name": "Радио ЯН.ФМ ELECTRO",
+  "path": "/yanfm_electro"
+ },
+ {
+  "id": "2397",
+  "name": "Eastrica Hits (ENG) [Mix]",
+  "path": "/eastricahits"
+ },
+ {
+  "id": "2183",
+  "name": "Радио Ы",
+  "path": "/radio/2183"
+ },
+ {
+  "id": "2203",
+  "name": "Trance_Music_SS",
+  "path": "/radio/2203"
+ },
+ {
+  "id": "2204",
+  "name": "Радио Золотая Колесница",
+  "path": "/radio/2204"
+ },
+ {
+  "id": "2208",
+  "name": "Green Dance",
+  "path": "/radio/2208"
+ },
+ {
+  "id": "2209",
+  "name": "Радио Пайванд",
+  "path": "/radio/2209"
+ },
+ {
+  "id": "2207",
+  "name": "Power HIT Radio (Мурманск)",
+  "path": "/radio/2207"
+ },
+ {
+  "id": "2210",
+  "name": "Радио Меломания",
+  "path": "/radio/2210"
+ },
+ {
+  "id": "2219",
+  "name": "Music for Work",
+  "path": "/radio/2219"
+ },
+ {
+  "id": "2401",
+  "name": "Radiare",
+  "path": "/radiare"
+ },
+ {
+  "id": "2404",
+  "name": "Радио Россия Фм",
+  "path": "/rossiyafm"
+ },
+ {
+  "id": "2223",
+  "name": "РАДИОДЕТКИ",
+  "path": "/radio/2223"
+ },
+ {
+  "id": "2225",
+  "name": "Relax Time",
+  "path": "/RelaxTime33"
+ },
+ {
+  "id": "2226",
+  "name": "Lucid Dream",
+  "path": "/LucidDream"
+ },
+ {
+  "id": "2242",
+  "name": "ВЕТЕРАН FM",
+  "path": "/radio/2242"
+ },
+ {
+  "id": "2413",
+  "name": "Гусь.РУС",
+  "path": "/radiogoose-rus"
+ },
+ {
+  "id": "2249",
+  "name": "Российский национальный оркестр - РНО",
+  "path": "/radio/2249"
+ },
+ {
+  "id": "2257",
+  "name": "Сказки народов мира",
+  "path": "/audioskazki"
+ },
+ {
+  "id": "2262",
+  "name": "NewPride.fm",
+  "path": "/radio/2262"
+ },
+ {
+  "id": "2263",
+  "name": "Радиостанция «Открытие»",
+  "path": "/radio/2263"
+ },
+ {
+  "id": "2416",
+  "name": "Гусь.Хардденс",
+  "path": "/radiogoose-harddance"
+ },
+ {
+  "id": "2264",
+  "name": "Nebula",
+  "path": "/radio/2264"
+ },
+ {
+  "id": "2274",
+  "name": "Sputnik Radio Ru",
+  "path": "/radio/2274"
+ },
+ {
+  "id": "2279",
+  "name": "Yurd FM",
+  "path": "/radio/2279"
+ },
+ {
+  "id": "2423",
+  "name": "LITE FM",
+  "path": "/litefm"
+ },
+ {
+  "id": "2428",
+  "name": "Радио на Стройке",
+  "path": "/radionastroike"
+ },
+ {
+  "id": "2429",
+  "name": "МОЛОКО",
+  "path": "/moloko"
+ },
+ {
+  "id": "2294",
+  "name": "Радио СССР",
+  "path": "/ussr"
+ },
+ {
+  "id": "2295",
+  "name": "MegaNight RADIO",
+  "path": "/rmegapolisfm"
+ },
+ {
+  "id": "2431",
+  "name": "Wilinor Radio",
+  "path": "/wilinor"
+ },
+ {
+  "id": "2435",
+  "name": "DiscoBonus Radio",
+  "path": "/discobonus"
+ },
+ {
+  "id": "2297",
+  "name": "Radio Fresh",
+  "path": "/radiofresh"
+ },
+ {
+  "id": "2299",
+  "name": "Радио Сиртаки/ Radio Sirtaki",
+  "path": "/sirtaki"
+ },
+ {
+  "id": "2301",
+  "name": "La Radio de L’Amour",
+  "path": "/laradio"
+ },
+ {
+  "id": "2305",
+  "name": "Симбиоз",
+  "path": "/musicalsymbiosis"
+ },
+ {
+  "id": "2437",
+  "name": "Holy Forever Radio",
+  "path": "/holyforeverradio"
+ },
+ {
+  "id": "2438",
+  "name": "Радио Микс - Новгородская область",
+  "path": "/mixnovgorod"
+ },
+ {
+  "id": "2440",
+  "name": "SUPER RADIO РЕТРО хит",
+  "path": "/retrohitserz"
+ },
+ {
+  "id": "2319",
+  "name": "Radio 107 Network",
+  "path": "/radio107network"
+ },
+ {
+  "id": "2320",
+  "name": "Musiquera 93.3 FM",
+  "path": "/musiquera"
+ },
+ {
+  "id": "2441",
+  "name": "Cyberfunk",
+  "path": "/cyberfunk"
+ },
+ {
+  "id": "2447",
+  "name": "Galaxy Progressive Radio",
+  "path": "/glxyprog"
+ },
+ {
+  "id": "2452",
+  "name": "Lime Teens",
+  "path": "/limeteens"
+ },
+ {
+  "id": "2325",
+  "name": "КорольЕва и шут",
+  "path": "/serdzeurala"
+ },
+ {
+  "id": "2480",
+  "name": "iFree FM",
+  "path": "/ifreefm"
+ },
+ {
+  "id": "2484",
+  "name": "Дискотека Века",
+  "path": "/rudisco"
+ },
+ {
+  "id": "2332",
+  "name": "FUSION RADIO",
+  "path": "/fusionradio"
+ },
+ {
+  "id": "2334",
+  "name": "Жаңа FM",
+  "path": "/zhanafm"
+ },
+ {
+  "id": "2486",
+  "name": "Радио Рандеву",
+  "path": "/randevuradio"
+ },
+ {
+  "id": "2338",
+  "name": "Суворов FM",
+  "path": "/suvorovfm"
+ },
+ {
+  "id": "2351",
+  "name": "Радио Жизнь",
+  "path": "/zhizn"
+ },
+ {
+  "id": "2493",
+  "name": "KissFM",
+  "path": "/radiokissfm"
+ },
+ {
+  "id": "2498",
+  "name": "Радио Микс ФМ",
+  "path": "/radiomixfm"
+ },
+ {
+  "id": "2499",
+  "name": "PULSE FM",
+  "path": "/pulsefm"
+ },
+ {
+  "id": "2356",
+  "name": "50f.ru",
+  "path": "/50f"
+ },
+ {
+  "id": "2358",
+  "name": "LOOK INFO",
+  "path": "/lookinfo"
+ },
+ {
+  "id": "2359",
+  "name": "Радио Маруся ФМ г. Гусев",
+  "path": "/radiomarusya"
+ },
+ {
+  "id": "2502",
+  "name": "Radio Club 80 Señal Retro",
+  "path": "/radioclub80"
+ },
+ {
+  "id": "2503",
+  "name": "Радио Русский Hessen",
+  "path": "/radiorh"
+ },
+ {
+  "id": "2505",
+  "name": "Пыльные пластинки",
+  "path": "/dustyrecords"
+ },
+ {
+  "id": "2361",
+  "name": "BigLife Radio",
+  "path": "/biglife_radio"
+ },
+ {
+  "id": "2362",
+  "name": "Всесоюзное радио онлайн",
+  "path": "/ussr.radio.online"
+ },
+ {
+  "id": "2511",
+  "name": "РАДИО ДЛЯ ВАС",
+  "path": "/super"
+ },
+ {
+  "id": "2366",
+  "name": "радиоВЫХОД",
+  "path": "/radiovihod"
+ },
+ {
+  "id": "2512",
+  "name": "UFM•Уральская станция",
+  "path": "/ufmrus"
+ },
+ {
+  "id": "2515",
+  "name": "Радио Елена",
+  "path": "/radioelena"
+ },
+ {
+  "id": "2370",
+  "name": "Радио Танцы",
+  "path": "/radiochanneldance"
+ },
+ {
+  "id": "2372",
+  "name": "Dancing Fox",
+  "path": "/DancingFox"
+ },
+ {
+  "id": "2373",
+  "name": "Rock Space Station",
+  "path": "/RockSpaceStation"
+ },
+ {
+  "id": "2518",
+  "name": "Радыё Relax (Радио Релакс) 87,5 FM Беларусь Минск",
+  "path": "/radiorelaxby"
+ },
+ {
+  "id": "2522",
+  "name": "Радио Plastinka",
+  "path": "/plastinka"
+ },
+ {
+  "id": "2375",
+  "name": "Радио Победа",
+  "path": "/radiopobedaby"
+ },
+ {
+  "id": "2526",
+  "name": "Юмор FM Беларусь",
+  "path": "/humorfmby"
+ },
+ {
+  "id": "2529",
+  "name": "Радио Юнистар",
+  "path": "/unistar"
+ },
+ {
+  "id": "2386",
+  "name": "Альфа Радио",
+  "path": "/alfaradioby"
+ },
+ {
+  "id": "2402",
+  "name": "Радио «FREEDOM FM»",
+  "path": "/freedomfmradio"
+ },
+ {
+  "id": "2536",
+  "name": "Радыё Сталіца",
+  "path": "/radiostalica"
+ },
+ {
+  "id": "2537",
+  "name": "Радио Бирь",
+  "path": "/birskfm"
+ },
+ {
+  "id": "2403",
+  "name": "Dance-box",
+  "path": "/dance-box"
+ },
+ {
+  "id": "2407",
+  "name": "Гусь.Денскор",
+  "path": "/radiogoose-dancecore"
+ },
+ {
+  "id": "2412",
+  "name": "Гусь.Рок",
+  "path": "/radiogoose-rock"
+ },
+ {
+  "id": "2417",
+  "name": "ГУСЬ.Хардкор",
+  "path": "/radiogoose-hardcore"
+ },
+ {
+  "id": "2418",
+  "name": "Гусь.Хардстайл",
+  "path": "/radiogoose-hardstyle"
+ },
+ {
+  "id": "2538",
+  "name": "Радио Дюртюли FM",
+  "path": "/durfm"
+ },
+ {
+  "id": "2539",
+  "name": "Радио Бураево",
+  "path": "/radio_buraevo"
+ },
+ {
+  "id": "2419",
+  "name": "Гусь.Электро",
+  "path": "/radiogoose-electro"
+ },
+ {
+  "id": "2421",
+  "name": "K-pop Dream Radio СПб",
+  "path": "/k-pop-dream"
+ },
+ {
+  "id": "2546",
+  "name": "Джаз Радио",
+  "path": "/jazz-radio"
+ },
+ {
+  "id": "2547",
+  "name": "The Disco Paradise - Euro Disco",
+  "path": "/eurodisco"
+ },
+ {
+  "id": "2550",
+  "name": "SEREBRO RADIO",
+  "path": "/serebro"
+ },
+ {
+  "id": "2425",
+  "name": "►♛WORLD MUSIC♛◄",
+  "path": "/worldmusic"
+ },
+ {
+  "id": "2426",
+  "name": "Electronic Generation Radio",
+  "path": "/egradio"
+ },
+ {
+  "id": "2430",
+  "name": "Всесоюзное радио онлайн (Екатеринбург)",
+  "path": "/cassiopeia-ekaterinburg"
+ },
+ {
+  "id": "2434",
+  "name": "Estereo Clase 92.9 FM",
+  "path": "/estereoclase"
+ },
+ {
+  "id": "2551",
+  "name": "RSG iRadio",
+  "path": "/rsgiradio"
+ },
+ {
+  "id": "2552",
+  "name": "мыршырок",
+  "path": "/mirshirok"
+ },
+ {
+  "id": "2553",
+  "name": "Радио Анималогия",
+  "path": "/animalogya"
+ },
+ {
+  "id": "2554",
+  "name": "RaveGround",
+  "path": "/raveground"
+ },
+ {
+  "id": "2445",
+  "name": "Забытая кассета",
+  "path": "/radio-casseta"
+ },
+ {
+  "id": "2448",
+  "name": "Радио Голос Кореи",
+  "path": "/vok"
+ },
+ {
+  "id": "2560",
+  "name": "Русский Драйв",
+  "path": "/rusdriveradio"
+ },
+ {
+  "id": "2561",
+  "name": "Радио Искра",
+  "path": "/radioiskra"
+ },
+ {
+  "id": "2563",
+  "name": "Ethno Radio",
+  "path": "/ethnoradio"
+ },
+ {
+  "id": "2450",
+  "name": "Biskvit Live",
+  "path": "/biskvit"
+ },
+ {
+  "id": "2451",
+  "name": "Lime Radio",
+  "path": "/limeradio"
+ },
+ {
+  "id": "2454",
+  "name": "SUN WAY RADIO",
+  "path": "/sunway"
+ },
+ {
+  "id": "2568",
+  "name": "Радио ГИМАЛАИ",
+  "path": "/radiohimalaya"
+ },
+ {
+  "id": "2569",
+  "name": "rock.irk.ru :: main-mix",
+  "path": "/rock-irk"
+ },
+ {
+  "id": "2570",
+  "name": "Волна FM Волгоград",
+  "path": "/nvolna"
+ },
+ {
+  "id": "2571",
+  "name": "Воронеж FM",
+  "path": "/vrnfm"
+ },
+ {
+  "id": "2456",
+  "name": "Шансон радио .ру",
+  "path": "/shansonradioru"
+ },
+ {
+  "id": "2458",
+  "name": "Andre FM",
+  "path": "/andrefm"
+ },
+ {
+  "id": "2573",
+  "name": "Европа Плюс Казахстан",
+  "path": "/europaplus-kazakhstan"
+ },
+ {
+  "id": "2577",
+  "name": "UNDERGROUND OF THE BRAIN",
+  "path": "/ubfm"
+ },
+ {
+  "id": "2583",
+  "name": "DIGITAL RESIDENCY RADIO",
+  "path": "/digitalresidency"
+ },
+ {
+  "id": "2584",
+  "name": "NEWRADIO.fr",
+  "path": "/newradio"
+ },
+ {
+  "id": "2587",
+  "name": "Roots & Future",
+  "path": "/roots-future"
+ },
+ {
+  "id": "2588",
+  "name": "Рок-радио Ветер Сибири",
+  "path": "/vetersibiri"
+ },
+ {
+  "id": "2593",
+  "name": "SOHO FM [RELAX]",
+  "path": "/soho_fm_relax"
+ },
+ {
+  "id": "2594",
+  "name": "RADIARE ONLINE",
+  "path": "/radiareonline"
+ },
+ {
+  "id": "2596",
+  "name": "Смородина ФМ",
+  "path": "/smorodinafm"
+ },
+ {
+  "id": "2598",
+  "name": "DanceRadio",
+  "path": "/danceradio"
+ },
+ {
+  "id": "2481",
+  "name": "Малахит ФМ",
+  "path": "/malahitfm"
+ },
+ {
+  "id": "2483",
+  "name": "Hits 1 Ibiza",
+  "path": "/ibiza1"
+ },
+ {
+  "id": "2485",
+  "name": "Palmera Blanca radio",
+  "path": "/palmerablanca"
+ },
+ {
+  "id": "2494",
+  "name": "Благодать FM",
+  "path": "/blagofm"
+ },
+ {
+  "id": "2506",
+  "name": "Dirty Night Bass Radio",
+  "path": "/dirtynightbass"
+ },
+ {
+  "id": "2509",
+  "name": "Radio-9",
+  "path": "/radio-9"
+ },
+ {
+  "id": "2599",
+  "name": "Радио Подсолнух",
+  "path": "/podsolnuh"
+ },
+ {
+  "id": "2510",
+  "name": "Алтай FM",
+  "path": "/altaifm"
+ },
+ {
+  "id": "2520",
+  "name": "Радио Культ",
+  "path": "/radiokult"
+ },
+ {
+  "id": "2604",
+  "name": "Mikulski_24/7 ( ಠ┏ل͜┓ಠ )",
+  "path": "/mikulski"
+ },
+ {
+  "id": "2605",
+  "name": "МАК Онлайн. Живое радио Андрея Крупина",
+  "path": "/makradio"
+ },
+ {
+  "id": "2607",
+  "name": "ДругоеРадио",
+  "path": "/drugoe-radio"
+ },
+ {
+  "id": "2533",
+  "name": "Радио Я Обретаю Незримое",
+  "path": "/pointalex"
+ },
+ {
+  "id": "2540",
+  "name": "MECHANIC",
+  "path": "/mechanicradio"
+ },
+ {
+  "id": "2541",
+  "name": "Chillsperience",
+  "path": "/chillsperience"
+ },
+ {
+  "id": "2544",
+  "name": "AMNESIA",
+  "path": "/amnesia"
+ },
+ {
+  "id": "2609",
+  "name": "Голос Успеха",
+  "path": "/uspehfm"
+ },
+ {
+  "id": "2611",
+  "name": "Neon Star Game Radio",
+  "path": "/nsr"
+ },
+ {
+  "id": "2545",
+  "name": "Radio LEXOSOUND",
+  "path": "/lexosound"
+ },
+ {
+  "id": "2548",
+  "name": "Радио Новая Песня",
+  "path": "/radionewsong"
+ },
+ {
+  "id": "2613",
+  "name": "Motion FM",
+  "path": "/radiomotionfm"
+ },
+ {
+  "id": "2623",
+  "name": "Vita Radio",
+  "path": "/vita"
+ },
+ {
+  "id": "2628",
+  "name": "У Григорича",
+  "path": "/viktor61"
+ },
+ {
+  "id": "2630",
+  "name": "Real FM Radio",
+  "path": "/realfmradio"
+ },
+ {
+  "id": "2555",
+  "name": "K-POP POSITIVE RADIO",
+  "path": "/kpopradio"
+ },
+ {
+  "id": "2558",
+  "name": "Радио Ростова",
+  "path": "/radiorostova"
+ },
+ {
+  "id": "2631",
+  "name": "Real FM Relax",
+  "path": "/realfm-relax"
+ },
+ {
+  "id": "2632",
+  "name": "Real FM Lights",
+  "path": "/realfm-lights"
+ },
+ {
+  "id": "2633",
+  "name": "Real FM Fresh",
+  "path": "/realfm-fresh"
+ },
+ {
+  "id": "2559",
+  "name": "Радио АСТВ [Южно-Сахалинск]",
+  "path": "/astv_sahalin"
+ },
+ {
+  "id": "2566",
+  "name": "p.d.h. - PROJECT DIRTY HARRY",
+  "path": "/dirtyharry"
+ },
+ {
+  "id": "2634",
+  "name": "Real FM Ultra",
+  "path": "/realfm-ultra"
+ },
+ {
+  "id": "2635",
+  "name": "Колывань 54",
+  "path": "/klvn54"
+ },
+ {
+  "id": "2636",
+  "name": "электроверс | tg300000",
+  "path": "/tg300000"
+ },
+ {
+  "id": "2574",
+  "name": "Станция FMD",
+  "path": "/fmd"
+ },
+ {
+  "id": "2641",
+  "name": "Радио Мята XTRA",
+  "path": "/radiomyata-hits"
+ },
+ {
+  "id": "2642",
+  "name": "РАДИО ОНЛАЙН",
+  "path": "/radio-online"
+ },
+ {
+  "id": "2643",
+  "name": "Vintage Radio Azerbaijan",
+  "path": "/vintageradio"
+ },
+ {
+  "id": "2586",
+  "name": "VEVE",
+  "path": "/radioveve"
+ },
+ {
+  "id": "2648",
+  "name": "ZUNO-RADIO",
+  "path": "/zuno"
+ },
+ {
+  "id": "2649",
+  "name": "Deephoria",
+  "path": "/deephoria"
+ },
+ {
+  "id": "2589",
+  "name": "Star 33 RadioStation",
+  "path": "/star33radio"
+ },
+ {
+  "id": "2592",
+  "name": "Голос надежды",
+  "path": "/golosn"
+ },
+ {
+  "id": "2595",
+  "name": "Omdaru LIVE",
+  "path": "/omdaru"
+ },
+ {
+  "id": "2597",
+  "name": "Radio Voyage",
+  "path": "/radiovoyage"
+ },
+ {
+  "id": "2606",
+  "name": "Радио Берёза",
+  "path": "/radiobereza"
+ },
+ {
+  "id": "2653",
+  "name": "Радио ШОК",
+  "path": "/radioshock"
+ },
+ {
+  "id": "2654",
+  "name": "Сок FM",
+  "path": "/sokfm"
+ },
+ {
+  "id": "2658",
+  "name": "RHYTHM 86",
+  "path": "/rhythm86"
+ },
+ {
+  "id": "2660",
+  "name": "Radio EDGE",
+  "path": "/radioedge"
+ },
+ {
+  "id": "2608",
+  "name": "R.Unicorn",
+  "path": "/unicorn"
+ },
+ {
+  "id": "2617",
+  "name": "Minatrix.FM",
+  "path": "/minatrix"
+ },
+ {
+  "id": "2662",
+  "name": "Морская волна",
+  "path": "/morvolna"
+ },
+ {
+  "id": "2665",
+  "name": "Baby Radio",
+  "path": "/babyradiodab"
+ },
+ {
+  "id": "2671",
+  "name": "Радио NEFA",
+  "path": "/radionefa"
+ },
+ {
+  "id": "2618",
+  "name": "MSD DANCE RADIO",
+  "path": "/msdgames"
+ },
+ {
+  "id": "2619",
+  "name": "Радио Комсомольская правда Южно-Сахалинск (Сахалинская область)",
+  "path": "/kp-yuzhno-sakhalinsk"
+ },
+ {
+  "id": "2621",
+  "name": "Радио Скуф",
+  "path": "/radioskuf"
+ },
+ {
+  "id": "2677",
+  "name": "Радио Хаммер",
+  "path": "/radioxammep"
+ },
+ {
+  "id": "2681",
+  "name": "Стратосфера",
+  "path": "/stratosphere"
+ },
+ {
+  "id": "2683",
+  "name": "Интернет-радио Липки",
+  "path": "/radiolipki"
+ },
+ {
+  "id": "2625",
+  "name": "POPFM Биробиджан",
+  "path": "/popfm"
+ },
+ {
+  "id": "2687",
+  "name": "DNB Mainstream",
+  "path": "/dnbmain"
+ },
+ {
+  "id": "2699",
+  "name": "TOCARADIO",
+  "path": "/tocaradio"
+ },
+ {
+  "id": "2700",
+  "name": "Радио Новая Эра",
+  "path": "/novaiaera"
+ },
+ {
+  "id": "2629",
+  "name": "MiF.fm",
+  "path": "/mif"
+ },
+ {
+  "id": "2701",
+  "name": "Мрачное радио",
+  "path": "/gloomy"
+ },
+ {
+  "id": "2708",
+  "name": "Auralis Radio",
+  "path": "/auralis"
+ },
+ {
+  "id": "2646",
+  "name": "MaksIs Radio",
+  "path": "/maks-is"
+ },
+ {
+  "id": "2647",
+  "name": "Rise-FM 92.2 pres. サクラジオ (SacuRadio) 92.6 FM",
+  "path": "/sacuradio"
+ },
+ {
+  "id": "2711",
+  "name": "Радио Ново-Талицы",
+  "path": "/novotalici"
+ },
+ {
+  "id": "2713",
+  "name": "Толковое радио",
+  "path": "/tolkradio"
+ },
+ {
+  "id": "2659",
+  "name": "Паровоз FM",
+  "path": "/parovozfm"
+ },
+ {
+  "id": "2661",
+  "name": "Радио Гармония",
+  "path": "/garmoniyafm"
+ },
+ {
+  "id": "2717",
+  "name": "МузCOVERрадио",
+  "path": "/muzcover"
+ },
+ {
+  "id": "2719",
+  "name": "Советская волна",
+  "path": "/sovietwave"
+ },
+ {
+  "id": "2727",
+  "name": "Радио О.Исаевой",
+  "path": "/olgaisaeva"
+ },
+ {
+  "id": "2668",
+  "name": "Светоч",
+  "path": "/svetoch"
+ },
+ {
+  "id": "2669",
+  "name": "ЗОЛОТАЯ КОЛЛЕКЦИЯ",
+  "path": "/goldencollection"
+ },
+ {
+  "id": "2731",
+  "name": "Patrisamato Radio",
+  "path": "/patrisamato"
+ },
+ {
+  "id": "2732",
+  "name": "Pop FM Русское - Бежецк 102.4 FM",
+  "path": "/yufmbezhetsk"
+ },
+ {
+  "id": "2733",
+  "name": "ХИТОВОЕ РАДИО",
+  "path": "/hitovoeradio"
+ },
+ {
+  "id": "2672",
+  "name": "Rock FMD",
+  "path": "/fmd-rock"
+ },
+ {
+  "id": "2673",
+  "name": "NDH FM",
+  "path": "/ndh"
+ },
+ {
+  "id": "2735",
+  "name": "Inrayzex Trance Radio",
+  "path": "/inrayzex"
+ },
+ {
+  "id": "2738",
+  "name": "Baku Jazz Radio",
+  "path": "/bakujazzradio"
+ },
+ {
+  "id": "2740",
+  "name": "ГУСЬ-Дабстеп",
+  "path": "/radiogoose-dubstep"
+ },
+ {
+  "id": "2678",
+  "name": "ГУСЬ.Новогодний",
+  "path": "/radiogoose-newyear"
+ },
+ {
+  "id": "2680",
+  "name": "Радио Россошь",
+  "path": "/radiorossosh"
+ },
+ {
+  "id": "2688",
+  "name": "IRIDIUM",
+  "path": "/iridium"
+ },
+ {
+  "id": "2690",
+  "name": "Всесоюзное радио Новосибирск",
+  "path": "/vsrn"
+ },
+ {
+  "id": "2691",
+  "name": "Радио Тайфун",
+  "path": "/radiotajfun"
+ },
+ {
+  "id": "2693",
+  "name": "BreakcoreZip",
+  "path": "/breakcorezip"
+ },
+ {
+  "id": "2698",
+  "name": "ESM-FM [РОСС-DANCE-FM]",
+  "path": "/eternalsunmusic"
+ },
+ {
+  "id": "2705",
+  "name": "Радио Калитка",
+  "path": "/radiokalitka"
+ },
+ {
+  "id": "2712",
+  "name": "Радио ПРИВЕТ",
+  "path": "/radioprivet"
+ },
+ {
+  "id": "2707",
+  "name": "ISKRA✪FM",
+  "path": "/iskrafm"
+ },
+ {
+  "id": "2718",
+  "name": "Авторское радио",
+  "path": "/avtorskoeradio"
+ },
+ {
+  "id": "2720",
+  "name": "EURORADIO",
+  "path": "/euroradio"
+ },
+ {
+  "id": "2721",
+  "name": "Music Radio Chillout",
+  "path": "/mrc"
+ },
+ {
+  "id": "2722",
+  "name": "Радио Тили-Тели",
+  "path": "/tiliteliru"
+ },
+ {
+  "id": "2723",
+  "name": "dewoq Radio",
+  "path": "/dewoq"
+ },
+ {
+  "id": "2724",
+  "name": "Luz DoRadio",
+  "path": "/luz"
+ },
+ {
+  "id": "2729",
+  "name": "Попс-Пупс FM",
+  "path": "/popspups"
+ },
+ {
+  "id": "2730",
+  "name": "Radio Euphoria",
+  "path": "/euphoria"
+ },
+ {
+  "id": "2734",
+  "name": "Radio DELUXE",
+  "path": "/radiodeluxe"
+ },
+ {
+  "id": "2736",
+  "name": "Jungle Radio",
+  "path": "/jungleradio"
+ },
+ {
+  "id": "2739",
+  "name": "ГУСЬ-Хайпертехно",
+  "path": "/radiogoose-hypertechno"
+ }
 ]

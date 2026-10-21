@@ -7,5 +7,6 @@ __pycache__/
 *.swo
 *.log
 radio.zip
+askpass.sh
 data/*
 !data/.gitkeep

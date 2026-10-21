@@ -6,10 +6,10 @@
 <title>Радио - 1086 станций</title>
 <style>
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}button{outline:none}button:focus,button:focus-visible{outline:none}
-:root{color-scheme:dark;--metal1:#fafcff;--metal2:#c5cbd2;--metal3:#777f89;--ink:#343b45;--blue:#28c8ff}
+:root{color-scheme:dark;--metal1:#fafcff;--metal2:#c5cbd2;--metal3:#777f89;--ink:#343b45;--blue:#28c8ff;--r:clamp(16px,3.4vh,32px)}
 html,body{margin:0;padding:0;min-height:100%;background:#10141c;color:#f5f7fb;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
-body{min-height:100svh;background:radial-gradient(ellipse at 50% 5%,#303846 0,#151a23 48%,#080a0f 100%);padding:clamp(8px,2.5vw,22px)}
-.bar{position:relative;z-index:30;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:4px;width:min(100%,520px);margin:0 auto;padding:42px 16px 8px;border:1px solid #f7fbff;border-radius:30px 30px 0 0;background:linear-gradient(110deg,#f8fafc 0%,#b8bec6 10%,#edf0f4 22%,#aeb5be 50%,#f7f9fc 78%,#9ca4ae 100%);box-shadow:inset 0 1px 2px #fff,0 16px 40px #0009;color:#242a33}
+body{height:100vh;height:100svh;overflow:hidden;display:flex;flex-direction:column;background:radial-gradient(ellipse at 50% 5%,#303846 0,#151a23 48%,#080a0f 100%);padding:clamp(6px,1.6vh,20px)}
+.bar{position:relative;flex:0 0 auto;z-index:30;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:4px;width:min(100%,520px);margin:0 auto;padding:clamp(18px,5vh,44px) 16px 8px;border:1px solid #f7fbff;border-radius:var(--r) var(--r) 0 0;background:linear-gradient(110deg,#f8fafc 0%,#b8bec6 10%,#edf0f4 22%,#aeb5be 50%,#f7f9fc 78%,#9ca4ae 100%);box-shadow:inset 0 1px 2px #fff,0 16px 40px #0009;color:#242a33}
 .nav{display:none!important}
 .now{width:100%;min-width:0;display:flex;flex-direction:column;align-items:center;gap:2px;text-align:center;padding:0 10px 4px}
 .now a{font-weight:750;font-size:clamp(16px,4.5vw,21px);color:#202631;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;text-shadow:0 1px #fff}
@@ -25,11 +25,12 @@ body{min-height:100svh;background:radial-gradient(ellipse at 50% 5%,#303846 0,#1
 .find input{width:100%;height:42px;padding:0 13px;border:1px solid #858e99;border-radius:10px;font-size:16px;background:#171c25;color:#fff;box-shadow:inset 0 2px 5px #0008}
 .find input:focus{outline:2px solid #39caff}
 .drop{position:absolute;top:59px;bottom:8px;left:9px;right:9px;max-height:none;overflow:auto;background:#151b25;border:1px solid #647080;border-radius:12px;box-shadow:0 12px 30px #000b;display:none;z-index:140}
-.drop.on{display:block}.drop button{display:flex;width:100%;gap:8px;align-items:baseline;padding:10px 12px;border:0;border-bottom:1px solid #303946;background:#171d27;cursor:pointer;text-align:left;font-size:15px;color:#f5f7fb}.drop button:hover{background:#26384a}.drop button i{font-style:normal;font-size:11px;color:#9ba8b8;margin-left:auto}
+.drop.on{display:block}.drop .srow{display:flex;align-items:stretch;border-bottom:1px solid #303946;background:#171d27}.drop .srow.hidden-row{opacity:.5}.drop .smain{flex:1 1 auto;min-width:0;display:flex;gap:8px;align-items:baseline;padding:10px 12px;border:0;background:transparent;cursor:pointer;text-align:left;font-size:15px;color:#f5f7fb}.drop .smain:hover{background:#26384a}.drop .smain i{font-style:normal;font-size:11px;color:#9ba8b8;margin-left:auto}.drop .sacts{display:flex;flex:0 0 auto;border-left:1px solid #293548}.drop .sact{display:flex;align-items:center;justify-content:center;width:46px;border:0;background:#0d1420;color:#94a8c4;font-size:17px;cursor:pointer;padding:0;line-height:1}.drop .sact+.sact{border-left:1px solid #293548}.drop .sact.on{color:#ffcc44}.drop .sact.hide.on{color:#ff7a7a}.drop>button{display:block;width:100%;padding:10px 12px;border:0;background:#171d27;color:#f5f7fb;text-align:left;font-size:15px}
 .mode{display:none}
-main{width:min(100%,520px);margin:0 auto;padding:0 0 18px;background:linear-gradient(110deg,#f5f7fa 0%,#aeb5be 9%,#e9edf1 23%,#c0c6ce 55%,#f9fbfd 82%,#969faa 100%);border-left:1px solid #f8fbff;border-right:1px solid #f8fbff;}
-#player{position:relative;display:flex;align-items:center;justify-content:center;margin:0 5.5%;height:clamp(230px,62vw,360px);min-height:0;padding:clamp(7px,2vw,12px);overflow:hidden;border:3px solid #626b76;border-radius:10px;background:radial-gradient(ellipse at 50% 0%,#17263a 0%,#080d16 58%,#020408 100%);box-shadow:inset 0 2px 8px #000,0 1px 0 #fff8;color:#f5f8ff}
-#station-frame{display:block;width:100%;height:100%;min-height:0;border:0;background:transparent;overflow:hidden}#player .RP-SCRIPT{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;position:relative!important;width:100%!important;max-width:100%!important;min-width:0!important;height:100%!important;max-height:100%!important;overflow:hidden!important;margin:0!important;padding:0!important;zoom:.84;}
+main{flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain;display:flex;flex-direction:column;width:min(100%,520px);margin:0 auto;padding:0 0 18px;background:linear-gradient(110deg,#f5f7fa 0%,#aeb5be 9%,#e9edf1 23%,#c0c6ce 55%,#f9fbfd 82%,#969faa 100%);border-left:1px solid #f8fbff;border-right:1px solid #f8fbff;border-bottom:1px solid #f8fbff;border-radius:0 0 var(--r) var(--r);}
+#player{position:relative;flex:1 1 auto;display:flex;align-items:center;justify-content:center;margin:0 5.5%;min-height:clamp(190px,42vh,300px);padding:clamp(7px,2vw,12px);overflow:hidden;border:3px solid #626b76;border-radius:10px;background:radial-gradient(ellipse at 50% 0%,#17263a 0%,#080d16 58%,#020408 100%);box-shadow:0 2px 0 #ffffff55,0 3px 7px #0006,inset 0 0 0 1px #00000066;color:#f5f8ff}
+#player::after{content:"";position:absolute;inset:0;border-radius:9px;pointer-events:none;box-shadow:inset 0 4px 10px #000c,inset 0 -2px 6px #0008,inset 0 0 0 1px #00000088;z-index:3}
+#station-frame{display:block;width:100%;height:100%;min-height:0;border:0;border-radius:8px;background:transparent;overflow:hidden}#player .RP-SCRIPT{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;position:relative!important;width:100%!important;max-width:100%!important;min-width:0!important;height:100%!important;max-height:100%!important;overflow:hidden!important;margin:0!important;padding:0!important;zoom:.84;}
 #player .RP-SCRIPT *{box-sizing:border-box!important;max-width:100%!important;}
 #player #RP_playerjs{width:100%!important;max-width:100%!important;min-width:0!important;max-height:100%!important;overflow:hidden!important;}
 #player .RP-SCRIPT iframe,#player .RP-SCRIPT video,#player .RP-SCRIPT canvas,#player .RP-SCRIPT object,#player .RP-SCRIPT embed{max-width:100%!important;max-height:100%!important;}
@@ -45,14 +46,14 @@ main{width:min(100%,520px);margin:0 auto;padding:0 0 18px;background:linear-grad
 .RP-SCRIPT .rp3d:active{transform:translateY(3px);box-shadow:0 0 0 #7c8590,0 2px 4px #0004,inset 0 1px 0 #fff}
 .RP-SCRIPT .rp-wrap .RP-PLAYER-CONTROL{background:radial-gradient(120% 120% at 35% 20%,#fff 0%,#e9edf2 48%,#b8c0ca 100%);border:1px solid #929ba6;box-shadow:0 4px 0 #7e8792,0 7px 12px #0005,inset 0 1px 0 #fff;transition:transform .08s,box-shadow .08s}
 .RP-SCRIPT .rp-wrap .RP-PLAYER-CONTROL:active{transform:translateY(3px);box-shadow:0 0 0 #7e8792,0 2px 5px #0004}
-#wheel-area{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:clamp(8px,3vw,20px) 0 6px;background:linear-gradient(110deg,#e9edf1,#c0c6ce 20%,#f7f9fc 48%,#b4bbc4 78%,#e6eaf0);}
-#wheel{position:relative;width:min(84vw,390px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 35% 22%,#fff 0,#f8fafc 24%,#dce1e7 58%,#a9b1bb 76%,#f8fafc 78%,#aab2bc 82%,#e8ecf1 100%);border:1px solid #fdfefe;box-shadow:0 8px 0 #7c8590,0 14px 22px #0004,inset 0 2px 4px #fff,inset 0 -5px 10px #8e97a2;}
+#wheel-area{position:relative;flex:0 0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:clamp(8px,3vw,20px) 0 6px;background:linear-gradient(110deg,#e9edf1,#c0c6ce 20%,#f7f9fc 48%,#b4bbc4 78%,#e6eaf0);}
+#wheel{position:relative;width:min(84vw,36vh,388px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 35% 22%,#fff 0,#f8fafc 24%,#dce1e7 58%,#a9b1bb 76%,#f8fafc 78%,#aab2bc 82%,#e8ecf1 100%);border:1px solid #fdfefe;box-shadow:0 8px 0 #7c8590,0 14px 22px #0004,inset 0 2px 4px #fff,inset 0 -5px 10px #8e97a2;}
 .wheel-btn{position:absolute;appearance:none;-webkit-appearance:none;border:0;outline:none;background:transparent;color:#4b535e;font-weight:750;letter-spacing:.08em;text-shadow:0 1px #fff;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none;transition:transform .09s ease,filter .09s ease,box-shadow .09s ease;}
 #wheel-station{top:3%;left:28%;width:44%;height:15%;font-size:clamp(13px,3.7vw,18px);font-weight:800;border:1px solid #a8b0ba;border-radius:999px;background:linear-gradient(145deg,#fff 0%,#d7dce2 48%,#aab2bc 100%);box-shadow:0 3px 0 #7e8792,0 5px 7px #0003,inset 0 1px 0 #fff;padding:0 5px;display:grid;place-items:center;line-height:1;white-space:nowrap}
 #wheel-all{bottom:3%;left:28%;width:44%;height:15%;font-size:clamp(13px,3.7vw,18px);font-weight:800;border:1px solid #a8b0ba;border-radius:999px;background:linear-gradient(145deg,#fff 0%,#d7dce2 48%,#aab2bc 100%);box-shadow:0 3px 0 #7e8792,0 5px 7px #0003,inset 0 1px 0 #fff;padding:0 5px;display:grid;place-items:center;line-height:1;white-space:nowrap}
-#hide-btn,#fav-btn{position:absolute;top:0;width:38px;height:38px;border:1px solid #a8b0ba;border-radius:10px;background:linear-gradient(145deg,#fff,#d7dce2 48%,#aab2bc);color:#404854;box-shadow:0 3px 0 #7e8792,0 5px 7px #0003,inset 0 1px 0 #fff;display:grid;place-items:center;cursor:pointer;padding:0;z-index:5;touch-action:manipulation;-webkit-tap-highlight-color:transparent;appearance:none;-webkit-appearance:none;outline:none}
-#hide-btn{left:0}
-#fav-btn{right:0}
+#hide-btn,#fav-btn{position:absolute;top:clamp(8px,3vw,20px);width:38px;height:38px;border:1px solid #a8b0ba;border-radius:10px;background:linear-gradient(145deg,#fff,#d7dce2 48%,#aab2bc);color:#404854;box-shadow:0 3px 0 #7e8792,0 5px 7px #0003,inset 0 1px 0 #fff;display:grid;place-items:center;cursor:pointer;padding:0;z-index:5;touch-action:manipulation;-webkit-tap-highlight-color:transparent;appearance:none;-webkit-appearance:none;outline:none}
+#hide-btn{left:5%}
+#fav-btn{right:5%}
 #hide-btn svg,#fav-btn svg{width:56%;height:56%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
 #hide-btn:active,#fav-btn:active{transform:translateY(2px);box-shadow:inset 0 3px 7px #626b7780,0 1px 0 #f8fafc;border-color:#7a8490}
 #hide-btn.active{color:#c0392b;border-color:#c0392b;background:linear-gradient(145deg,#ffe0dc,#f5b7b1)}
@@ -69,13 +70,23 @@ body.playing #wheel-play-glyph svg path{d:path("M11 9 H20 V39 H11 Z M28 9 H37 V3
 .wheel-btn:focus,.wheel-btn:focus-visible{outline:none;-webkit-tap-highlight-color:transparent}*{-webkit-tap-highlight-color:transparent}#wheel-prev:active,#wheel-next:active,#wheel-station:active,#wheel-all:active{transform:translateY(3px);box-shadow:inset 0 3px 6px #626b7780,0 0 0 #7e8792;filter:brightness(.94)}
 #wheel-prev:active,#wheel-next:active{background:radial-gradient(ellipse at center,#8e98a522 0%,#8e98a500 72%)}
 #wheel-station:active,#wheel-all:active{background:radial-gradient(ellipse at center,#8e98a522 0%,#8e98a500 72%)}
-#dcode{margin:0 5%;display:flex;align-items:center;justify-content:space-between;gap:12px;background:#dce1e7;border:1px solid #9ca5af;border-radius:12px;padding:9px 12px;color:#333b45;font-size:13px}#copy-code{flex:0 0 auto;width:36px;height:34px;border:1px solid #8c96a2;border-radius:9px;background:linear-gradient(#fff,#cbd2da);color:#303844;display:grid;place-items:center;font-size:18px;cursor:pointer;box-shadow:0 2px 0 #929ba5}#copy-code:active{transform:translateY(2px);box-shadow:none}#copy-code svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}#random-btn,#favlist-btn{align-self:auto;margin:0;flex:0 0 auto}#random-btn svg,#favlist-btn svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}#random-btn.active,#favlist-btn.active{background:linear-gradient(#aeb7c2,#e7ebef 48%,#89939f);color:#303844;border-color:#727c88;box-shadow:inset 0 3px 6px #626b7780,inset 0 -1px 1px #fff,0 1px 0 #f8fafc;transform:translateY(2px)}#random-btn:active,#favlist-btn:active{transform:translateY(2px);box-shadow:none}#under-controls{display:flex;flex-direction:row;align-items:center;justify-content:space-between;width:90%;margin-top:16px;min-height:42px;gap:12px}#random-btn,#favlist-btn{align-self:auto;margin:0}#skin-btn{width:38px;height:38px;border:1px solid #87909b;border-radius:10px;background:linear-gradient(#fff,#cbd2da);color:#303844;font-size:20px;display:grid;place-items:center;cursor:pointer;box-shadow:0 3px 0 #929ba5}#skin-btn:active{transform:translateY(2px);box-shadow:none}#skin-btn svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}body.skin-hifi{background:radial-gradient(ellipse at 50% 5%,#242b27 0,#0b0e0d 58%,#030404 100%)}body.skin-hifi .bar{background:linear-gradient(110deg,#25282a,#090b0c 35%,#303435 55%,#111313);border-color:#59615d;color:#e7ece7;box-shadow:inset 0 1px 2px #fff2,0 16px 40px #0009}body.skin-hifi .now a{color:#d9e8d2;text-shadow:0 1px #000}body.skin-hifi .now span{color:#aab5a7}body.skin-hifi main{background:linear-gradient(110deg,#272c29,#090b0a 30%,#343a35 60%,#151916);border-color:#525a54}body.skin-hifi #player{border-color:#525d52;background:radial-gradient(ellipse at 50% 0%,#18251a 0%,#080c09 58%,#020403 100%);box-shadow:inset 0 2px 8px #000,0 1px 0 #9daa9588}body.skin-hifi #wheel-area{background:linear-gradient(110deg,#1c211e,#090b0a 24%,#353b36 48%,#151a16 78%,#252a26)}body.skin-hifi #wheel{background:radial-gradient(circle at 35% 22%,#747c70 0,#343a34 24%,#1b201c 58%,#080a09 76%,#424a40 78%,#101410 82%,#252b25 100%);border-color:#65705f;box-shadow:0 8px 0 #050705,0 14px 22px #0008,inset 0 2px 4px #b5c0ae66,inset 0 -5px 10px #000}body.skin-hifi .wheel-btn{color:#d7e0d0;text-shadow:0 1px #000}body.skin-hifi #wheel-prev,body.skin-hifi #wheel-next,body.skin-hifi #skin-btn,body.skin-hifi #random-btn,body.skin-hifi #favlist-btn,body.skin-hifi #copy-code,body.skin-hifi #fullscreen-btn{background:linear-gradient(145deg,#525a52,#171b18 55%,#363d35);border-color:#626d60;color:#dbe7d5;box-shadow:0 4px 0 #070907,0 6px 9px #0008,inset 0 1px 0 #aab6a333}body.skin-hifi #wheel-prev:active,body.skin-hifi #wheel-next:active,body.skin-hifi #skin-btn:active,body.skin-hifi #random-btn:active,body.skin-hifi #favlist-btn:active,body.skin-hifi #copy-code:active{background:linear-gradient(#111510,#343b33);box-shadow:inset 0 3px 7px #000b;transform:translateY(3px)}body.skin-hifi #wheel-hub{background:radial-gradient(circle at 35% 25%,#9da995 0%,#485245 42%,#293027 68%,#111510 100%);border-color:#697561;color:#eff7e9;box-shadow:inset 0 2px 5px #c8d4bd55,0 3px 6px #0008}body.skin-hifi #dcode{background:#1c211d;border-color:#515b50;color:#dbe4d7}body.skin-hifi footer{background:#090c0a;border-color:#30382f;color:#899587}.bar:fullscreen{width:100%;max-width:none;border-radius:0}body:fullscreen{padding:0}body:fullscreen .bar,body:fullscreen main,body:fullscreen footer{width:min(100%,680px)}
+#dcode{position:fixed;left:50%;bottom:clamp(58px,10vh,120px);transform:translateX(-50%);width:min(92vw,500px);max-height:70vh;z-index:160;display:flex;flex-direction:column;gap:8px;background:#dce1e7;border:1px solid #9ca5af;border-radius:12px;padding:10px 12px;color:#333b45;font-size:13px;box-shadow:0 16px 40px #000a}.dcode-title{font-size:12px;font-weight:700;color:#3a4452;letter-spacing:.02em}#codetext{width:100%;min-height:72px;max-height:34vh;resize:none;overflow:auto;border:1px solid #9ca5af;border-radius:8px;padding:8px 10px;font:12px/1.45 ui-monospace,Menlo,Consolas,monospace;background:#f4f7fa;color:#1c2229;white-space:pre;word-break:break-all}#copy-code{align-self:flex-end;flex:0 0 auto;width:36px;height:34px;border:1px solid #8c96a2;border-radius:9px;background:linear-gradient(#fff,#cbd2da);color:#303844;display:grid;place-items:center;font-size:18px;cursor:pointer;box-shadow:0 2px 0 #929ba5}#copy-code:active{transform:translateY(2px);box-shadow:none}#copy-code svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}#code-btn,#settings-btn,#skin-btn,#favlist-btn,#random-btn{flex:0 0 auto;align-self:auto;margin:0;width:38px;height:38px;border:1px solid #87909b;border-radius:10px;background:linear-gradient(#fff,#cbd2da);color:#303844;display:grid;place-items:center;cursor:pointer;box-shadow:0 3px 0 #929ba5}#code-btn:active,#settings-btn:active,#skin-btn:active,#favlist-btn:active,#random-btn:active{transform:translateY(2px);box-shadow:none}#code-btn svg,#settings-btn svg,#skin-btn svg,#favlist-btn svg,#random-btn svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}#favlist-btn svg{stroke-width:2}#random-btn.active,#favlist-btn.active{background:linear-gradient(#aeb7c2,#e7ebef 48%,#89939f);color:#303844;border-color:#727c88;box-shadow:inset 0 3px 6px #626b7780,inset 0 -1px 1px #fff,0 1px 0 #f8fafc;transform:translateY(2px)}#random-btn:active,#favlist-btn:active{transform:translateY(2px);box-shadow:none}#under-controls{display:flex;flex-direction:row;align-items:center;justify-content:space-between;width:90%;margin-top:16px;min-height:42px;gap:12px}
+.settings{position:absolute;z-index:120;top:8px;left:8px;right:8px;max-height:calc(100% - 16px);overflow:auto;padding:10px;border-radius:14px;background:linear-gradient(#f9fbff,#c5cbd3);border:1px solid #fff;box-shadow:0 12px 28px #0009}
+.settings[hidden]{display:none!important}
+.settings-title{font-size:13px;font-weight:700;color:#3a4452;padding:4px 6px 9px;letter-spacing:.02em}
+.settings button{display:block;width:100%;padding:12px;margin:0 0 8px;border:1px solid #858e99;border-radius:10px;background:linear-gradient(#fff,#e2e7ee);font-size:15px;color:#242a33;cursor:pointer;text-align:left;box-shadow:0 2px 0 #929ba5}
+.settings button:last-child{margin-bottom:0}
+.settings button:active{transform:translateY(2px);box-shadow:none}
+.settings button:disabled{opacity:.5;cursor:default}
+.settings .set-status{white-space:pre-line;font-size:12px;line-height:1.35;color:#3a4452;background:#ffffffcc;border:1px solid #ccd2da;border-radius:8px;padding:8px 10px;margin:0 0 8px}
+.settings .set-status[hidden]{display:none!important}
+.settings button.danger{background:linear-gradient(#ff8f8f,#e24b4b);border-color:#a33;color:#fff}body.skin-hifi{background:radial-gradient(ellipse at 50% 5%,#242b27 0,#0b0e0d 58%,#030404 100%)}body.skin-hifi .bar{background:linear-gradient(110deg,#25282a,#090b0c 35%,#303435 55%,#111313);border-color:#59615d;color:#e7ece7;box-shadow:inset 0 1px 2px #fff2,0 16px 40px #0009}body.skin-hifi .now a{color:#d9e8d2;text-shadow:0 1px #000}body.skin-hifi .now span{color:#aab5a7}body.skin-hifi main{background:linear-gradient(110deg,#272c29,#090b0a 30%,#343a35 60%,#151916);border-color:#525a54}body.skin-hifi #player{border-color:#525d52;background:radial-gradient(ellipse at 50% 0%,#18251a 0%,#080c09 58%,#020403 100%);box-shadow:inset 0 2px 8px #000,0 1px 0 #9daa9588}body.skin-hifi #wheel-area{background:linear-gradient(110deg,#1c211e,#090b0a 24%,#353b36 48%,#151a16 78%,#252a26)}body.skin-hifi #wheel{background:radial-gradient(circle at 35% 22%,#747c70 0,#343a34 24%,#1b201c 58%,#080a09 76%,#424a40 78%,#101410 82%,#252b25 100%);border-color:#65705f;box-shadow:0 8px 0 #050705,0 14px 22px #0008,inset 0 2px 4px #b5c0ae66,inset 0 -5px 10px #000}body.skin-hifi .wheel-btn{color:#d7e0d0;text-shadow:0 1px #000}body.skin-hifi #wheel-prev,body.skin-hifi #wheel-next,body.skin-hifi #code-btn,body.skin-hifi #settings-btn,body.skin-hifi #skin-btn,body.skin-hifi #random-btn,body.skin-hifi #favlist-btn,body.skin-hifi #copy-code,body.skin-hifi #fullscreen-btn{background:linear-gradient(145deg,#525a52,#171b18 55%,#363d35);border-color:#626d60;color:#dbe7d5;box-shadow:0 4px 0 #070907,0 6px 9px #0008,inset 0 1px 0 #aab6a333}body.skin-hifi #wheel-prev:active,body.skin-hifi #wheel-next:active,body.skin-hifi #code-btn:active,body.skin-hifi #settings-btn:active,body.skin-hifi #skin-btn:active,body.skin-hifi #random-btn:active,body.skin-hifi #favlist-btn:active,body.skin-hifi #copy-code:active{background:linear-gradient(#111510,#343b33);box-shadow:inset 0 3px 7px #000b;transform:translateY(3px)}body.skin-hifi #wheel-hub{background:radial-gradient(circle at 35% 25%,#9da995 0%,#485245 42%,#293027 68%,#111510 100%);border-color:#697561;color:#eff7e9;box-shadow:inset 0 2px 5px #c8d4bd55,0 3px 6px #0008}body.skin-hifi #dcode{background:#1c211d;border-color:#515b50;color:#dbe4d7}body.skin-hifi footer{background:#090c0a;border-color:#30382f;color:#899587}.bar:fullscreen{width:100%;max-width:none;border-radius:0}body:fullscreen{padding:0}body:fullscreen .bar,body:fullscreen main,body:fullscreen footer{width:min(100%,680px)}
 #grid{display:grid;grid-template-columns:1fr;gap:0;padding:5px;background:#121821}#grid button{display:flex;flex-direction:column;gap:2px;padding:11px 12px;border:1px solid #364252;border-radius:0;background:linear-gradient(#252e3a,#171e28);cursor:pointer;text-align:left;color:#f4f7fb;min-width:0}#grid button b{font-size:14px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}#grid button i{font-style:normal;font-size:11px;color:#9ca9b9}
-footer{width:min(100%,520px);margin:0 auto;padding:12px 12px 20px;text-align:center;font-size:11px;color:#a6afbc;background:#11161e;border-radius:0 0 24px 24px;border:1px solid #2b333f;border-top:0}
+footer{width:min(100%,520px);margin:0 auto;padding:12px 12px 20px;text-align:center;font-size:11px;color:#a6afbc;background:#11161e;border-radius:0 0 30px 30px;border:1px solid #2b333f;border-top:0}
 #toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#14171c;color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;box-shadow:0 10px 26px #0008;z-index:99999;opacity:0;transition:opacity .25s;pointer-events:none}#toast.on{opacity:1}
 #fade{position:fixed;inset:0;z-index:99998;background:#10141c;opacity:0;pointer-events:none;transition:opacity .18s ease}#fade.solid{opacity:1;transition:none}#fade.on{opacity:1}
 [hidden]{display:none!important}
-@media(max-width:380px){body{padding:5px}.bar{border-radius:22px 22px 0 0;padding-top:10px}#wheel{width:min(88vw,340px)}#player{height:clamp(230px,68vw,290px);margin-left:4%;margin-right:4%;padding:6px}#wheel-area{padding-bottom:20px}.wheel-btn{letter-spacing:0}}
+@media(max-width:380px){body{padding:clamp(4px,1vh,8px)}.bar{border-radius:var(--r) var(--r) 0 0;padding-top:clamp(14px,4vh,28px)}main{border-radius:0 0 var(--r) var(--r)}#wheel{width:min(88vw,35vh,340px)}#player{min-height:clamp(170px,min(60vw,22vh),260px);margin-left:4%;margin-right:4%;padding:6px}#wheel-area{padding-bottom:12px}.wheel-btn{letter-spacing:0}}
 
 /* v6: retain the original control positions; draw a close outline around the glyphs only */
 #wheel-prev,#wheel-next{left:auto;right:auto;top:32%;width:29%;height:36%;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;padding:0!important;display:grid;place-items:center;overflow:visible}
@@ -99,9 +110,9 @@ body.skin-hifi #wheel-prev:active .wheel-arrow,body.skin-hifi #wheel-next:active
 #random-btn svg,#favlist-btn svg{width:23px!important;height:23px!important;stroke:currentColor!important;stroke-width:2!important;filter:none!important}
 #random-btn.active,#favlist-btn.active{background:linear-gradient(145deg,#b4bdc7 0%,#e8edf2 48%,#929ca8 100%)!important;border-color:#707a86!important;box-shadow:inset 0 3px 6px #606a7680,inset 0 -1px 1px #fff,0 1px 0 #f8fafc!important;transform:translateY(2px)!important}
 #random-btn:active,#favlist-btn:active{transform:translateY(3px)!important;box-shadow:inset 0 3px 7px #626b7780,0 0 0 #7e8792!important;filter:brightness(.97)!important}
-#fav-hint{position:absolute;top:-5px;right:-5px;width:15px;height:15px;border-radius:50%;border:1px solid #7f8a99;background:linear-gradient(#eef2f6,#c9d2dc);color:#3a4552;font-size:10px;font-weight:700;font-style:italic;line-height:1;display:grid;place-items:center;padding:0;cursor:pointer;box-shadow:0 1px 2px #0003;z-index:6;user-select:none;-webkit-user-select:none}
+#fav-hint,#code-hint{position:absolute;top:-5px;right:-5px;width:15px;height:15px;border-radius:50%;border:1px solid #7f8a99;background:linear-gradient(#eef2f6,#c9d2dc);color:#3a4552;font-size:10px;font-weight:700;font-style:italic;line-height:1;display:grid;place-items:center;padding:0;cursor:pointer;box-shadow:0 1px 2px #0003;z-index:6;user-select:none;-webkit-user-select:none}
 #random-btn,#favlist-btn{display:grid;place-items:center;cursor:pointer;padding:0;appearance:none;-webkit-appearance:none}
-#favlist-btn{position:relative}
+#favlist-btn,#code-btn{position:relative}
 .grid-note{padding:16px;text-align:center;color:#5a6472;font-size:13px;font-style:italic}
 body.skin-hifi #random-btn,body.skin-hifi #favlist-btn{background:linear-gradient(145deg,#525a52,#171b18 55%,#363d35)!important;border-color:#626d60!important;color:#dbe7d5!important;box-shadow:0 4px 0 #070907,0 6px 9px #0008,inset 0 1px 0 #aab6a333!important}
 body.skin-hifi #random-btn.active,body.skin-hifi #random-btn:active,body.skin-hifi #favlist-btn.active,body.skin-hifi #favlist-btn:active{background:linear-gradient(#111510,#343b33)!important;box-shadow:inset 0 3px 7px #000b!important;transform:translateY(3px)!important}
@@ -239,7 +250,7 @@ body.skin-white .now a{color:#202020;text-shadow:none}body.skin-white .now span{
 body.skin-white #player{background:#17191b;border-color:#777}
 body.skin-white #wheel-area{background:linear-gradient(135deg,#f8f8f8,#d8d8d8 52%,#fff)}
 body.skin-white #wheel{background:radial-gradient(circle at 34% 22%,#fff 0,#f7f7f7 44%,#d0d0d0 72%,#fff 78%,#a5a5a5 83%,#eee 100%);border-color:#fff;box-shadow:0 8px 0 #9c9c9c,0 14px 22px #0003,inset 0 2px 4px #fff,inset 0 -5px 10px #aaa}
-body.skin-white #wheel-hub,body.skin-white #wheel-prev .wheel-arrow,body.skin-white #wheel-next .wheel-arrow,body.skin-white #wheel-station .wheel-label,body.skin-white #wheel-all .wheel-label,body.skin-white #skin-btn,body.skin-white #random-btn,body.skin-white #favlist-btn{background:linear-gradient(145deg,#fff,#f1f1f1 50%,#c9c9c9);color:#202020;border-color:#a9a9a9;box-shadow:0 3px 0 #999,0 5px 8px #0003,inset 0 1px 0 #fff}
+body.skin-white #wheel-hub,body.skin-white #wheel-prev .wheel-arrow,body.skin-white #wheel-next .wheel-arrow,body.skin-white #wheel-station .wheel-label,body.skin-white #wheel-all .wheel-label,body.skin-white #code-btn,body.skin-white #settings-btn,body.skin-white #skin-btn,body.skin-white #random-btn,body.skin-white #favlist-btn{background:linear-gradient(145deg,#fff,#f1f1f1 50%,#c9c9c9);color:#202020;border-color:#a9a9a9;box-shadow:0 3px 0 #999,0 5px 8px #0003,inset 0 1px 0 #fff}
 body.skin-white #wheel-station,body.skin-white #wheel-all{background:transparent;border:0;box-shadow:none}
 body.skin-white #dcode{background:#eee;border-color:#bbb;color:#222}body.skin-white footer{background:#e7e7e7;border-color:#bbb;color:#555}
 /* Skin 4: saturated neon player buttons */
@@ -262,7 +273,7 @@ body.skin-chrome main{background:linear-gradient(120deg,#444a51,#111419 35%,#363
 body.skin-chrome #player{background:#030405;border-color:#6e7780}
 body.skin-chrome #wheel-area{background:linear-gradient(120deg,#343940,#0a0c0f 45%,#444a50)}
 body.skin-chrome #wheel{background:radial-gradient(circle at 34% 20%,#c7cbd0 0,#747b83 24%,#252a30 60%,#0a0c0f 76%,#a4aab0 79%,#343940 84%,#111317 100%);border-color:#cbd0d5;box-shadow:0 8px 0 #050607,0 14px 22px #000b,inset 0 2px 4px #fff9,inset 0 -5px 10px #000}
-body.skin-chrome #wheel-hub,body.skin-chrome #wheel-prev .wheel-arrow,body.skin-chrome #wheel-next .wheel-arrow,body.skin-chrome #wheel-station .wheel-label,body.skin-chrome #wheel-all .wheel-label,body.skin-chrome #skin-btn,body.skin-chrome #random-btn,body.skin-chrome #favlist-btn{background:linear-gradient(145deg,#f4f6f8,#aab1b8 38%,#454b52 58%,#d7dbe0);color:#171a1e;border-color:#e5e8eb;box-shadow:0 3px 0 #111418,0 6px 10px #0009,inset 0 1px 0 #fff}
+body.skin-chrome #wheel-hub,body.skin-chrome #wheel-prev .wheel-arrow,body.skin-chrome #wheel-next .wheel-arrow,body.skin-chrome #wheel-station .wheel-label,body.skin-chrome #wheel-all .wheel-label,body.skin-chrome #code-btn,body.skin-chrome #settings-btn,body.skin-chrome #skin-btn,body.skin-chrome #random-btn,body.skin-chrome #favlist-btn{background:linear-gradient(145deg,#f4f6f8,#aab1b8 38%,#454b52 58%,#d7dbe0);color:#171a1e;border-color:#e5e8eb;box-shadow:0 3px 0 #111418,0 6px 10px #0009,inset 0 1px 0 #fff}
 body.skin-chrome #wheel-station,body.skin-chrome #wheel-all{background:transparent;border:0;box-shadow:none}
 body.skin-chrome #dcode{background:#1b1f24;border-color:#626a73;color:#e6e9ec}body.skin-chrome footer{background:#101317;border-color:#363c43;color:#aeb4bb}
 /* web: row with station + favorite/hide actions */
@@ -288,19 +299,19 @@ body.skin-chrome #dcode{background:#1b1f24;border-color:#626a73;color:#e6e9ec}bo
   </div>
 </header>
 <main id="mv">
-  <div id="player"><iframe id="station-frame" title="Радиоплеер" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin"></iframe><div class="find" id="findbox"><input id="q" type="search" placeholder="Search station…" autocomplete="off"><div id="drop" class="drop"></div></div><div id="grid" aria-label="All radio stations" hidden></div></div>
+  <div id="player"><iframe id="station-frame" title="Радиоплеер" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin"></iframe><div class="find" id="findbox"><input id="q" type="search" placeholder="Search station…" autocomplete="off"><div id="drop" class="drop"></div></div><div class="settings" id="settingsbox" hidden><div class="settings-title">Настройки</div><button type="button" id="set-purge" data-stage="ask">Удалить скрытые станции (0)</button><button type="button" id="set-refresh">Обновить список всех станций</button><button type="button" id="set-sweep">Отсеять нерабочие</button><div class="set-status" id="set-status" hidden></div><button type="button" id="set-cancel" class="danger" hidden>Отмена</button></div><div id="grid" aria-label="All radio stations" hidden></div></div>
   <section id="wheel-area" aria-label="iPod controls"><div id="wheel">
     <button id="wheel-station" class="wheel-btn" type="button"><span class="wheel-label">STATION</span></button>
     <button id="wheel-prev" class="wheel-btn" type="button" aria-label="Previous station"><span class="wheel-arrow"><svg viewBox="0 0 44 28" aria-hidden="true"><path d="M42 2 L27 14 L42 26 Z M28 2 L13 14 L28 26 Z M2 2 H8 V26 H2 Z"/></svg></span></button>
     <button id="wheel-hub" type="button" aria-label="Play or pause radio" title="Play / Pause"><span id="wheel-play-glyph" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M15 9 L38 24 L15 39 Z"/></svg></span></button>
     <button id="wheel-next" class="wheel-btn" type="button" aria-label="Next station"><span class="wheel-arrow"><svg viewBox="0 0 44 28" aria-hidden="true"><path d="M2 2 L17 14 L2 26 Z M16 2 L31 14 L16 26 Z M36 2 H42 V26 H36 Z"/></svg></span></button>
     <button id="wheel-all" class="wheel-btn" type="button"><span class="wheel-label">ALL</span></button>
-    <button id="hide-btn" type="button" aria-label="Не показывать эту станцию" title="Скрыть из ротации"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><path d="M1 1l22 22"/></svg></button>
-    <button id="fav-btn" type="button" aria-label="В избранное" title="В избранное"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></button>
   </div>
-  <div id="under-controls"><button id="skin-btn" type="button" aria-label="Сменить оформление" title="Сменить оформление"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18h1.4a2 2 0 0 0 1.4-3.4 1.8 1.8 0 0 1 1.3-3.1H18a3 3 0 0 0 3-3c0-4.7-4-8.5-9-8.5Z"/><circle cx="7.5" cy="10" r="1"/><circle cx="11" cy="6.8" r="1"/><circle cx="16" cy="8.5" r="1"/></svg></button><button id="favlist-btn" type="button" aria-pressed="false" title="Избранное: тап — список, зажать — играть только избранные"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><span id="fav-hint" aria-label="Подсказка об избранном">i</span></button><button id="random-btn" type="button" aria-pressed="false" title="Случайное переключение выключено"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h2.2c5.8 0 7.8 10 13.5 10H21"/><path d="M17.5 13.5 21 17l-3.5 3.5"/><path d="M3 17h2.2c2.5 0 4.2-2.4 5.7-4.8S14.2 7 18.7 7H21"/><path d="M17.5 3.5 21 7l-3.5 3.5"/></svg></button></div>
+  <button id="hide-btn" type="button" aria-label="Не показывать эту станцию" title="Скрыть из ротации"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><path d="M1 1l22 22"/></svg></button>
+  <button id="fav-btn" type="button" aria-label="В избранное" title="В избранное"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></button>
+  <div id="under-controls"><button id="settings-btn" type="button" aria-label="Настройки" title="Настройки"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.08a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.08a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.08a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z"/></svg></button><button id="code-btn" type="button" aria-label="Код для вставки" title="Код для вставки этой станции"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="3" width="13" height="14" rx="2.5"/><rect x="3" y="7" width="13" height="14" rx="2.5"/></svg><span id="code-hint" aria-label="Подсказка о коде">i</span></button><button id="skin-btn" type="button" aria-label="Сменить оформление" title="Сменить оформление"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18h1.4a2 2 0 0 0 1.4-3.4 1.8 1.8 0 0 1 1.3-3.1H18a3 3 0 0 0 3-3c0-4.7-4-8.5-9-8.5Z"/><circle cx="7.5" cy="10" r="1"/><circle cx="11" cy="6.8" r="1"/><circle cx="16" cy="8.5" r="1"/></svg></button><button id="favlist-btn" type="button" aria-pressed="false" title="Избранное: тап — список, зажать — играть только избранные"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><span id="fav-hint" aria-label="Подсказка об избранном">i</span></button><button id="random-btn" type="button" aria-pressed="false" title="Случайное переключение выключено"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h2.2c5.8 0 7.8 10 13.5 10H21"/><path d="M17.5 13.5 21 17l-3.5 3.5"/><path d="M3 17h2.2c2.5 0 4.2-2.4 5.7-4.8S14.2 7 18.7 7H21"/><path d="M17.5 3.5 21 7l-3.5 3.5"/></svg></button></div>
   </section>
-  <div id="dcode"><span>Код для вставки этой станции</span><button id="copy-code" type="button" aria-label="Скопировать код" title="Скопировать код"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="3" width="13" height="14" rx="2.5"/><rect x="3" y="7" width="13" height="14" rx="2.5"/></svg></button><textarea id="codetext" readonly tabindex="-1" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"></textarea></div>
+  <div id="dcode" hidden><div class="dcode-title">Код для вставки этой станции</div><textarea id="codetext" readonly rows="4" spellcheck="false" autocapitalize="off" autocorrect="off"></textarea><button id="copy-code" type="button" aria-label="Скопировать код" title="Скопировать код"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="3" width="13" height="14" rx="2.5"/><rect x="3" y="7" width="13" height="14" rx="2.5"/></svg></button></div>
 </main>
 
 <noscript><p style="padding:20px">Нужен JavaScript.</p></noscript>
@@ -346,6 +357,9 @@ function loadStationFrame(i, autoplay) {
     'body{display:flex;align-items:center;justify-content:center;padding:4px;box-sizing:border-box}' +
     '.RP-SCRIPT{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;width:100%!important;max-width:100%!important;height:100%!important;max-height:100%!important;overflow:hidden!important;margin:0!important;padding:0!important;zoom:.84;box-sizing:border-box}' +
     '.RP-SCRIPT *{box-sizing:border-box!important;max-width:100%!important}' +
+    '.RP-RADIO-LOGO{width:auto!important;height:auto!important;max-width:100%!important;max-height:52vh!important;object-fit:contain!important;display:block!important;margin:0 auto!important;padding:.25rem!important}' +
+    '.RP-RADIO-LOGO-CONTAINER{min-height:0!important;overflow:hidden!important;display:flex!important;align-items:center!important;justify-content:center!important}' +
+    '.RP-SCRIPT picture{display:flex!important;justify-content:center!important;min-height:0!important}' +
     '.RP-LINK{color:#f5f8ff!important;font-size:clamp(15px,4vw,20px)!important;font-weight:700;text-decoration:none}' +
     '#RP_playerjs{width:100%!important;max-width:100%!important;min-width:0!important;max-height:100%!important;overflow:hidden!important}' +
     '#RP_playerjs iframe,#RP_playerjs video,#RP_playerjs canvas,#RP_playerjs object,#RP_playerjs embed{max-width:100%!important;max-height:100%!important}' +
@@ -382,6 +396,7 @@ function openStation(i, noHist) {
   view = "player";
   var box = document.getElementById("findbox");
   if (box) box.classList.remove("open");
+  closeSettings();
   var grid = document.getElementById("grid");
   if (grid) grid.hidden = true;
   renderHead();
@@ -661,16 +676,18 @@ function applyNav() {
 function renderHead() {
   var st = S[idx];
   var link = document.getElementById("stlink");
-  link.textContent = st[1];
-  link.href = BASE + st[2];
+  if (st) { link.textContent = st[1]; link.href = BASE + st[2]; }
+  var act = activeIndices();
   if (favMode) {
     var list = favIndices();
     var pos = list.indexOf(idx);
     document.getElementById("stpos").textContent = (pos < 0 ? "–" : (pos + 1)) + " / " + list.length + " ★";
   } else {
-    document.getElementById("stpos").textContent = (idx + 1) + " / " + S.length;
+    var apos = act.indexOf(idx);
+    document.getElementById("stpos").textContent = (apos < 0 ? "–" : (apos + 1)) + " / " + act.length;
   }
-  document.getElementById("codetext").value = embedCode(st);
+  document.title = "Радио - " + act.length + " станций";
+  if (st) document.getElementById("codetext").value = embedCode(st);
   updateCornerBtns();
 }
 
@@ -732,8 +749,14 @@ function search(term) {
   }
   var out = "";
   for (var j = 0; j < res.length; j++) {
-    out += '<button type="button" data-i="' + res[j] + '">' +
-      esc(S[res[j]][1]) + "<i>" + esc(S[res[j]][0]) + "</i></button>";
+    var ri = res[j], rid = S[ri][0], rfav = isFav(rid), rhid = isHid(rid);
+    out += '<div class="srow' + (rhid ? ' hidden-row' : '') + '">' +
+      '<button type="button" class="smain" data-i="' + ri + '">' +
+      esc(S[ri][1]) + "<i>id " + esc(rid) + "</i></button>" +
+      '<span class="sacts">' +
+      '<button type="button" class="sact' + (rfav ? ' on' : '') + '" data-fav="' + ri + '" title="В избранное">★</button>' +
+      '<button type="button" class="sact hide' + (rhid ? ' on' : '') + '" data-hid="' + ri + '" title="' + (rhid ? 'Вернуть в ротацию' : 'Скрыть из ротации') + '">✕</button>' +
+      '</span></div>';
   }
   drop.className = "drop on";
   drop.innerHTML = out;
@@ -741,13 +764,19 @@ function search(term) {
 }
 
 function stepStation(direction) {
-  var pool = favMode ? favIndices() : null;
+  var pool = favMode ? favIndices() : activeIndices();
+  // если пул пуст (например, скрыты все станции) — прежнее поведение по всему списку
+  var list = pool.length ? pool : null;
   if (randomMode) {
     if (direction < 0) {
-      if (hist.length) return openStation(hist.pop(), true);
+      // назад по истории, пропуская скрытые станции
+      while (hist.length) {
+        var prev = hist.pop();
+        if (!isHid(S[prev][0])) return openStation(prev, true);
+      }
       return;
     }
-    var src = pool && pool.length ? pool : null;
+    var src = list || null;
     if (src) {
       if (src.length < 2) return openStation(src[0] === idx ? idx : src[0]);
       var pick = idx;
@@ -758,10 +787,18 @@ function stepStation(direction) {
     var next = idx;
     while (next === idx) next = Math.floor(Math.random() * S.length);
     openStation(next);
-  } else if (pool && pool.length) {
-    var pos = pool.indexOf(idx);
-    if (pos < 0) return openStation(pool[0]);
-    openStation(pool[(pos + direction + pool.length) % pool.length]);
+  } else if (list) {
+    var pos = list.indexOf(idx);
+    if (pos < 0) {
+      // текущая станция скрыта — встаём на ближайшую активную по направлению
+      if (direction > 0) {
+        for (var i = 0; i < list.length; i++) if (list[i] > idx) return openStation(list[i]);
+        return openStation(list[0]);
+      }
+      for (var j = list.length - 1; j >= 0; j--) if (list[j] < idx) return openStation(list[j]);
+      return openStation(list[list.length - 1]);
+    }
+    openStation(list[(pos + direction + list.length) % list.length]);
   } else {
     openStation((idx + direction + S.length) % S.length);
   }
@@ -827,6 +864,176 @@ skinButton.addEventListener("click", function () {
   skinButton.title = "Сменить оформление (сейчас: " + skinNames[skinIndex] + ")";
   toast("Оформление: " + skinNames[skinIndex]);
 });
+
+// ---- Настройки (шестерёнка) ----
+var settingsButton = document.getElementById("settings-btn");
+var settingsBox = document.getElementById("settingsbox");
+var purgeBtn = document.getElementById("set-purge");
+var purgeArmT = 0;
+
+function hiddenCount() {
+  var n = 0;
+  for (var i = 0; i < S.length; i++) if (HID[S[i][0]]) n++;
+  return n;
+}
+function closeSettings() { if (settingsBox) settingsBox.hidden = true; }
+function refreshPurge() {
+  clearTimeout(purgeArmT);
+  var n = hiddenCount();
+  purgeBtn.textContent = "Удалить скрытые станции (" + n + ")";
+  purgeBtn.disabled = !n;
+  purgeBtn.classList.remove("danger");
+  purgeBtn.setAttribute("data-stage", "ask");
+}
+settingsButton.addEventListener("click", function () {
+  var opening = settingsBox.hidden;
+  if (opening) refreshPurge();
+  settingsBox.hidden = !opening;
+});
+// ---- Обновление списка / проверка станций (фоновые задачи) ----
+var setRefresh = document.getElementById("set-refresh");
+var setSweep = document.getElementById("set-sweep");
+var setStatus = document.getElementById("set-status");
+var setCancel = document.getElementById("set-cancel");
+var jobKind = null, jobPoll = 0;
+
+function setStatusText(t) { if (setStatus) { setStatus.hidden = !t; setStatus.textContent = t || ""; } }
+function jobLock(on) {
+  setRefresh.disabled = on;
+  setSweep.disabled = on;
+  purgeBtn.disabled = on || hiddenCount() === 0;
+  if (setCancel) setCancel.hidden = !on;
+}
+function stopJob() {
+  clearTimeout(jobPoll); jobPoll = 0; jobKind = null;
+  jobLock(false);
+  setStatusText("");
+}
+function reloadStations(cb) {
+  var curId = S[idx] ? S[idx][0] : "";
+  var oldIdx = idx;
+  Promise.all([
+    fetch("/api/stations", { cache: "no-store" }).then(function (r) { return r.json(); }),
+    fetch("/api/hidden", { cache: "no-store" }).then(function (r) { return r.json(); })
+  ]).then(function (res) {
+    S = res[0] || [];
+    HID = {}; (res[1] || []).forEach(function (id) { HID[id] = true; });
+    var foot = document.querySelector("footer");
+    if (foot) foot.textContent = S.length + " STATIONS · radiopotok.ru";
+    var g = document.getElementById("grid");
+    if (g) g.innerHTML = "";
+    if (!S.length) { if (view === "grid") renderGrid(); if (cb) cb(0); return; }
+    var newIdx = -1;
+    for (var i = 0; i < S.length; i++) if (S[i][0] === curId) { newIdx = i; break; }
+    if (newIdx < 0) newIdx = Math.min(oldIdx, S.length - 1);
+    if (newIdx < 0) newIdx = 0;
+    openStation(newIdx);
+    if (view === "grid") renderGrid();
+    if (cb) cb(S.length);
+  }).catch(function () { if (cb) cb(S.length); });
+}
+function pollJob(kind) {
+  fetch("/api/" + kind + "-status", { cache: "no-store" }).then(function (r) { return r.json(); })
+    .then(function (j) {
+      if (jobKind !== kind) return;
+      if (j.running) {
+        var line;
+        if (kind === "refresh") {
+          line = (j.phase === "embed" ? "Проверяем вставляемость… " : "Получаем список… ") +
+                 (j.done || 0) + " найдено" + (j.page ? " · стр. " + j.page : "");
+        } else {
+          line = "Проверено " + (j.done || 0) + " / " + (j.total || 0) +
+                 " · живых " + (j.alive || 0) + " · скрыто " + (j.hidden || 0);
+          if (j.current) line += "\n" + j.current;
+        }
+        setStatusText(line);
+        jobPoll = setTimeout(function () { pollJob(kind); }, 1000);
+      } else {
+        finishJob(kind, j);
+      }
+    }).catch(function () { jobPoll = setTimeout(function () { pollJob(kind); }, 1500); });
+}
+function finishJob(kind, j) {
+  stopJob();
+  if (j.phase === "error") {
+    closeSettings();
+    toast((kind === "refresh" ? "Ошибка обновления: " : "Ошибка проверки: ") + (j.error || ""));
+    return;
+  }
+  if (kind === "refresh") {
+    if (j.phase === "cancelled") { toast("Обновление отменено"); return; }
+    var returned = hiddenCount();
+    reloadStations(function (n) {
+      refreshPurge();
+      toast("Список обновлён: " + n + " станций" + (returned ? " · возвращено из скрытых: " + returned : ""));
+    });
+    return;
+  }
+  if (j.phase === "cancelled") { toast("Проверка отменена"); return; }
+  fetch("/api/hidden", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (ids) {
+    HID = {}; (ids || []).forEach(function (id) { HID[id] = true; });
+    closeSettings();
+    refreshPurge();
+    if (idx >= 0 && S.length) renderHead();
+    var g = document.getElementById("grid");
+    if (view === "grid" && g) { g.innerHTML = ""; renderGrid(); }
+    toast("Скрыто нерабочих: " + (j.hidden || 0));
+  });
+}
+function startJob(kind) {
+  if (jobKind) return;
+  jobKind = kind;
+  jobLock(true);
+  setStatusText(kind === "refresh"
+    ? "Запускаем обновление…"
+    : "Запускаем проверку…\nРазовая операция — уменьшает число неработающих станций.\nНаберитесь терпения.");
+  fetch("/api/" + kind, { method: "POST" }).then(function (r) { return r.json(); }).then(function (j) {
+    if (!j.started) { stopJob(); toast("Уже идёт другая операция"); return; }
+    pollJob(kind);
+  }).catch(function () { stopJob(); toast("Не удалось запустить операцию"); });
+}
+setRefresh.addEventListener("click", function () { startJob("refresh"); });
+setSweep.addEventListener("click", function () { startJob("scan"); });
+setCancel.addEventListener("click", function () {
+  if (!jobKind) return;
+  fetch("/api/" + jobKind + "-cancel", { method: "POST" });
+  setStatusText("Останавливаем…");
+});
+document.getElementById("set-purge").addEventListener("click", function () {
+  if (purgeBtn.disabled) return;
+  if (purgeBtn.getAttribute("data-stage") !== "confirm") {
+    purgeBtn.setAttribute("data-stage", "confirm");
+    purgeBtn.classList.add("danger");
+    purgeBtn.textContent = "Подтверждаете удаление? (" + hiddenCount() + ")";
+    toast("Нажмите ещё раз для подтверждения");
+    clearTimeout(purgeArmT);
+    purgeArmT = setTimeout(refreshPurge, 4000);
+    return;
+  }
+  clearTimeout(purgeArmT);
+  var before = S.length;
+  var curId = S[idx] ? S[idx][0] : "";
+  var oldIdx = idx;
+  fetch("/api/purge-hidden", { method: "POST" })
+    .then(function (r) { return r.json(); })
+    .then(function () { return fetch("/api/stations").then(function (r) { return r.json(); }); })
+    .then(function (stations) {
+      S = stations || [];
+      HID = {};
+      closeSettings();
+      var foot = document.querySelector("footer");
+      if (foot) foot.textContent = S.length + " STATIONS · radiopotok.ru";
+      if (!S.length) { if (view === "grid") renderGrid(); toast("Список станций пуст"); return; }
+      var newIdx = -1;
+      for (var i = 0; i < S.length; i++) if (S[i][0] === curId) { newIdx = i; break; }
+      if (newIdx < 0) newIdx = Math.min(oldIdx, S.length - 1);
+      if (newIdx < 0) newIdx = 0;
+      toast("Удалено " + (before - S.length) + " станций · резерв stations.json.orig");
+      openStation(newIdx);
+      if (view === "grid") renderGrid();
+    })
+    .catch(function () { toast("Не удалось удалить скрытые станции"); });
+});
 document.getElementById("copy-code").addEventListener("click", function () {
   var code = embedCode(S[idx]);
   function copied() { toast("Код станции скопирован"); }
@@ -836,10 +1043,33 @@ document.getElementById("copy-code").addEventListener("click", function () {
     t.select();
     try { if (document.execCommand("copy")) copied(); else toast("Не удалось скопировать код"); }
     catch (e) { toast("Не удалось скопировать код"); }
-    t.style.position = "absolute"; t.style.left = "-9999px"; t.style.opacity = "0";
+    t.style.position = ""; t.style.left = ""; t.style.opacity = "";
   }
   if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(code).then(copied).catch(fallbackCopy);
   else fallbackCopy();
+});
+
+// ---- Панель «Код для вставки» (квадратная кнопка с «i») ----
+var dcodeBox = document.getElementById("dcode");
+function showDcode() {
+  if (idx < 0 || !S[idx]) return;
+  document.getElementById("codetext").value = embedCode(S[idx]);
+  dcodeBox.hidden = false;
+}
+function hideDcode() { dcodeBox.hidden = true; }
+document.getElementById("code-btn").addEventListener("click", function (e) {
+  e.stopPropagation();
+  if (dcodeBox.hidden) showDcode(); else hideDcode();
+});
+document.getElementById("code-hint").addEventListener("click", function (e) {
+  e.stopPropagation();
+  e.preventDefault();
+  showDcode();
+});
+document.addEventListener("click", function (e) {
+  if (dcodeBox.hidden) return;
+  if (e.target.closest && (e.target.closest("#code-btn") || e.target.closest("#dcode"))) return;
+  hideDcode();
 });
 
 // Mobile browsers reject automatic fullscreen on load. Request it on the first real tap/click.
@@ -909,7 +1139,13 @@ q.addEventListener("keydown", function (e) {
   }
 });
 document.getElementById("drop").addEventListener("click", function (e) {
-  var b = e.target.closest ? e.target.closest("button[data-i]") : null;
+  var t = e.target;
+  if (!t || !t.closest) return;
+  var favB = t.closest("button[data-fav]");
+  if (favB) { toggleFav(parseInt(favB.getAttribute("data-fav"), 10)); search(document.getElementById("q").value); return; }
+  var hidB = t.closest("button[data-hid]");
+  if (hidB) { toggleHide(parseInt(hidB.getAttribute("data-hid"), 10)); search(document.getElementById("q").value); return; }
+  var b = t.closest("button[data-i]");
   if (b) openStation(parseInt(b.getAttribute("data-i"), 10));
 });
 document.addEventListener("click", function (e) {
@@ -941,6 +1177,15 @@ function favIndices() {
   return out;
 }
 
+// все нескрытые станции — пул обычной ротации
+function activeIndices() {
+  var out = [];
+  for (var i = 0; i < S.length; i++) {
+    if (!HID[S[i][0]]) out.push(i);
+  }
+  return out;
+}
+
 function postJSON(url, data) {
   return fetch(url, {
     method: "POST",
@@ -962,6 +1207,7 @@ function toggleHide(i) {
   if (HID[id]) delete HID[id]; else HID[id] = true;
   postJSON("/api/hidden", { id: id });
   if (view === "grid") renderGrid();
+  if (idx >= 0 && S.length) renderHead();
   toast(HID[id] ? "Скрыто из ротации" : "Возвращено в ротацию");
   syncFavMode();
 }

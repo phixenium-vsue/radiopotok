@@ -36,6 +36,10 @@ fi
 # UA: просим десктопную вёрстку (у нас адаптивная, но пусть тянет полную)
 UA="Mozilla/5.0 (Linux; Ubuntu; Mobile) AppleWebKit/537.36 QtWebEngine/5.15.19 Chrome/87.0 Safari/537.36"
 
+# Ограничители памяти Chromium: страница маленькая — держим в узле кучу V8 и кэши.
+# Дописываем к системным флагам из /etc/profile.d (там растеризация/видеодекод), не перезаписываем.
+export QTWEBENGINE_CHROMIUM_FLAGS="$QTWEBENGINE_CHROMIUM_FLAGS --js-flags=--max-old-space-size=128 --disk-cache-size=33554432 --media-cache-size=16777216"
+
 exec webapp-container \
     --fullscreen \
     --enable-media-hub-audio \

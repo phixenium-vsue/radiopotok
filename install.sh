@@ -21,6 +21,7 @@ mkdir -p "$DEST" "$APPS" "$HOME/.local/bin"
 TARBALL="${RADIOPOTOK_TARBALL:-}"
 if [ -z "$TARBALL" ]; then
   TARBALL="$(mktemp -t radiopotok-XXXX.tar.gz)"
+  TARBALL_MINE=1
   URL="https://github.com/$REPO/releases/latest/download/$ASSET"
   echo "Downloading $URL..."
   if command -v wget >/dev/null 2>&1; then
@@ -47,8 +48,14 @@ else
   mv "$DEST.tmp" "$DEST"
 fi
 
+# убрать временный тарболл (только свой из mktemp; пользовательский RADIOPOTOK_TARBALL не трогаем)
+if [ "$TARBALL_MINE" = "1" ]; then
+  rm -f "$TARBALL"
+fi
+
 # make executable
 chmod +x "$RUN" 2>/dev/null || true
+chmod +x "$DEST/uninstall.sh" 2>/dev/null || true
 
 # create desktop entry
 cat > "$DESKTOP" << DESK
