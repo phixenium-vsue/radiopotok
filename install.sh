@@ -17,8 +17,23 @@ usage() {
 # create dirs
 mkdir -p "$DEST" "$APPS" "$HOME/.local/bin"
 
+# самолечение: прошлый запуск оборвался между сохранением и возвратом данных
+if [ -d "$DEST.data.keep" ] && [ ! -d "$DEST/data" ]; then
+  mkdir -p "$DEST/data"
+  cp -a "$DEST.data.keep/." "$DEST/data/" 2>/dev/null || true
+  rm -rf "$DEST.data.keep"
+fi
+
 # download tarball (prefer explicit override via RADIOPOTOK_TARBALL)
 TARBALL="${RADIOPOTOK_TARBALL:-}"
+# авто-детект: архив, лежащий рядом со скриптом (оффлайн-режим, сеть не нужна)
+if [ -z "$TARBALL" ] && [ -f "$0" ]; then
+  NEAR="$(dirname "$0")/$ASSET"
+  if [ -f "$NEAR" ]; then
+    echo "Найден локальный архив: $NEAR"
+    TARBALL="$NEAR"
+  fi
+fi
 if [ -z "$TARBALL" ]; then
   TARBALL="$(mktemp -t radiopotok-XXXX.tar.gz)"
   TARBALL_MINE=1
@@ -40,12 +55,27 @@ mkdir -p "$DEST.tmp"
 tar xzf "$TARBALL" -C "$DEST.tmp"
 # find app dir (should be app/)
 if [ -d "$DEST.tmp/app" ]; then
-  rm -rf "$DEST"
-  mv "$DEST.tmp/app" "$DEST"
+  SRC="$DEST.tmp/app"
 else
   # maybe tar contains app at root
-  rm -rf "$DEST"
-  mv "$DEST.tmp" "$DEST"
+  SRC="$DEST.tmp"
+fi
+
+# сохранить пользовательские данные (избранное/скрытые/статус/скан) при установке поверх
+if [ -d "$DEST/data" ]; then
+  rm -rf "$DEST.data.keep"
+  mv "$DEST/data" "$DEST.data.keep"
+fi
+
+rm -rf "$DEST"
+mv "$SRC" "$DEST"
+rm -rf "$DEST.tmp"
+
+# вернуть сохранённые данные
+if [ -d "$DEST.data.keep" ]; then
+  mkdir -p "$DEST/data"
+  cp -a "$DEST.data.keep/." "$DEST/data/" 2>/dev/null || true
+  rm -rf "$DEST.data.keep"
 fi
 
 # убрать временный тарболл (только свой из mktemp; пользовательский RADIOPOTOK_TARBALL не трогаем)
